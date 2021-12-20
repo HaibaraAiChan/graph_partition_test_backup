@@ -361,49 +361,49 @@ def move_group_nids_balance_redundancy_check(bit_dict_origin, side, nids,alpha, 
     return balance_flag and red_flag
  
  
-# def move_nid_balance_redundancy_check(bit_dict_origin, side, nid,alpha, red_rate,ideal_part_in_size):
+def move_nid_balance_redundancy_check(bit_dict_origin, side, nid,alpha, red_rate,ideal_part_in_size):
         
-#     bit_dict_origin[nid]=1-side
-#     A_o=[k for k in bit_dict_origin if bit_dict_origin[k] == 0]
-#     B_o=[k for k in bit_dict_origin if bit_dict_origin[k] == 1]
-#     bit_dict_origin[nid]=1-bit_dict_origin[nid]
-#     balance_flag=False
+    bit_dict_origin[nid]=1-side
+    A_o=[k for k in bit_dict_origin if bit_dict_origin[k] == 0]
+    B_o=[k for k in bit_dict_origin if bit_dict_origin[k] == 1]
+    bit_dict_origin[nid]=1-bit_dict_origin[nid]
+    balance_flag=False
    
-#     # t1=time.time()
-#     len_A_part,len_B_part = get_src_nodes_len(A_o,B_o)
-#     # print('get_src_nodes_len ', time.time()-t1)
-#     len_=len_A_part+len_B_part
-#     avg = len_/2
+    # t1=time.time()
+    len_A_part,len_B_part = get_src_nodes_len(A_o,B_o)
+    # print('get_src_nodes_len ', time.time()-t1)
+    len_=len_A_part+len_B_part
+    avg = len_/2
     
-#     if len_B_part>0 and len_A_part>0 and abs(len_A_part-len_B_part) < avg*alpha:
-#         balance_flag=True
-#     else:
-#         balance_flag=False
-#     balance_flag=True    # now test 
-#     red,ratio_A,ratio_B =getRedundancyRate(len_A_part, len_B_part, ideal_part_in_size)
+    if len_B_part>0 and len_A_part>0 and abs(len_A_part-len_B_part) < avg*alpha:
+        balance_flag=True
+    else:
+        balance_flag=False
+    balance_flag=True    # now test 
+    red,ratio_A,ratio_B =getRedundancyRate(len_A_part, len_B_part, ideal_part_in_size)
     
-#     red_flag=True if red<red_rate else False
-#     if red_flag:
-#         print('move_nid_balance_redundancy_check redundancy '+str(red)+' '+str(ratio_A)+''+str(ratio_B))
-#     return balance_flag and red_flag
+    red_flag=True if red<red_rate else False
+    if red_flag:
+        print('move_nid_balance_redundancy_check redundancy '+str(red)+' '+str(ratio_A)+''+str(ratio_B))
+    return balance_flag and red_flag
  
  
-# def move_nid_balance_check(bit_dict_origin, side, nid,alpha):
+def move_nid_balance_check(bit_dict_origin, side, nid,alpha):
     
-#     bit_dict_origin[nid]=1-side
-#     A_o=[k for k in bit_dict_origin if bit_dict_origin[k] == 0]
-#     B_o=[k for k in bit_dict_origin if bit_dict_origin[k] == 1]
-#     bit_dict_origin[nid]=1-bit_dict_origin[nid]
+    bit_dict_origin[nid]=1-side
+    A_o=[k for k in bit_dict_origin if bit_dict_origin[k] == 0]
+    B_o=[k for k in bit_dict_origin if bit_dict_origin[k] == 1]
+    bit_dict_origin[nid]=1-bit_dict_origin[nid]
    
-#     t1=time.time()
-#     len_A_part,len_B_part = get_src_nodes_len(A_o,B_o)
-#     # print('get_src_nodes_len ', time.time()-t1)
-#     len_=len_A_part+len_B_part
-#     avg = len_/2
+    t1=time.time()
+    len_A_part,len_B_part = get_src_nodes_len(A_o,B_o)
+    # print('get_src_nodes_len ', time.time()-t1)
+    len_=len_A_part+len_B_part
+    avg = len_/2
     
-#     if len_B_part>0 and len_A_part>0 and abs(len_A_part-len_B_part) < avg*alpha:
-#         return True
-#     return False
+    if len_B_part>0 and len_A_part>0 and abs(len_A_part-len_B_part) < avg*alpha:
+        return True
+    return False
     
              
 def calculate_redundancy_A_o(idx,i, A_o, B_o,locked_nodes):
@@ -411,13 +411,9 @@ def calculate_redundancy_A_o(idx,i, A_o, B_o,locked_nodes):
     
     gain=0
     in_nids=block_to_graph.predecessors(i).tolist()
-    # A_src,B_src=get_src_nodes(A_o,B_o)
-    # gain_pos=len(list(set(in_nids).intersection(set(B_src))))
-    # gain_neg=len(list(set(in_nids).intersection(set(A_src)))) 
-    
-    
-    gain_pos=len(list(set(in_nids).intersection(set(B_o))))
-    gain_neg=len(list(set(in_nids).intersection(set(A_o)))) 
+    A_src,B_src=get_src_nodes(A_o,B_o)
+    gain_pos=len(list(set(in_nids).intersection(set(B_src))))
+    gain_neg=len(list(set(in_nids).intersection(set(A_src)))) 
     
     gain=gain_pos-gain_neg 
     if gain>=0 and  not locked_nodes[i] :
@@ -431,11 +427,10 @@ def calculate_redundancy_B_o(idx,i, A_o, B_o,locked_nodes):
     
     gain=0
     in_nids=block_to_graph.predecessors(i).tolist()
-    # A_src,B_src=get_src_nodes(A_o,B_o)
-    # gain_pos=len(list(set(in_nids).intersection(set(A_src))))
-    # gain_neg=len(list(set(in_nids).intersection(set(B_src)))) 
-    gain_pos=len(list(set(in_nids).intersection(set(A_o))))
-    gain_neg=len(list(set(in_nids).intersection(set(B_o)))) 
+    A_src,B_src=get_src_nodes(A_o,B_o)
+    gain_pos=len(list(set(in_nids).intersection(set(A_src))))
+    gain_neg=len(list(set(in_nids).intersection(set(B_src)))) 
+    
     gain=gain_pos-gain_neg 
     if gain>=0 and not locked_nodes[i] :
         return (idx,i)
@@ -464,33 +459,22 @@ def updateRed_group(locked_nodes, cur_rate, alpha,ideal_part_in_size):
         nid_to_move=list(filter(lambda v: v is not None, nid_to_move))
         # print(nid_to_move)
         
-        # print('the number of node to move A-> B is :', len(nid_to_move))
-        # print()
-        if not move_group_nids_balance_redundancy_check(bit_dict, 0, nid_to_move,alpha, cur_rate,ideal_part_in_size):
-                # print('error move_group_nids_balance_redundancy_check !!!!!!!!!!!!!! A_o')
+        print('the number of node to move A-> B is :', len(nid_to_move))
+        print()
+        
+        while len(nid_to_move)>0:    
+            if not move_group_nids_balance_redundancy_check(bit_dict, 0, nid_to_move,alpha, cur_rate,ideal_part_in_size):
+                print('error move_group_nids_balance_redundancy_check !!!!!!!!!!!!!! B_o')
                 
                 mid=int(len(nid_to_move)/2)
                 nid_to_move=nid_to_move[:mid]
             
-        else:
-            if len(A_o)==len(nid_to_move):
-                nid_to_move=nid_to_move[:(len(nid_to_move)-1)]
-                
-            
-        # while len(nid_to_move)>0:    
-        #     if not move_group_nids_balance_redundancy_check(bit_dict, 0, nid_to_move,alpha, cur_rate,ideal_part_in_size):
-        #         # print('error move_group_nids_balance_redundancy_check !!!!!!!!!!!!!! A_o')
-                
-        #         mid=int(len(nid_to_move)/2)
-        #         nid_to_move=nid_to_move[:mid]
-            
-        #     else:
-        #         if len(A_o)==len(nid_to_move):
-        #             nid_to_move=nid_to_move[:(len(nid_to_move)-1)]
+            else:
+                if len(A_o)==len(nid_to_move):
+                    nid_to_move=nid_to_move[:(len(nid_to_move)-1)]
                     
-        #         break
-        print('the number of node to move A-> B is :', len(nid_to_move))
-        print()    
+                break
+            
         for nid in nid_to_move:
             bit_dict[nid]=1
                     
@@ -510,10 +494,10 @@ def updateRed_group(locked_nodes, cur_rate, alpha,ideal_part_in_size):
         ready_to_move=list(filter(lambda v: v is not None, ready_to_move))
         # print(ready_to_move)
 
-        # print('the number of node to move B->A is :', len(ready_to_move))
+        print('the number of node to move B->A is :', len(ready_to_move))
         while len(ready_to_move)>0:    
             if not move_group_nids_balance_redundancy_check(bit_dict, 1, ready_to_move,alpha, cur_rate,ideal_part_in_size):
-                # print('error move_group_nids_balance_redundancy_check !!!!!!!!!!!!!! B_o')
+                print('error move_group_nids_balance_redundancy_check !!!!!!!!!!!!!! B_o')
                 mid=int(len(ready_to_move)/2)
                 ready_to_move=ready_to_move[:mid]
             else:
@@ -521,7 +505,6 @@ def updateRed_group(locked_nodes, cur_rate, alpha,ideal_part_in_size):
                     ready_to_move=ready_to_move[:(len(ready_to_move)-1)]
                 break
             # print('rate of zero positive: ', len(ready_to_move)/idx)
-        print('the number of node to move B->A is :', len(ready_to_move))
         for i in ready_to_move:
             locked_nodes[i]=True
         for nid in ready_to_move:
@@ -727,7 +710,7 @@ def walk_terminate_1(g,red_rate, args,ideal_part_in_size):
     subgraph_o = A_o+B_o
     locked_nodes={id:False for id in subgraph_o}
     # steps_=redundancy_tolarent_steps
-    steps_=4
+    steps_=1
     t_b=time.time()
     for i in range(steps_):
         tt=time.time()
@@ -742,23 +725,14 @@ def walk_terminate_1(g,red_rate, args,ideal_part_in_size):
         
         tmpRate,ratio_A,ratio_B =getRedundancyRate(len_A_part,len_B_part,ideal_part_in_size)
         print('\t\t\t redundancy rate (ration_mean, ratio_A, ratio_B): '+str(tmpRate)+' '+str(ratio_A)+' '+ str(ratio_B))
-        # if tmpRate < bestRate: 
-        #     bestRate = tmpRate
-        #     best_bit_dict = bit_dict
+        
         if balance_flag:
-            # tmpRate,ratio_A,ratio_B =getRedundancyRate(len_A_part,len_B_part,ideal_part_in_size)
-            # print('\t\t\t redundancy rate (ration_mean, ratio_A, ratio_B): '+str(tmpRate)+' '+str(ratio_A)+' '+ str(ratio_B))
             print('\t\t\t ---balanced                  ----*---*----redundancy rate: ', tmpRate)
             if tmpRate < bestRate: 
                 bestRate = tmpRate
                 best_bit_dict = bit_dict
         else: # if partition A and B are not balanced, ex
-            # bit_dict=exchange_bit_dict_side(bit_dict) 
-            if len_A_part<len_B_part and side ==0:
-                side=1 
-            if len_A_part>len_B_part and side ==1:
-                side=0 
-                
+            bit_dict=exchange_bit_dict_side(bit_dict) 
             
         
     t_e=time.time()
@@ -767,7 +741,7 @@ def walk_terminate_1(g,red_rate, args,ideal_part_in_size):
         bit_dict = best_bit_dict
         rate = bestRate
         return True, bestRate
-    return False, red_rate
+    return False, bestRate
     
 
 def graph_partition_variant( batched_seeds_list, block_2_graph, args):
@@ -833,7 +807,7 @@ def graph_partition_variant( batched_seeds_list, block_2_graph, args):
         
         print('\tbefore terminate 1 the redundancy rate: ', red_rate)
         print('\t'+'-'*80)
-        pass_=2
+        pass_=1
         for pass_step in range(pass_):
             if args.walkterm==1:
                 ti=time.time()

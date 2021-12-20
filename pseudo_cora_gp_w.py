@@ -126,7 +126,7 @@ def run(args, device, data):
 		
 		cur_subgraph = full_batch_subgraph[0][0]
 		print('cur_subgraph.ndata')
-		print(cur_subgraph.ndata)
+		print(len(cur_subgraph.srcdata['_ID']))
 		# print(cur_subgraph.srcdata)
 		print()
 		full_batch_sub_graph_data_list.append(cur_subgraph)
@@ -399,7 +399,7 @@ if __name__=='__main__':
 	# argparser.add_argument('--dataset', type=str, default='karate')
 	# argparser.add_argument('--dataset', type=str, default='reddit')
 	argparser.add_argument('--aggre', type=str, default='mean')
-	# argparser.add_argument('--selection-method', type=str, default='range')
+	# argparser.add_argument('--selection-method', type=str, default='range_init_graph_partition')
 	# argparser.add_argument('--selection-method', type=str, default='random')
 	argparser.add_argument('--selection-method', type=str, default='random_init_graph_partition')
 	argparser.add_argument('--num-runs', type=int, default=2)

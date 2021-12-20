@@ -126,7 +126,7 @@ def run(args, device, data):
 		
 		cur_subgraph = full_batch_subgraph[0][0]
 		print('cur_subgraph.ndata')
-		print(cur_subgraph.ndata)
+		print(len(cur_subgraph.srcdata['_ID']))
 		# print(cur_subgraph.srcdata)
 		print()
 		full_batch_sub_graph_data_list.append(cur_subgraph)
@@ -409,12 +409,14 @@ if __name__=='__main__':
 	# argparser.add_argument('--fan-out', type=str, default='20')
 	argparser.add_argument('--fan-out', type=str, default='10')
 #---------------------------------------------------------------------------------------
-	argparser.add_argument('--num-batch', type=int, default=8)
+	argparser.add_argument('--num_batch', type=int, default=8)
 	argparser.add_argument('--batch-size', type=int, default=0)
 #--------------------------------------------------------------------------------------
 	argparser.add_argument('--target-redun', type=float, default=1.9)
 	argparser.add_argument('--alpha', type=float, default=0.2)
-	argparser.add_argument('--walkterm', type=int, default=0)
+	# argparser.add_argument('--walkterm', type=int, default=0)
+	argparser.add_argument('--walkterm', type=int, default=1)
+	argparser.add_argument('--redundancy_tolarent_steps', type=int, default=2)
 	
 	# argparser.add_argument('--batch-size', type=int, default=3)
 

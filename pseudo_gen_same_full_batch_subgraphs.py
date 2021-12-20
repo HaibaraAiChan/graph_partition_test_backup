@@ -86,7 +86,9 @@ def run(args, device, data):
 			return
 		if args.dataset=='cora' and abs((numpy.mean(avg_src) - 588)) < 2:     ### 
 			return
-		if args.dataset=='reddit' and abs((numpy.mean(avg_src) - 217248)) < 10:   ### reddit dataset
+		if args.dataset=='reddit' and args.fan_out =='10' and abs((numpy.mean(avg_src) - 217248)) < 10:   ### reddit dataset
+			return
+		if args.dataset=='reddit' and args.fan_out =='50' and abs((numpy.mean(avg_src) - 226365)) < 10:   ### reddit dataset
 			return
 		
 			
@@ -145,9 +147,9 @@ if __name__=='__main__':
 	# argparser.add_argument('--dataset', type=str, default='ogbn-mag')
 	# argparser.add_argument('--dataset', type=str, default='ogbn-products')
 	# argparser.add_argument('--aggre', type=str, default='lstm')
-	argparser.add_argument('--dataset', type=str, default='cora')
+	# argparser.add_argument('--dataset', type=str, default='cora')
 	# argparser.add_argument('--dataset', type=str, default='karate')
-	# argparser.add_argument('--dataset', type=str, default='reddit')
+	argparser.add_argument('--dataset', type=str, default='reddit')
 	argparser.add_argument('--aggre', type=str, default='mean')
 	argparser.add_argument('--selection-method', type=str, default='range')
 	argparser.add_argument('--num-runs', type=int, default=2)
@@ -155,7 +157,7 @@ if __name__=='__main__':
 	argparser.add_argument('--num-hidden', type=int, default=16)
 	argparser.add_argument('--num-layers', type=int, default=1)
 	# argparser.add_argument('--fan-out', type=str, default='20')
-	argparser.add_argument('--fan-out', type=str, default='10')
+	argparser.add_argument('--fan-out', type=str, default='50')
 
 
 	argparser.add_argument('--batch-size', type=int, default=157393)

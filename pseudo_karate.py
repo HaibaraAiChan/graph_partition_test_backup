@@ -413,8 +413,10 @@ if __name__=='__main__':
 	argparser.add_argument('--num-batch', type=int, default=8)
 #--------------------------------------------------------------------------------------
 	argparser.add_argument('--target-redun', type=float, default=1.9)
-	argparser.add_argument('--alpha', type=float, default=0.2)
-	argparser.add_argument('--walkterm', type=int, default=0)
+	argparser.add_argument('--alpha', type=float, default=0.9)
+	argparser.add_argument('--walkterm', type=int, default=1)
+	argparser.add_argument('--redundancy-tolarent-steps', type=int, default=1)
+ 
 	
 	# argparser.add_argument('--batch-size', type=int, default=3)
 

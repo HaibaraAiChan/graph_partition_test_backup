@@ -279,8 +279,10 @@ def generate_dataloader_partition(raw_graph, block_to_graph, args):
 	block_to_graph.edata['_ID'] = current_block_eidx
 	
 	# print('time of batches_nid_list generation : ' + str(t1 - tt) + ' sec')
+	t1=time.time()
 	from graph_partition import random_init_graph_partition
 	batched_output_nid_list,weights_list,batch_list_generation_time, p_len_list=random_init_graph_partition( block_to_graph, args)
+	print('random_init_graph_partition spend ', time.time()-t1)
 	print('partition_len_list')
 	print(p_len_list)
 	
