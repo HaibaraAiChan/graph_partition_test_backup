@@ -549,16 +549,20 @@ class Graph_Partitioner:
 
 
     def random_init_graph_partition(self):
-        
+        ts = time.time()
         self.gen_batched_seeds_list()
-        
+        t1 = time.time()
         self.global_to_local() # global to local            self.local_batched_seeds_list
+        print('global_2_local', (time.time()-t1))
+        t2=time.time()
         # Then, the graph_parition is run in block to graph local nids,it has no relationship with raw graph
         self.graph_partition_variant()
+        print('graph partition algorithm spend time', time.time()-t2)
         # after that, we transfer the nids of batched output nodes from local to global.
         self.local_to_global() # local to global         self.global_batched_seeds_list
-       
-        return self.global_batched_seeds_list, self.weights_list, self.time_dict, self.partition_len_list
+        t_total=time.time()-ts
+
+        return self.global_batched_seeds_list, self.weights_list, t_total, self.partition_len_list
 
         
 
