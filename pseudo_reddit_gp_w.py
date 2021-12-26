@@ -122,7 +122,7 @@ def run(args, device, data):
 	for epoch in range(args.num_epochs):
 		print('Epoch ' + str(epoch))
 		from dgl.data.utils import load_graphs
-		full_batch_subgraph =list(load_graphs('/home/cc/CODE_BAK/graph_partition/DATA/'+args.dataset+'_'+str(epoch)+'_subgraph.bin',[0]))
+		full_batch_subgraph =list(load_graphs('./DATA/fan_out_'+args.fan_out+'/'+args.dataset+'_'+str(epoch)+'_subgraph.bin',[0]))
 		
 		cur_subgraph = full_batch_subgraph[0][0]
 		print('cur_subgraph.ndata')
@@ -326,8 +326,9 @@ def run(args, device, data):
 	print()
 	print('='*100)
 	avg_epoch_nodes = sum(nodes_collection) / args.num_epochs
-	print('\t avg src nodes number per epoch \t:%.1f ' % (avg_epoch_nodes))
-	print('\t ave src batch nodes \t\t:%.1f ' % (mean(batch_nodes)))
+	print('\t avg src nodes number per epoch \t:%.2f ' % (avg_epoch_nodes))
+	print('\t avg src batch nodes \t\t:%.2f ' % (mean(batch_nodes)))
+	# print('\t ideal src part nodes \t\t:%.2f ' % (mean(batch_nodes)))
 	
 	
 	print()
@@ -413,7 +414,7 @@ if __name__=='__main__':
 	argparser.add_argument('--batch-size', type=int, default=0)
 #--------------------------------------------------------------------------------------
 	argparser.add_argument('--target-redun', type=float, default=1.9)
-	argparser.add_argument('--alpha', type=float, default=0.2)
+	argparser.add_argument('--alpha', type=float, default=0.5)
 	# argparser.add_argument('--walkterm', type=int, default=0)
 	argparser.add_argument('--walkterm', type=int, default=1)
 	argparser.add_argument('--redundancy_tolarent_steps', type=int, default=2)

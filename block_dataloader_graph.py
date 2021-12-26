@@ -6,6 +6,7 @@ from itertools import islice
 from statistics import mean
 from multiprocessing import Manager, Pool
 from multiprocessing import Process, Value, Array
+from graph_partitioner import Graph_Partitioner
 
 
 def unique_tensor_item(combined):
@@ -272,17 +273,21 @@ def check_connections(batch_nodes_list, full_batch_block_graph):
 	
 	return res
 
-
-
 def generate_dataloader_partition(raw_graph, block_to_graph, args):
 	current_block_eidx, current_block_edges = get_global_graph_edges_ids_2(raw_graph, block_to_graph)
 	block_to_graph.edata['_ID'] = current_block_eidx
 	
 	# print('time of batches_nid_list generation : ' + str(t1 - tt) + ' sec')
-	t1=time.time()
-	from graph_partition import random_init_graph_partition
-	batched_output_nid_list,weights_list,batch_list_generation_time, p_len_list=random_init_graph_partition( block_to_graph, args)
-	print('random_init_graph_partition spend ', time.time()-t1)
+	# t1=time.time()
+	# from graph_partition import random_init_graph_partition
+	
+	# batched_output_nid_list,weights_list,batch_list_generation_time, p_len_list=random_init_graph_partition( block_to_graph, args)
+	# print('random_init_graph_partition spend ', time.time()-t1)
+
+
+	my_graph_partitioner=Graph_Partitioner(block_to_graph, args) #init a graph partitioner object
+	batched_output_nid_list,weights_list,batch_list_generation_time, p_len_list=my_graph_partitioner.random_init_graph_partition()
+
 	print('partition_len_list')
 	print(p_len_list)
 	
@@ -292,6 +297,25 @@ def generate_dataloader_partition(raw_graph, block_to_graph, args):
 	time_2 = (connection_time, block_gen_time, mean_block_gen_time, batch_list_generation_time)
 
 	return data_loader, weights_list, time_2
+
+# def generate_dataloader_partition(raw_graph, block_to_graph, args):
+# 	current_block_eidx, current_block_edges = get_global_graph_edges_ids_2(raw_graph, block_to_graph)
+# 	block_to_graph.edata['_ID'] = current_block_eidx
+	
+# 	# print('time of batches_nid_list generation : ' + str(t1 - tt) + ' sec')
+# 	t1=time.time()
+# 	from graph_partition import random_init_graph_partition
+# 	batched_output_nid_list,weights_list,batch_list_generation_time, p_len_list=random_init_graph_partition( block_to_graph, args)
+# 	print('random_init_graph_partition spend ', time.time()-t1)
+# 	print('partition_len_list')
+# 	print(p_len_list)
+	
+# 	data_loader, time_1 = generate_blocks(raw_graph, block_to_graph, batched_output_nid_list)
+# 	connection_time, block_gen_time, mean_block_gen_time = time_1
+# 	# batch_list_generation_time = t1 - tt
+# 	time_2 = (connection_time, block_gen_time, mean_block_gen_time, batch_list_generation_time)
+
+# 	return data_loader, weights_list, time_2
 		
 		
 		
