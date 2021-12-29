@@ -290,6 +290,7 @@ def generate_dataloader_partition(raw_graph, block_to_graph, args):
 
 	print('partition_len_list')
 	print(p_len_list)
+	args.batch_size=my_graph_partitioner.batch_size
 	
 	data_loader, time_1 = generate_blocks(raw_graph, block_to_graph, batched_output_nid_list)
 	connection_time, block_gen_time, mean_block_gen_time = time_1

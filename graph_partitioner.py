@@ -32,18 +32,7 @@ def get_two_partition_seeds(bit_dict):
     return  A_o, B_o
 
 
-def update_Batched_Seeds_list(batched_seeds_list, bit_dict, i, j):
 
-    batch_i=[k for k in bit_dict if bit_dict[k]==0]
-    batch_j=[k for k in bit_dict if bit_dict[k]==1]
-    
-    batched_seeds_list.remove(batched_seeds_list[i])
-    batched_seeds_list.insert(i,batch_i)
-    
-    batched_seeds_list.remove(batched_seeds_list[j])
-    batched_seeds_list.insert(j,batch_j)
-
-    return batched_seeds_list
     
 def calculate_redundancy( idx,  i, A_o, B_o, side, locked_nodes):
     global block_to_graph
@@ -201,7 +190,28 @@ class Graph_Partitioner:
         return redundancy_list
 
 
+    def update_Batched_Seeds_list(self, batched_seeds_list, bit_dict, i, j):
 
+        A_o=[k for k in bit_dict if bit_dict[k]==0]
+        B_o=[k for k in bit_dict if bit_dict[k]==1]
+        print(self.side)
+
+        if self.get_src_len(A_o)<=self.get_src_len(B_o):
+            print('side is 1')
+            batch_i=A_o
+            batch_j=B_o
+        else:
+            print('side is 0')
+            batch_i=B_o
+            batch_j=A_o
+
+        batched_seeds_list.remove(batched_seeds_list[i])
+        batched_seeds_list.insert(i,batch_i)
+        
+        batched_seeds_list.remove(batched_seeds_list[j])
+        batched_seeds_list.insert(j,batch_j)
+
+        return batched_seeds_list
 
 
     def getRedundancyRate(self, len_A, len_B):
@@ -226,7 +236,9 @@ class Graph_Partitioner:
         # otherwise, do not exchange
         if len_B_part>0 and len_A_part>0 :
             # if len_A_part-len_B_part < len_total*self.alpha*0.1:
-            if len_A_part-len_B_part < 0:
+            if len_A_part-len_B_part >= 0:
+                self.side=0
+            else:
                 self.side=1
                 # bit_dict={i: 1-bit_dict[i] for i in bit_dict}
         else:
@@ -517,7 +529,7 @@ class Graph_Partitioner:
                     
                     if not improvement or walk_step==walks-1: # go several walks steps, until there is no improvement, 
 
-                        self.local_batched_seeds_list = update_Batched_Seeds_list(self.local_batched_seeds_list, self.bit_dict, i, i+1)
+                        self.local_batched_seeds_list = self.update_Batched_Seeds_list(self.local_batched_seeds_list, self.bit_dict, i, i+1)
                         # update batched_seeds_list based on bit_dict
                         print('\t walk step '+ str(walk_step)+'  partition ')
                         src_len_list = self.get_partition_src_len_list()
