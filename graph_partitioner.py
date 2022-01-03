@@ -8,7 +8,7 @@ from statistics import mean
 from my_utils import *
 
 block_to_graph=None
-
+# batches_nid_list_=[]
 
 
 
@@ -51,6 +51,26 @@ def calculate_redundancy( idx,  i, A_o, B_o, side, locked_nodes):
         return (idx,i)
     
     return (idx,None)
+
+
+def parallel_gen_batch_list(idx, nid, batches_nid_list_):
+    # global batches_nid_list_
+    global block_to_graph
+
+    # p_len_list=get_partition_src_len_list()
+    partition_src_len_list=[]
+    for seeds in batches_nid_list_:
+        in_ids=list(block_to_graph.in_edges(seeds))[0].tolist()
+        src_len= len(list(set(in_ids+seeds)))
+        partition_src_len_list.append(src_len)
+        
+    min_len=min(partition_src_len_list)
+    P_ID= partition_src_len_list.index(min_len)
+    print('p_id ', P_ID)
+
+    
+    # batches_nid_list_[P_ID].append(nid)
+    return (idx, P_ID, nid )
 
 
 
@@ -127,13 +147,26 @@ class Graph_Partitioner:
         self.local=False
         return 
 
-
-    def get_the_smallest_partition_id(self, tmp_batches_nid_list):
-        if self.num_batch!=len(tmp_batches_nid_list):
-            print('get_the_smallest_partition_id error')
-            return 
-        self.local_batched_seeds_list=tmp_batches_nid_list
+    def update_partition_size(self, nids, P_ID):
+        self.local_batched_seeds_list[P_ID] += nids
         p_len_list=self.get_partition_src_len_list()
+        self.partition_len_list=p_len_list
+        min_len=min(p_len_list)
+        p_id= p_len_list.index(min_len)
+
+        return
+    
+
+
+
+    def get_the_smallest_partition_id(self,batches_nid_list_):
+        # global batches_nid_list_
+        if self.num_batch!=len(batches_nid_list_):
+            print('get the smallest partition id error')
+            return 
+        self.local_batched_seeds_list=batches_nid_list_
+        p_len_list=self.get_partition_src_len_list()
+        self.partition_len_list=p_len_list
         min_len=min(p_len_list)
         p_id= p_len_list.index(min_len)
 
@@ -142,21 +175,15 @@ class Graph_Partitioner:
         return p_id
 
     def balanced_init(self):
-
- 
-        NB=self.num_batch
         
         # batches_nid_list=[[] for i in range(NB)]
         nids=self.local_output_nids
         output_num=len(self.local_output_nids)
-        ll=int(len(nids)*self.balanced_init_ratio)
-        # nids=nids[ll:]
-
         
         indices = [i for i in range(len(nids))]
         map_output_list = list(numpy.array(nids)[indices])
         
-        # start=int(len(map_output_list)*self.balanced_init_ratio)
+        start=0
         mini_batch=int(self.batch_size*self.balanced_init_ratio)
         if mini_batch*self.num_batch<len(self.local_output_nids):
             start=mini_batch*self.num_batch
@@ -165,24 +192,30 @@ class Graph_Partitioner:
 
         batches_nid_list = [map_output_list[i:i + mini_batch] for i in range(0, start, mini_batch)]
         idx=start
-        while idx < len(nids):
-            P_ID=self.get_the_smallest_partition_id(batches_nid_list)
-            batches_nid_list[P_ID].append(idx)
-            idx+=1
-            if idx%50==0:
-                print('p_id ', P_ID)
-        #------------------------------------------------------------------------------
-        # idx=0
-        # while idx < len(nids):
-        #     while idx<=ll:
-        #         for i in range(NB):
-        #             if idx>ll: break
-        #             batches_nid_list[i].append(idx)
-        #             idx+=1
-        #      #idx>ll
-        #     P_ID=self.get_the_smallest_partition_id(batches_nid_list)
-        #     batches_nid_list[P_ID].append(idx)
-        #     idx+=1
+        if self.dataset=='karate':
+            while idx < len(nids):
+                P_ID=self.get_the_smallest_partition_id(batches_nid_list)
+                batches_nid_list[P_ID].append(idx)
+                idx+=1
+                if idx%50==0:
+                    print('p_id ', P_ID)
+        else:
+
+            # step = int(len(self.local_output_nids)*(1-self.balanced_init_ratio)/self.num_batch)-2
+            # for idx in range(start,len(nids),step):
+            #     P_ID=self.get_the_smallest_partition_id(batches_nid_list)
+            #     batches_nid_list[P_ID]+=nids[idx:idx+step]
+            #     # if idx%50==0:
+            #     #     print('p_id ', P_ID)
+            #     print('p_id ', P_ID)
+            for idx in range(start,len(nids)):
+                P_ID=self.get_the_smallest_partition_id(batches_nid_list)
+                batches_nid_list[P_ID].append(idx)
+                if idx%50==0:
+                    print('p_id ', P_ID)
+                
+            
+        
         
 
         weights_list = []
@@ -221,7 +254,9 @@ class Graph_Partitioner:
             batches_nid_list, weights_list=gen_batch_output_list(self.local_output_nids,indices,self.batch_size)
         
         elif self.selection_method == 'balanced_init_graph_partition' :
+            t=time.time()
             batches_nid_list, weights_list=self.balanced_init()
+            print('balanced_init for graph_partition spend: ', time.time()-t)
 
             
         else:# selection_method == 'similarity_init_graph_partition':
@@ -232,7 +267,7 @@ class Graph_Partitioner:
         self.local_batched_seeds_list=batches_nid_list
         self.weights_list=weights_list
 
-        print('The batched output nid list before graph partition')
+        # print('The batched output nid list before graph partition')
         # print_len_of_batched_seeds_list(batches_nid_list)
 
         return 
@@ -555,7 +590,8 @@ class Graph_Partitioner:
         global block_to_graph
         block_to_graph=local_g
 
-        
+        self.gen_batched_seeds_list()
+
         src_len_list= self.get_partition_src_len_list()
 
         print('before graph partition ')
@@ -651,7 +687,7 @@ class Graph_Partitioner:
         print('global_2_local', (time.time()-ts))
 
         t1 = time.time()
-        self.gen_batched_seeds_list()
+        # self.gen_batched_seeds_list()
 
         t2=time.time()
         # Then, the graph_parition is run in block to graph local nids,it has no relationship with raw graph
@@ -672,7 +708,7 @@ class Graph_Partitioner:
         self.global_to_local() # global to local            self.local_batched_seeds_list
         print('global_2_local', (time.time()-ts))
         t1 = time.time()
-        self.gen_batched_seeds_list()
+        
         t2=time.time()
         # Then, the graph_parition is run in block to graph local nids,it has no relationship with raw graph
         self.graph_partition_variant()
