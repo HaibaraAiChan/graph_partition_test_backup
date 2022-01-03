@@ -1,0 +1,5503 @@
+main start at this time 1641164513.3001575
+success----------------------------------------
+153431
+23831
+55703
+#nodes: 232965
+#edges: 114615892
+#classes: 41
+Epoch 0
+cur_subgraph.ndata
+217313
+
+Epoch 1
+cur_subgraph.ndata
+217305
+
+Epoch 2
+cur_subgraph.ndata
+217241
+
+Epoch 3
+cur_subgraph.ndata
+217215
+
+Epoch 4
+cur_subgraph.ndata
+217211
+
+Epoch 5
+cur_subgraph.ndata
+217258
+
+========after full batch subgraphs of data loading===================================================
+6
+Epoch 0
+global_2_local 0.04421114921569824
+---------------------------- variant graph partition start---------------------
+p_id  3
+p_id  6
+p_id  0
+p_id  7
+p_id  0
+p_id  0
+p_id  1
+p_id  0
+p_id  1
+p_id  1
+p_id  2
+p_id  3
+p_id  0
+p_id  1
+p_id  6
+p_id  1
+p_id  4
+p_id  2
+p_id  6
+p_id  7
+p_id  0
+p_id  4
+p_id  3
+p_id  6
+p_id  7
+p_id  4
+p_id  0
+p_id  0
+p_id  2
+p_id  2
+p_id  5
+p_id  2
+p_id  4
+p_id  5
+p_id  3
+p_id  6
+p_id  3
+p_id  4
+p_id  3
+p_id  0
+p_id  4
+p_id  5
+p_id  7
+p_id  6
+p_id  7
+p_id  6
+p_id  1
+p_id  4
+p_id  7
+p_id  5
+p_id  7
+p_id  0
+p_id  5
+p_id  0
+p_id  0
+p_id  6
+p_id  2
+p_id  1
+p_id  2
+p_id  6
+p_id  3
+p_id  1
+p_id  5
+p_id  2
+p_id  4
+p_id  1
+p_id  2
+p_id  7
+p_id  0
+p_id  0
+p_id  5
+p_id  0
+p_id  3
+p_id  0
+p_id  2
+p_id  1
+p_id  7
+p_id  7
+p_id  6
+p_id  2
+p_id  1
+p_id  4
+p_id  2
+p_id  7
+p_id  6
+p_id  2
+p_id  5
+p_id  7
+p_id  6
+p_id  4
+p_id  1
+p_id  4
+p_id  5
+p_id  1
+p_id  7
+p_id  2
+p_id  4
+p_id  1
+p_id  4
+p_id  6
+p_id  1
+p_id  4
+p_id  6
+p_id  7
+p_id  3
+p_id  1
+p_id  5
+p_id  6
+p_id  4
+p_id  1
+p_id  2
+p_id  4
+p_id  4
+p_id  6
+p_id  2
+p_id  4
+p_id  1
+p_id  6
+p_id  7
+p_id  5
+p_id  1
+p_id  6
+p_id  5
+p_id  2
+p_id  0
+p_id  6
+p_id  0
+p_id  1
+p_id  4
+p_id  5
+p_id  0
+p_id  2
+p_id  5
+p_id  2
+p_id  7
+p_id  4
+p_id  4
+p_id  1
+p_id  0
+p_id  7
+p_id  3
+p_id  0
+p_id  6
+p_id  2
+p_id  4
+p_id  5
+p_id  3
+p_id  4
+p_id  1
+p_id  5
+p_id  0
+p_id  5
+p_id  4
+p_id  6
+p_id  7
+p_id  0
+p_id  5
+p_id  3
+p_id  0
+p_id  2
+p_id  7
+p_id  1
+p_id  2
+p_id  0
+p_id  4
+p_id  3
+p_id  7
+p_id  7
+p_id  1
+p_id  4
+p_id  3
+p_id  7
+p_id  7
+p_id  1
+p_id  5
+p_id  4
+p_id  6
+p_id  0
+p_id  5
+p_id  5
+p_id  4
+p_id  0
+p_id  7
+p_id  7
+p_id  6
+p_id  5
+p_id  1
+p_id  0
+p_id  5
+p_id  2
+p_id  1
+p_id  5
+p_id  1
+p_id  4
+p_id  1
+p_id  7
+p_id  2
+p_id  5
+p_id  6
+p_id  0
+p_id  1
+p_id  0
+p_id  3
+p_id  2
+p_id  5
+p_id  3
+p_id  0
+p_id  0
+p_id  4
+p_id  5
+p_id  5
+p_id  3
+p_id  0
+p_id  3
+p_id  5
+p_id  6
+p_id  3
+p_id  4
+p_id  3
+p_id  7
+p_id  7
+p_id  0
+p_id  6
+p_id  2
+p_id  1
+p_id  4
+p_id  0
+p_id  1
+p_id  3
+p_id  3
+p_id  3
+p_id  4
+p_id  0
+p_id  7
+p_id  6
+p_id  3
+p_id  4
+p_id  3
+p_id  4
+p_id  6
+p_id  1
+p_id  6
+p_id  0
+p_id  2
+p_id  2
+p_id  3
+p_id  1
+p_id  7
+p_id  0
+p_id  6
+p_id  4
+p_id  1
+p_id  0
+p_id  4
+p_id  2
+p_id  2
+p_id  0
+p_id  1
+p_id  7
+p_id  7
+p_id  7
+p_id  3
+p_id  7
+p_id  2
+p_id  0
+p_id  6
+p_id  4
+p_id  7
+p_id  5
+p_id  2
+p_id  2
+p_id  4
+p_id  4
+p_id  6
+p_id  1
+p_id  0
+p_id  3
+p_id  7
+p_id  1
+p_id  1
+p_id  7
+p_id  0
+p_id  2
+p_id  6
+p_id  4
+p_id  6
+p_id  4
+p_id  0
+p_id  2
+p_id  6
+p_id  4
+p_id  0
+p_id  0
+p_id  7
+p_id  7
+p_id  1
+p_id  1
+p_id  5
+p_id  4
+p_id  0
+p_id  2
+p_id  6
+p_id  4
+p_id  5
+p_id  5
+p_id  5
+p_id  6
+p_id  4
+p_id  1
+p_id  0
+p_id  5
+p_id  7
+p_id  0
+p_id  4
+p_id  5
+p_id  0
+p_id  7
+p_id  6
+p_id  4
+p_id  0
+p_id  0
+p_id  4
+p_id  1
+p_id  7
+p_id  3
+p_id  2
+p_id  0
+p_id  3
+p_id  5
+p_id  6
+p_id  3
+p_id  6
+p_id  7
+p_id  1
+p_id  0
+p_id  3
+p_id  1
+p_id  1
+p_id  3
+p_id  7
+p_id  3
+p_id  4
+p_id  6
+p_id  7
+p_id  0
+p_id  4
+p_id  5
+p_id  2
+p_id  1
+p_id  5
+p_id  7
+p_id  7
+p_id  5
+p_id  6
+p_id  3
+p_id  5
+p_id  5
+p_id  1
+p_id  5
+p_id  2
+p_id  0
+p_id  2
+p_id  2
+p_id  7
+p_id  6
+p_id  2
+p_id  6
+p_id  5
+p_id  5
+p_id  2
+p_id  7
+p_id  7
+p_id  6
+p_id  5
+p_id  5
+p_id  0
+p_id  2
+p_id  6
+p_id  7
+p_id  4
+p_id  2
+p_id  2
+p_id  0
+p_id  4
+p_id  7
+p_id  1
+p_id  2
+p_id  0
+p_id  3
+p_id  4
+p_id  4
+p_id  1
+p_id  7
+p_id  4
+p_id  4
+p_id  5
+p_id  1
+p_id  4
+p_id  1
+p_id  6
+p_id  2
+p_id  7
+p_id  5
+p_id  7
+p_id  2
+p_id  6
+p_id  2
+p_id  5
+p_id  0
+p_id  4
+p_id  0
+p_id  2
+p_id  2
+p_id  5
+p_id  4
+p_id  1
+p_id  2
+p_id  1
+p_id  1
+p_id  5
+p_id  2
+p_id  6
+p_id  0
+p_id  7
+p_id  5
+p_id  4
+p_id  0
+p_id  4
+p_id  1
+p_id  5
+p_id  3
+p_id  6
+p_id  4
+p_id  0
+p_id  6
+p_id  3
+p_id  2
+p_id  0
+p_id  0
+p_id  6
+p_id  1
+p_id  4
+p_id  4
+p_id  7
+p_id  3
+p_id  1
+p_id  0
+p_id  3
+p_id  1
+p_id  3
+p_id  0
+p_id  5
+p_id  3
+p_id  1
+p_id  2
+p_id  7
+p_id  6
+p_id  5
+p_id  7
+p_id  5
+p_id  2
+p_id  3
+p_id  1
+p_id  3
+p_id  6
+p_id  3
+p_id  0
+p_id  7
+p_id  4
+p_id  2
+p_id  5
+p_id  3
+p_id  1
+p_id  0
+p_id  7
+p_id  2
+p_id  6
+p_id  2
+p_id  3
+p_id  0
+p_id  1
+p_id  0
+p_id  1
+p_id  3
+p_id  6
+p_id  5
+p_id  6
+p_id  2
+p_id  6
+p_id  5
+p_id  2
+p_id  2
+p_id  6
+p_id  6
+p_id  2
+p_id  7
+p_id  7
+p_id  2
+p_id  2
+p_id  5
+p_id  1
+p_id  0
+p_id  7
+p_id  3
+p_id  3
+p_id  3
+p_id  7
+p_id  2
+p_id  5
+p_id  2
+p_id  6
+p_id  5
+p_id  5
+p_id  0
+p_id  4
+p_id  2
+p_id  5
+p_id  6
+p_id  3
+p_id  0
+p_id  6
+p_id  2
+p_id  2
+p_id  0
+p_id  1
+p_id  1
+p_id  4
+p_id  4
+p_id  7
+p_id  4
+p_id  5
+p_id  3
+p_id  4
+p_id  0
+p_id  7
+p_id  3
+p_id  6
+p_id  2
+p_id  4
+p_id  1
+p_id  3
+p_id  4
+p_id  4
+p_id  7
+p_id  2
+p_id  7
+p_id  7
+p_id  2
+p_id  1
+p_id  0
+p_id  2
+p_id  3
+p_id  7
+p_id  1
+p_id  2
+p_id  3
+p_id  2
+p_id  1
+p_id  2
+p_id  7
+p_id  4
+p_id  6
+p_id  7
+p_id  6
+p_id  6
+p_id  2
+p_id  1
+p_id  6
+p_id  5
+p_id  1
+p_id  0
+p_id  5
+p_id  0
+p_id  7
+p_id  7
+p_id  5
+p_id  3
+p_id  6
+p_id  2
+p_id  5
+p_id  4
+p_id  2
+p_id  1
+p_id  3
+p_id  7
+p_id  0
+p_id  5
+p_id  6
+p_id  6
+p_id  6
+p_id  1
+p_id  3
+p_id  2
+p_id  5
+p_id  1
+p_id  6
+p_id  7
+p_id  0
+p_id  1
+p_id  7
+p_id  4
+p_id  0
+p_id  1
+p_id  7
+p_id  0
+p_id  2
+p_id  1
+p_id  0
+p_id  2
+p_id  2
+p_id  0
+p_id  1
+p_id  3
+p_id  7
+p_id  5
+p_id  7
+p_id  7
+p_id  4
+p_id  0
+p_id  5
+p_id  1
+p_id  6
+p_id  0
+p_id  7
+p_id  3
+p_id  5
+p_id  0
+p_id  1
+p_id  4
+p_id  3
+p_id  5
+p_id  1
+p_id  3
+p_id  4
+p_id  4
+p_id  4
+p_id  7
+p_id  6
+p_id  3
+p_id  3
+p_id  4
+p_id  4
+p_id  1
+p_id  2
+p_id  0
+p_id  0
+p_id  0
+p_id  1
+p_id  0
+p_id  0
+p_id  4
+p_id  2
+p_id  6
+p_id  4
+p_id  6
+p_id  6
+p_id  7
+p_id  0
+p_id  6
+p_id  5
+p_id  7
+p_id  4
+p_id  2
+p_id  4
+p_id  6
+p_id  7
+p_id  7
+p_id  7
+p_id  3
+p_id  4
+p_id  3
+p_id  3
+p_id  2
+p_id  1
+p_id  3
+p_id  3
+p_id  3
+p_id  5
+p_id  0
+p_id  1
+p_id  7
+p_id  1
+p_id  0
+p_id  1
+p_id  7
+p_id  0
+p_id  1
+p_id  6
+p_id  2
+p_id  0
+p_id  7
+p_id  0
+p_id  4
+p_id  1
+p_id  7
+p_id  5
+p_id  3
+p_id  3
+p_id  0
+p_id  2
+p_id  0
+p_id  2
+p_id  5
+p_id  6
+p_id  0
+p_id  5
+p_id  3
+p_id  0
+p_id  0
+p_id  5
+p_id  7
+p_id  2
+p_id  5
+p_id  2
+p_id  3
+p_id  6
+p_id  6
+p_id  1
+p_id  5
+p_id  4
+p_id  4
+p_id  2
+p_id  3
+p_id  2
+p_id  4
+p_id  4
+p_id  7
+p_id  4
+p_id  7
+p_id  3
+p_id  2
+p_id  0
+p_id  2
+p_id  2
+p_id  4
+p_id  7
+p_id  0
+p_id  4
+p_id  3
+p_id  5
+p_id  3
+p_id  0
+p_id  6
+p_id  5
+p_id  2
+p_id  5
+p_id  4
+p_id  5
+p_id  3
+p_id  6
+p_id  2
+p_id  0
+p_id  2
+p_id  5
+p_id  4
+p_id  6
+p_id  6
+p_id  3
+p_id  7
+p_id  4
+p_id  0
+p_id  7
+p_id  3
+p_id  6
+p_id  7
+p_id  7
+p_id  5
+p_id  2
+p_id  2
+p_id  2
+p_id  6
+p_id  7
+p_id  6
+p_id  7
+p_id  7
+p_id  4
+p_id  7
+p_id  5
+p_id  0
+p_id  2
+p_id  5
+p_id  6
+p_id  3
+p_id  3
+p_id  5
+p_id  2
+p_id  4
+p_id  1
+p_id  3
+p_id  7
+p_id  0
+p_id  6
+p_id  6
+p_id  2
+p_id  5
+p_id  2
+p_id  3
+p_id  2
+p_id  0
+p_id  1
+p_id  0
+p_id  2
+p_id  7
+p_id  5
+p_id  7
+p_id  4
+p_id  1
+p_id  2
+p_id  6
+p_id  1
+p_id  3
+p_id  5
+p_id  0
+p_id  7
+p_id  7
+p_id  2
+p_id  2
+p_id  4
+p_id  4
+p_id  3
+p_id  0
+p_id  2
+p_id  1
+p_id  1
+p_id  5
+p_id  2
+p_id  6
+p_id  0
+p_id  0
+p_id  1
+p_id  5
+p_id  6
+p_id  1
+p_id  5
+p_id  7
+p_id  2
+p_id  3
+p_id  4
+p_id  4
+p_id  4
+p_id  0
+p_id  6
+p_id  2
+p_id  5
+p_id  3
+p_id  5
+p_id  2
+p_id  4
+p_id  3
+p_id  2
+p_id  6
+p_id  0
+p_id  0
+p_id  0
+p_id  3
+p_id  4
+p_id  0
+p_id  1
+p_id  0
+p_id  7
+p_id  0
+p_id  6
+p_id  0
+p_id  3
+p_id  4
+p_id  7
+p_id  3
+p_id  7
+p_id  0
+p_id  1
+p_id  3
+p_id  5
+p_id  7
+p_id  1
+p_id  7
+p_id  2
+p_id  5
+p_id  0
+p_id  6
+p_id  1
+p_id  6
+p_id  0
+p_id  1
+p_id  0
+p_id  4
+p_id  1
+p_id  0
+p_id  1
+p_id  0
+p_id  3
+p_id  3
+p_id  1
+p_id  5
+p_id  7
+p_id  7
+p_id  6
+p_id  0
+p_id  5
+p_id  5
+p_id  4
+p_id  5
+p_id  5
+p_id  2
+p_id  0
+p_id  3
+p_id  5
+p_id  7
+p_id  2
+p_id  7
+p_id  2
+p_id  3
+p_id  2
+p_id  5
+p_id  3
+p_id  5
+p_id  0
+p_id  0
+p_id  1
+p_id  3
+p_id  1
+p_id  0
+p_id  7
+p_id  1
+p_id  7
+p_id  1
+p_id  0
+p_id  3
+p_id  4
+p_id  6
+p_id  6
+p_id  1
+p_id  2
+p_id  6
+p_id  4
+p_id  6
+p_id  4
+p_id  2
+p_id  2
+p_id  4
+p_id  6
+p_id  0
+p_id  0
+p_id  6
+p_id  7
+p_id  7
+p_id  0
+p_id  1
+p_id  0
+p_id  0
+p_id  2
+p_id  3
+p_id  4
+p_id  6
+p_id  7
+p_id  0
+p_id  4
+p_id  3
+p_id  1
+p_id  6
+p_id  7
+p_id  5
+p_id  6
+p_id  0
+p_id  4
+p_id  4
+p_id  0
+p_id  3
+p_id  5
+p_id  2
+p_id  1
+p_id  7
+p_id  7
+p_id  3
+p_id  5
+p_id  2
+p_id  3
+p_id  3
+p_id  0
+p_id  3
+p_id  6
+p_id  7
+p_id  4
+p_id  5
+p_id  4
+p_id  5
+p_id  4
+p_id  1
+p_id  4
+p_id  2
+p_id  5
+p_id  5
+p_id  3
+p_id  2
+p_id  6
+p_id  4
+p_id  4
+p_id  0
+p_id  5
+p_id  5
+p_id  6
+p_id  3
+p_id  4
+p_id  1
+p_id  0
+p_id  3
+p_id  7
+p_id  3
+p_id  0
+p_id  4
+p_id  7
+p_id  7
+p_id  3
+p_id  6
+p_id  1
+p_id  2
+p_id  2
+p_id  6
+p_id  3
+p_id  7
+p_id  2
+p_id  4
+p_id  3
+p_id  1
+p_id  3
+p_id  2
+p_id  7
+p_id  5
+p_id  5
+p_id  5
+p_id  1
+p_id  1
+p_id  1
+p_id  2
+p_id  3
+p_id  4
+p_id  6
+p_id  6
+p_id  0
+p_id  5
+p_id  4
+p_id  5
+p_id  2
+p_id  2
+p_id  2
+p_id  2
+p_id  2
+p_id  2
+p_id  5
+p_id  1
+p_id  0
+p_id  7
+p_id  4
+p_id  5
+p_id  7
+p_id  2
+p_id  6
+p_id  0
+p_id  5
+p_id  6
+p_id  4
+p_id  6
+p_id  2
+p_id  6
+p_id  3
+p_id  0
+p_id  2
+p_id  5
+p_id  7
+p_id  7
+p_id  0
+p_id  7
+p_id  5
+p_id  7
+p_id  1
+p_id  2
+p_id  2
+p_id  3
+p_id  1
+p_id  2
+p_id  4
+p_id  6
+p_id  1
+p_id  7
+p_id  3
+p_id  7
+p_id  2
+p_id  5
+p_id  4
+p_id  6
+p_id  0
+p_id  3
+p_id  1
+p_id  2
+p_id  6
+p_id  4
+p_id  5
+p_id  2
+p_id  1
+p_id  3
+p_id  6
+p_id  1
+p_id  3
+p_id  1
+p_id  7
+p_id  6
+p_id  0
+p_id  7
+p_id  7
+p_id  5
+p_id  3
+p_id  0
+p_id  6
+p_id  0
+p_id  4
+p_id  2
+p_id  4
+p_id  7
+p_id  6
+p_id  1
+p_id  7
+p_id  4
+p_id  6
+p_id  0
+p_id  5
+p_id  5
+p_id  6
+p_id  0
+p_id  3
+p_id  7
+p_id  2
+p_id  5
+p_id  5
+p_id  5
+p_id  1
+p_id  1
+p_id  6
+p_id  3
+p_id  0
+p_id  7
+p_id  5
+p_id  3
+p_id  0
+p_id  2
+p_id  0
+p_id  1
+p_id  1
+p_id  0
+p_id  4
+p_id  7
+p_id  0
+p_id  1
+p_id  3
+p_id  0
+p_id  3
+p_id  6
+p_id  6
+p_id  4
+p_id  5
+p_id  5
+p_id  2
+p_id  5
+p_id  7
+p_id  5
+p_id  4
+p_id  6
+p_id  4
+p_id  3
+p_id  1
+p_id  1
+p_id  4
+p_id  5
+p_id  6
+p_id  5
+p_id  7
+p_id  5
+p_id  4
+p_id  0
+p_id  1
+p_id  1
+p_id  2
+p_id  7
+p_id  0
+p_id  1
+p_id  1
+p_id  1
+p_id  4
+p_id  2
+p_id  2
+p_id  4
+p_id  6
+p_id  2
+p_id  6
+p_id  0
+p_id  0
+p_id  3
+p_id  3
+p_id  4
+p_id  6
+p_id  3
+p_id  0
+p_id  2
+p_id  2
+p_id  2
+p_id  4
+p_id  0
+p_id  0
+p_id  7
+p_id  1
+p_id  3
+p_id  2
+p_id  5
+p_id  4
+p_id  0
+p_id  7
+p_id  1
+p_id  2
+p_id  6
+p_id  4
+p_id  0
+p_id  1
+p_id  5
+p_id  4
+p_id  0
+p_id  7
+p_id  4
+p_id  3
+p_id  1
+p_id  7
+p_id  2
+p_id  3
+p_id  1
+p_id  1
+p_id  2
+p_id  3
+p_id  6
+p_id  6
+p_id  1
+p_id  6
+p_id  0
+p_id  3
+p_id  3
+p_id  6
+p_id  7
+p_id  7
+p_id  5
+p_id  4
+p_id  5
+p_id  6
+p_id  1
+p_id  2
+p_id  5
+p_id  7
+p_id  0
+p_id  1
+p_id  6
+p_id  7
+p_id  7
+p_id  1
+p_id  6
+p_id  1
+p_id  3
+p_id  3
+p_id  0
+p_id  0
+p_id  2
+p_id  1
+p_id  2
+p_id  4
+p_id  4
+p_id  6
+p_id  6
+p_id  6
+p_id  3
+p_id  5
+p_id  6
+p_id  3
+p_id  0
+p_id  0
+p_id  1
+p_id  3
+p_id  3
+p_id  3
+p_id  6
+p_id  1
+p_id  3
+p_id  4
+p_id  4
+p_id  5
+p_id  3
+p_id  7
+p_id  5
+p_id  7
+p_id  3
+p_id  5
+p_id  0
+p_id  2
+p_id  5
+p_id  6
+p_id  3
+p_id  5
+p_id  7
+p_id  2
+p_id  6
+p_id  6
+p_id  4
+p_id  2
+p_id  0
+p_id  6
+p_id  7
+p_id  2
+p_id  4
+p_id  0
+p_id  2
+p_id  1
+p_id  1
+p_id  6
+p_id  0
+p_id  2
+p_id  4
+p_id  3
+p_id  6
+p_id  1
+p_id  5
+p_id  2
+p_id  1
+p_id  1
+p_id  3
+p_id  1
+p_id  3
+p_id  0
+p_id  5
+p_id  1
+p_id  4
+p_id  0
+p_id  2
+p_id  6
+p_id  6
+p_id  3
+p_id  4
+p_id  7
+p_id  7
+p_id  3
+p_id  6
+p_id  3
+p_id  1
+p_id  5
+p_id  0
+p_id  1
+p_id  0
+p_id  2
+p_id  6
+p_id  5
+p_id  0
+p_id  3
+p_id  4
+p_id  0
+p_id  1
+p_id  3
+p_id  1
+p_id  4
+p_id  6
+p_id  2
+p_id  0
+p_id  7
+p_id  6
+p_id  2
+p_id  0
+p_id  0
+p_id  4
+p_id  1
+p_id  1
+p_id  6
+p_id  5
+p_id  5
+p_id  4
+p_id  5
+p_id  7
+p_id  0
+p_id  2
+p_id  0
+p_id  4
+p_id  5
+p_id  3
+p_id  1
+p_id  6
+p_id  6
+p_id  1
+p_id  7
+p_id  5
+p_id  1
+p_id  7
+p_id  2
+p_id  0
+p_id  3
+p_id  7
+p_id  5
+p_id  3
+p_id  0
+p_id  0
+p_id  1
+p_id  4
+p_id  5
+p_id  0
+p_id  6
+p_id  5
+p_id  0
+p_id  3
+p_id  1
+p_id  7
+p_id  6
+p_id  0
+p_id  5
+p_id  3
+p_id  2
+p_id  2
+p_id  5
+p_id  0
+p_id  1
+p_id  0
+p_id  5
+p_id  1
+p_id  5
+p_id  4
+p_id  7
+p_id  5
+p_id  0
+p_id  2
+p_id  2
+p_id  5
+p_id  4
+p_id  1
+p_id  7
+p_id  7
+p_id  5
+p_id  0
+p_id  7
+p_id  7
+p_id  3
+p_id  3
+p_id  4
+p_id  1
+p_id  1
+p_id  6
+p_id  4
+p_id  0
+p_id  2
+p_id  6
+p_id  4
+p_id  4
+p_id  2
+p_id  2
+p_id  6
+p_id  6
+p_id  7
+p_id  3
+p_id  3
+p_id  1
+p_id  6
+p_id  2
+p_id  5
+p_id  5
+p_id  0
+p_id  6
+p_id  7
+p_id  3
+p_id  1
+p_id  3
+p_id  4
+p_id  3
+p_id  7
+p_id  7
+p_id  4
+p_id  4
+p_id  7
+p_id  6
+p_id  4
+p_id  7
+p_id  1
+p_id  2
+p_id  2
+p_id  7
+p_id  3
+p_id  7
+p_id  6
+p_id  4
+p_id  3
+p_id  1
+p_id  3
+p_id  7
+p_id  1
+p_id  4
+p_id  1
+p_id  1
+p_id  5
+p_id  2
+p_id  1
+p_id  1
+p_id  6
+p_id  6
+p_id  7
+p_id  5
+p_id  6
+p_id  6
+p_id  5
+p_id  1
+p_id  2
+p_id  4
+p_id  0
+p_id  2
+p_id  6
+p_id  6
+p_id  4
+p_id  0
+p_id  3
+p_id  6
+p_id  5
+p_id  0
+p_id  3
+p_id  3
+p_id  5
+p_id  1
+p_id  7
+p_id  6
+p_id  1
+p_id  4
+p_id  3
+p_id  3
+p_id  6
+p_id  6
+p_id  4
+p_id  7
+p_id  5
+p_id  1
+p_id  5
+p_id  4
+p_id  2
+p_id  6
+p_id  5
+p_id  2
+p_id  3
+p_id  3
+p_id  1
+p_id  6
+p_id  2
+p_id  5
+p_id  5
+p_id  0
+p_id  2
+p_id  5
+p_id  7
+p_id  5
+p_id  0
+p_id  2
+p_id  2
+p_id  2
+p_id  6
+p_id  1
+p_id  3
+p_id  4
+p_id  3
+p_id  3
+p_id  0
+p_id  4
+p_id  2
+p_id  2
+p_id  2
+p_id  0
+p_id  1
+p_id  4
+p_id  3
+p_id  4
+p_id  2
+p_id  0
+p_id  1
+p_id  6
+p_id  7
+p_id  3
+p_id  0
+p_id  0
+p_id  0
+p_id  3
+p_id  1
+p_id  2
+p_id  4
+p_id  5
+p_id  0
+p_id  2
+p_id  6
+p_id  4
+p_id  5
+p_id  7
+p_id  7
+p_id  6
+p_id  3
+p_id  0
+p_id  5
+p_id  7
+p_id  7
+p_id  5
+p_id  0
+p_id  0
+p_id  3
+p_id  1
+p_id  3
+p_id  1
+p_id  7
+p_id  4
+p_id  0
+p_id  0
+p_id  4
+p_id  5
+p_id  2
+p_id  6
+p_id  4
+p_id  7
+p_id  3
+p_id  6
+p_id  3
+p_id  3
+p_id  7
+p_id  5
+p_id  5
+p_id  5
+p_id  7
+p_id  7
+p_id  3
+p_id  0
+p_id  4
+p_id  6
+p_id  6
+p_id  3
+p_id  6
+p_id  5
+p_id  5
+p_id  4
+p_id  3
+p_id  1
+p_id  2
+p_id  0
+p_id  0
+p_id  6
+p_id  3
+p_id  0
+p_id  4
+p_id  0
+p_id  0
+p_id  6
+p_id  4
+p_id  6
+p_id  5
+p_id  7
+p_id  7
+p_id  4
+p_id  0
+p_id  4
+p_id  5
+p_id  7
+p_id  7
+p_id  4
+p_id  6
+p_id  7
+p_id  0
+p_id  7
+p_id  3
+p_id  2
+p_id  4
+p_id  0
+p_id  7
+p_id  5
+p_id  2
+p_id  7
+p_id  7
+p_id  2
+p_id  6
+p_id  7
+p_id  2
+p_id  2
+p_id  0
+p_id  1
+p_id  0
+p_id  1
+p_id  1
+p_id  0
+p_id  5
+p_id  2
+p_id  7
+p_id  4
+p_id  6
+p_id  5
+p_id  2
+p_id  4
+p_id  3
+p_id  7
+p_id  1
+p_id  4
+p_id  6
+p_id  6
+p_id  4
+p_id  6
+p_id  7
+p_id  4
+p_id  3
+p_id  5
+p_id  5
+p_id  3
+p_id  0
+p_id  6
+p_id  3
+p_id  0
+p_id  2
+p_id  0
+p_id  2
+p_id  7
+p_id  7
+p_id  2
+p_id  3
+p_id  7
+p_id  5
+p_id  7
+p_id  3
+p_id  7
+p_id  0
+p_id  7
+p_id  4
+p_id  1
+p_id  2
+p_id  0
+p_id  6
+p_id  3
+p_id  3
+p_id  4
+p_id  6
+p_id  6
+p_id  0
+p_id  1
+p_id  3
+p_id  7
+p_id  6
+p_id  5
+p_id  5
+p_id  6
+p_id  5
+p_id  7
+p_id  6
+p_id  1
+p_id  4
+p_id  0
+p_id  6
+p_id  1
+p_id  7
+p_id  5
+p_id  5
+p_id  3
+p_id  0
+p_id  3
+p_id  4
+p_id  3
+p_id  7
+p_id  7
+p_id  4
+p_id  6
+p_id  6
+p_id  1
+p_id  5
+p_id  1
+p_id  3
+p_id  0
+p_id  2
+p_id  2
+p_id  5
+p_id  0
+p_id  2
+p_id  4
+p_id  3
+p_id  0
+p_id  1
+p_id  4
+p_id  1
+p_id  6
+p_id  3
+p_id  5
+p_id  7
+p_id  2
+p_id  4
+p_id  2
+p_id  5
+p_id  0
+p_id  3
+p_id  5
+p_id  0
+p_id  1
+p_id  6
+p_id  4
+p_id  5
+p_id  7
+p_id  5
+p_id  4
+p_id  5
+p_id  5
+p_id  6
+p_id  3
+p_id  5
+p_id  3
+p_id  4
+p_id  3
+p_id  0
+p_id  6
+p_id  2
+p_id  4
+p_id  0
+p_id  7
+p_id  6
+p_id  7
+p_id  6
+p_id  1
+p_id  6
+p_id  2
+p_id  4
+p_id  2
+p_id  6
+p_id  7
+p_id  0
+p_id  4
+p_id  5
+p_id  2
+p_id  3
+p_id  5
+p_id  6
+p_id  7
+p_id  1
+p_id  1
+p_id  1
+p_id  5
+p_id  6
+p_id  7
+p_id  2
+p_id  7
+p_id  4
+p_id  3
+p_id  4
+p_id  3
+p_id  0
+p_id  7
+p_id  0
+p_id  7
+p_id  5
+p_id  1
+p_id  7
+p_id  4
+p_id  2
+p_id  3
+p_id  3
+p_id  5
+p_id  3
+p_id  2
+p_id  2
+p_id  5
+p_id  7
+p_id  7
+p_id  3
+p_id  4
+p_id  3
+p_id  3
+p_id  0
+p_id  1
+p_id  1
+p_id  2
+p_id  4
+p_id  1
+p_id  7
+p_id  1
+p_id  1
+p_id  5
+p_id  7
+p_id  3
+p_id  5
+p_id  6
+p_id  0
+p_id  3
+p_id  0
+p_id  3
+p_id  1
+p_id  3
+p_id  6
+p_id  4
+p_id  7
+p_id  3
+p_id  0
+p_id  5
+p_id  0
+p_id  3
+p_id  2
+p_id  5
+p_id  1
+p_id  7
+p_id  5
+p_id  2
+p_id  7
+p_id  4
+p_id  0
+p_id  2
+p_id  3
+p_id  6
+p_id  5
+p_id  3
+p_id  0
+p_id  7
+p_id  5
+p_id  0
+p_id  5
+p_id  4
+p_id  6
+p_id  1
+p_id  6
+p_id  6
+p_id  2
+p_id  4
+p_id  5
+p_id  1
+p_id  7
+p_id  5
+p_id  5
+p_id  1
+p_id  6
+p_id  0
+p_id  4
+p_id  3
+p_id  7
+p_id  3
+p_id  6
+p_id  2
+p_id  5
+p_id  4
+p_id  0
+p_id  5
+p_id  4
+p_id  6
+p_id  1
+p_id  2
+p_id  4
+p_id  4
+p_id  3
+p_id  0
+p_id  2
+p_id  0
+p_id  3
+p_id  3
+p_id  3
+p_id  1
+p_id  1
+p_id  6
+p_id  6
+p_id  1
+p_id  2
+p_id  4
+p_id  0
+p_id  5
+p_id  7
+p_id  1
+p_id  6
+p_id  4
+p_id  3
+p_id  6
+p_id  3
+p_id  3
+p_id  0
+p_id  2
+p_id  7
+p_id  2
+p_id  1
+p_id  3
+p_id  4
+p_id  2
+p_id  5
+p_id  1
+p_id  3
+p_id  3
+p_id  5
+p_id  0
+p_id  3
+p_id  2
+p_id  5
+p_id  0
+p_id  3
+p_id  5
+p_id  2
+p_id  7
+p_id  6
+p_id  3
+p_id  3
+p_id  2
+p_id  4
+p_id  0
+p_id  3
+p_id  6
+p_id  7
+p_id  2
+p_id  0
+p_id  3
+p_id  1
+p_id  2
+p_id  5
+p_id  3
+p_id  4
+p_id  7
+p_id  6
+p_id  2
+p_id  1
+p_id  6
+p_id  2
+p_id  6
+p_id  1
+p_id  6
+p_id  1
+p_id  2
+p_id  7
+p_id  6
+p_id  5
+p_id  3
+p_id  0
+p_id  0
+p_id  2
+p_id  4
+p_id  6
+p_id  7
+p_id  6
+p_id  5
+p_id  5
+p_id  7
+p_id  4
+p_id  1
+p_id  3
+p_id  6
+p_id  6
+p_id  7
+p_id  6
+p_id  7
+p_id  4
+p_id  4
+p_id  0
+p_id  5
+p_id  2
+p_id  2
+p_id  6
+p_id  4
+p_id  5
+p_id  4
+p_id  1
+p_id  7
+p_id  3
+p_id  1
+p_id  0
+p_id  0
+p_id  4
+p_id  5
+p_id  5
+p_id  4
+p_id  4
+p_id  1
+p_id  7
+p_id  3
+p_id  0
+p_id  0
+p_id  2
+p_id  7
+p_id  4
+p_id  1
+p_id  2
+p_id  2
+p_id  3
+p_id  7
+p_id  5
+p_id  7
+p_id  1
+p_id  2
+p_id  2
+p_id  5
+p_id  3
+p_id  0
+p_id  6
+p_id  7
+p_id  2
+p_id  7
+p_id  0
+p_id  6
+p_id  6
+p_id  2
+p_id  0
+p_id  5
+p_id  0
+p_id  6
+p_id  7
+p_id  1
+p_id  5
+p_id  4
+p_id  6
+p_id  7
+p_id  5
+p_id  3
+p_id  6
+p_id  0
+p_id  0
+p_id  2
+p_id  2
+p_id  4
+p_id  6
+p_id  4
+p_id  1
+p_id  5
+p_id  4
+p_id  6
+p_id  4
+p_id  4
+p_id  0
+p_id  7
+p_id  7
+p_id  0
+p_id  4
+p_id  6
+p_id  2
+p_id  7
+p_id  6
+p_id  2
+p_id  3
+p_id  2
+p_id  4
+p_id  1
+p_id  0
+p_id  3
+p_id  4
+p_id  3
+p_id  4
+p_id  6
+p_id  7
+p_id  6
+p_id  2
+p_id  3
+p_id  2
+p_id  1
+p_id  5
+p_id  1
+p_id  0
+p_id  0
+p_id  7
+p_id  0
+p_id  2
+p_id  6
+p_id  7
+p_id  1
+p_id  3
+p_id  0
+p_id  6
+p_id  0
+p_id  1
+p_id  7
+p_id  2
+p_id  1
+p_id  1
+p_id  0
+p_id  1
+p_id  1
+p_id  4
+p_id  4
+p_id  7
+p_id  2
+p_id  6
+p_id  1
+p_id  1
+p_id  4
+p_id  0
+p_id  5
+p_id  2
+p_id  2
+p_id  2
+p_id  7
+p_id  3
+p_id  6
+p_id  0
+p_id  7
+p_id  0
+p_id  4
+p_id  3
+p_id  0
+p_id  2
+p_id  7
+p_id  2
+p_id  4
+p_id  3
+p_id  2
+p_id  4
+p_id  1
+p_id  1
+p_id  0
+p_id  5
+p_id  5
+p_id  6
+p_id  7
+p_id  3
+p_id  7
+p_id  3
+p_id  6
+p_id  1
+p_id  7
+p_id  0
+p_id  7
+p_id  1
+p_id  3
+p_id  4
+p_id  6
+p_id  5
+p_id  3
+p_id  6
+p_id  0
+p_id  4
+p_id  4
+p_id  6
+p_id  4
+p_id  7
+p_id  3
+p_id  6
+p_id  6
+p_id  4
+p_id  2
+p_id  4
+p_id  0
+p_id  5
+p_id  7
+p_id  7
+p_id  7
+p_id  3
+p_id  7
+p_id  0
+p_id  6
+p_id  6
+p_id  2
+p_id  0
+p_id  5
+p_id  6
+p_id  3
+p_id  0
+p_id  5
+p_id  2
+p_id  7
+p_id  7
+p_id  4
+p_id  3
+p_id  3
+p_id  7
+p_id  4
+p_id  7
+p_id  5
+p_id  5
+p_id  1
+p_id  7
+p_id  3
+p_id  4
+p_id  0
+p_id  7
+p_id  0
+p_id  0
+p_id  0
+p_id  7
+p_id  1
+p_id  1
+p_id  3
+p_id  5
+p_id  4
+p_id  7
+p_id  1
+p_id  2
+p_id  2
+p_id  5
+p_id  4
+p_id  7
+p_id  2
+p_id  3
+p_id  3
+p_id  1
+p_id  1
+p_id  3
+p_id  1
+p_id  6
+p_id  0
+p_id  7
+p_id  3
+p_id  1
+p_id  6
+p_id  4
+p_id  5
+p_id  6
+p_id  4
+p_id  4
+p_id  5
+p_id  3
+p_id  4
+p_id  6
+p_id  7
+p_id  2
+p_id  7
+p_id  5
+p_id  1
+p_id  1
+p_id  1
+p_id  4
+p_id  4
+p_id  5
+p_id  0
+p_id  6
+p_id  7
+p_id  1
+p_id  7
+p_id  3
+p_id  0
+p_id  5
+p_id  2
+p_id  1
+p_id  0
+p_id  1
+p_id  3
+p_id  0
+p_id  3
+p_id  4
+p_id  5
+p_id  5
+p_id  4
+p_id  7
+p_id  6
+p_id  7
+p_id  6
+p_id  6
+p_id  3
+p_id  6
+p_id  3
+p_id  3
+p_id  3
+p_id  4
+p_id  1
+p_id  6
+p_id  1
+p_id  1
+p_id  4
+p_id  6
+p_id  4
+p_id  1
+p_id  0
+p_id  3
+p_id  3
+p_id  0
+p_id  7
+p_id  4
+p_id  2
+p_id  7
+p_id  5
+p_id  2
+p_id  4
+p_id  3
+p_id  3
+p_id  6
+p_id  3
+p_id  2
+p_id  0
+p_id  5
+p_id  3
+p_id  4
+p_id  6
+p_id  3
+p_id  5
+p_id  2
+p_id  5
+p_id  4
+p_id  0
+p_id  1
+p_id  3
+p_id  1
+p_id  3
+p_id  2
+p_id  2
+p_id  0
+p_id  0
+p_id  7
+p_id  5
+p_id  3
+p_id  5
+p_id  2
+p_id  3
+p_id  6
+p_id  1
+p_id  0
+p_id  3
+p_id  7
+p_id  3
+p_id  4
+p_id  6
+p_id  3
+p_id  4
+p_id  6
+p_id  0
+p_id  7
+p_id  2
+p_id  6
+p_id  4
+p_id  2
+p_id  0
+p_id  6
+p_id  3
+p_id  2
+p_id  2
+p_id  1
+p_id  7
+p_id  4
+p_id  4
+p_id  6
+p_id  1
+p_id  6
+p_id  5
+p_id  0
+p_id  0
+p_id  3
+p_id  7
+p_id  5
+p_id  0
+p_id  3
+p_id  0
+p_id  0
+p_id  5
+p_id  2
+p_id  1
+p_id  5
+p_id  1
+p_id  7
+p_id  0
+p_id  1
+p_id  3
+p_id  7
+p_id  5
+p_id  3
+p_id  7
+p_id  4
+p_id  5
+p_id  1
+p_id  3
+p_id  5
+p_id  5
+p_id  3
+p_id  1
+p_id  7
+p_id  5
+p_id  5
+p_id  2
+p_id  2
+p_id  6
+p_id  3
+p_id  5
+p_id  3
+p_id  6
+balanced_init for graph_partition spend:  11876.919314861298
+before graph partition 
+		109431, 109427, 109428, 109428, 109428, 109427, 109431, 109429, 
+
+{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-
+
+-------------------------------------------------------------  compare batch pair  (0,1)
+				 list len:
+				19157, 19205, 19108, 19195, 19238, 19215, 19154, 19159, 
+
+
+	preparing two sides time :  0.043857574462890625
+	Initialize BitList time :  0.002986431121826172
+	getRedundancyCost: time   9.5367431640625e-06
+
+					length of partitions 109431, 109427
+
+	before terminate 1 the average redundancy rate is:  4.028438243455293
+	--------------------------------------------------------------------------------
+	 walk terminate 1 start-------
+						 current side  0
+Using backend: pytorch
+			 redundancy will reduce  0.4979913764938133
+			 the number of node to move is : 12674
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5304468669614795,  1.8533635815620786,  5.207530152360881
+						 current side  1
+			 redundancy will reduce  0.18822619907690763
+			 the number of node to move is : 6092
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.840212044378385,  3.030246694859488,  4.650177393897282
+						 current side  0
+			 redundancy will reduce  0.4192109998021287
+			 the number of node to move is : 4683
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.609227243653164,  2.156852098125745,  5.061602389180583
+						 current side  1
+			 redundancy will reduce  0.2782898400003688
+			 the number of node to move is : 2630
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.750148403454924,  2.6635129973816567,  4.836783809528192
+						 current side  0
+			 redundancy will reduce  0.33604984515422487
+			 the number of node to move is : 1291
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.692388398301068,  2.435491664097408,  4.949285132504728
+	walk terminate 1 spend time 62.22187685966492
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.10355570076341492
+			 the number of node to move is : 8506
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.924882542691878,  3.7834091839880726,  4.066355901395683
+						 current side  0
+			 redundancy will reduce  0.24852631918016854
+			 the number of node to move is : 6921
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.7799119242751242,  2.735262041387308,  4.82456180716294
+						 current side  1
+			 redundancy will reduce  0.09026611385421024
+			 the number of node to move is : 6850
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.9381721296010825,  3.76283057157188,  4.1135136876302845
+						 current side  0
+			 redundancy will reduce  0.10416311955566426
+			 the number of node to move is : 2084
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.9242751238996285,  3.4905965128639336,  4.3579537349353235
+						 current side  1
+			 redundancy will reduce  0.08842545084739539
+			 the number of node to move is : 4933
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.9400127926078974,  4.109353789234882,  3.7706717959809124
+	walk terminate 1 spend time 62.3386390209198
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.29805856069356196
+			 the number of node to move is : 10484
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.730379682761731,  2.5423237450129537,  4.9184356205105075
+						 current side  1
+			 redundancy will reduce  0.09183067741000306
+			 the number of node to move is : 7245
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.9366075660452897,  3.7079420007086554,  4.165273131381924
+						 current side  0
+			 redundancy will reduce  0.2797071505156161
+			 the number of node to move is : 6973
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.7487310929396767,  2.6320744732252557,  4.865387712654098
+						 current side  1
+			 redundancy will reduce  0.15479975887314623
+			 the number of node to move is : 3510
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.8736384845821465,  3.2195404784803485,  4.527736490683944
+						 current side  0
+			 redundancy will reduce  0.2515265998812777
+			 the number of node to move is : 2910
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.776911643574015,  2.747925802874195,  4.805897484273835
+	walk terminate 1 spend time 60.08522295951843
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.09503343104186168
+			 the number of node to move is : 9449
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.933404812413431,  4.117968092106777,  3.748841532720086
+						 current side  0
+			 redundancy will reduce  0.17683249506472265
+			 the number of node to move is : 7846
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.85160574839057,  3.0306516407209876,  4.672559856060153
+						 current side  1
+			 redundancy will reduce  0.08470731157362899
+			 the number of node to move is : 7653
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.943730931881664,  4.079314168963661,  3.8081476947996666
+						 current side  0
+			 redundancy will reduce  0.08082351262924892
+			 the number of node to move is : 2907
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.947614730826044,  3.7193541113509085,  4.175875350301179
+						 current side  1
+			 redundancy will reduce  0.10791807208956694
+			 the number of node to move is : 5120
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.920520171365726,  4.315434419477896,  3.525605923253556
+	walk terminate 1 spend time 59.323349714279175
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.2270641885207052
+			 the number of node to move is : 10796
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.8013740549345876,  2.8160303341263524,  4.786717775742822
+						 current side  1
+			 redundancy will reduce  0.07809933137916314
+			 the number of node to move is : 7776
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.9503389120761296,  3.9737705521528857,  3.926907271999374
+						 current side  0
+			 redundancy will reduce  0.22226005807291838
+			 the number of node to move is : 7739
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.8061781853823744,  2.8587337158844615,  4.753622654880288
+						 current side  1
+			 redundancy will reduce  0.11310874176878505
+			 the number of node to move is : 3791
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.9153295016865077,  3.4575750185216716,  4.373083984851344
+						 current side  0
+			 redundancy will reduce  0.21327762259966043
+			 the number of node to move is : 3698
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.8151606208556323,  2.892160156088223,  4.738161085623042
+	walk terminate 1 spend time 60.216240882873535
+				 improvement:  True
+1
+side is 1
+	 walk step 4  partition 
+		78563, 128708, 109428, 109428, 109428, 109427, 109431, 109429, 
+
+
+	--------------------------------------------------end of batch 0
+-------------------------------------------------------------  compare batch pair  (1,2)
+				 list len:
+				11706, 26656, 19108, 19195, 19238, 19215, 19154, 19159, 
+
+
+	preparing two sides time :  0.05662894248962402
+	Initialize BitList time :  0.00458979606628418
+	getRedundancyCost: time   5.245208740234375e-06
+
+					length of partitions 128708, 109428
+
+	before terminate 1 the average redundancy rate is:  4.383281257909099
+	--------------------------------------------------------------------------------
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.22439522716082294
+			 the number of node to move is : 13207
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.158886030748276,  3.096952322226466,  5.220819739270085
+						 current side  1
+			 redundancy will reduce  0.06131248475700968
+			 the number of node to move is : 7922
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.321968773152089,  4.159603889320933,  4.484333656983245
+						 current side  0
+			 redundancy will reduce  0.2369669554973699
+			 the number of node to move is : 7924
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.146314302411729,  3.1191139048285192,  5.173514699994938
+						 current side  1
+			 redundancy will reduce  0.14289066921905302
+			 the number of node to move is : 2777
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.240390588690046,  3.5332630813619064,  4.947518096018186
+						 current side  0
+			 redundancy will reduce  0.25290709713638826
+			 the number of node to move is : 3567
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.1303741607727105,  3.0361000032211605,  5.2246483183242605
+	walk terminate 1 spend time 65.51757788658142
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.06819656440249755
+			 the number of node to move is : 9356
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.315084693506601,  4.267393115000023,  4.362776272013179
+						 current side  0
+			 redundancy will reduce  0.23615706377437107
+			 the number of node to move is : 8728
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.147124194134728,  3.111861692581668,  5.182386695687787
+						 current side  1
+			 redundancy will reduce  0.06528831685172953
+			 the number of node to move is : 8096
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.317992941057369,  4.176685242024177,  4.459300640090561
+						 current side  0
+			 redundancy will reduce  0.07964548830488738
+			 the number of node to move is : 2661
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.303635769604211,  3.8762890393119602,  4.730982499896463
+						 current side  1
+			 redundancy will reduce  0.06414710578750427
+			 the number of node to move is : 6298
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.3191341521215945,  4.547394771596729,  4.09087353264646
+	walk terminate 1 spend time 67.17720651626587
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.23974635663766097
+			 the number of node to move is : 11481
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.143534901271438,  3.0997133167366884,  5.187356485806188
+						 current side  1
+			 redundancy will reduce  0.05908528251876355
+			 the number of node to move is : 8330
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.324195975390335,  4.218394665758606,  4.429997285022065
+						 current side  0
+			 redundancy will reduce  0.24062987488093235
+			 the number of node to move is : 8617
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.142651383028166,  3.096363310064285,  5.188939455992048
+						 current side  1
+			 redundancy will reduce  0.11872276393957115
+			 the number of node to move is : 3975
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.264558493969528,  3.669656210166902,  4.859460777772154
+						 current side  0
+			 redundancy will reduce  0.24074031466134116
+			 the number of node to move is : 4117
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.142540943247758,  3.094743526618288,  5.190338359877228
+	walk terminate 1 spend time 70.07952880859375
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.06041055988367017
+			 the number of node to move is : 9905
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.322870698025429,  4.375992232402111,  4.269749163648746
+						 current side  0
+			 redundancy will reduce  0.20712980815689797
+			 the number of node to move is : 9173
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.176151449752201,  3.213723983378813,  5.138578916125589
+						 current side  1
+			 redundancy will reduce  0.05753912559303842
+			 the number of node to move is : 8732
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.32574213231606,  4.3176064018259375,  4.333877862806183
+						 current side  0
+			 redundancy will reduce  0.0663743080257504
+			 the number of node to move is : 3281
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.316906949883348,  3.956836452490187,  4.676977447276509
+						 current side  1
+			 redundancy will reduce  0.07110481195326557
+			 the number of node to move is : 6595
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.312176445955833,  4.6338691196569,  3.990483772254766
+	walk terminate 1 spend time 71.10369300842285
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.21554163809804283
+			 the number of node to move is : 11828
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.167739619811056,  3.183868429408273,  5.151610810213839
+						 current side  1
+			 redundancy will reduce  0.05509104379397467
+			 the number of node to move is : 8748
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.328190214115124,  4.323091577586246,  4.333288850644002
+						 current side  0
+			 redundancy will reduce  0.22910732445826998
+			 the number of node to move is : 9224
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.154173933450829,  3.1480491272956517,  5.160298739606006
+						 current side  1
+			 redundancy will reduce  0.10828620469092964
+			 the number of node to move is : 4211
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.274995053218169,  3.741073934831326,  4.808916171605012
+						 current side  0
+			 redundancy will reduce  0.23162903277760627
+			 the number of node to move is : 4390
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.1516522251314925,  3.1399502100656655,  5.163354240197319
+	walk terminate 1 spend time 68.89676928520203
+				 improvement:  True
+1
+side is 1
+	 walk step 4  partition 
+		78563, 85294, 140258, 109428, 109428, 109427, 109431, 109429, 
+
+
+	--------------------------------------------------end of batch 1
+-------------------------------------------------------------  compare batch pair  (2,3)
+				 list len:
+				11706, 13403, 32361, 19195, 19238, 19215, 19154, 19159, 
+
+
+	preparing two sides time :  0.05926156044006348
+	Initialize BitList time :  0.004119396209716797
+	getRedundancyCost: time   5.0067901611328125e-06
+
+					length of partitions 140258, 109428
+
+	before terminate 1 the average redundancy rate is:  4.595877835196237
+	--------------------------------------------------------------------------------
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.07890922310216109
+			 the number of node to move is : 13367
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.516968612094076,  3.8276587226719063,  5.2062785015162465
+						 current side  1
+			 redundancy will reduce  0.02026569970503367
+			 the number of node to move is : 9113
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.575612135491204,  4.794927132753218,  4.35629713822919
+						 current side  0
+			 redundancy will reduce  0.10672164113513638
+			 the number of node to move is : 9455
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.489156194061101,  3.802699332299494,  5.175613055822708
+						 current side  1
+			 redundancy will reduce  0.039408594975910205
+			 the number of node to move is : 3064
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.556469240220327,  4.177900079608675,  4.93503840083198
+						 current side  0
+			 redundancy will reduce  0.1522964571838772
+			 the number of node to move is : 5388
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.44358137801236,  3.5507861931867857,  5.336376562837934
+	walk terminate 1 spend time 73.92707300186157
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.02328438703620961
+			 the number of node to move is : 10741
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.572593448160028,  4.737203940859498,  4.4079829554605565
+						 current side  0
+			 redundancy will reduce  0.13405548678634016
+			 the number of node to move is : 9636
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.461822348409897,  3.653347935926521,  5.270296760893274
+						 current side  1
+			 redundancy will reduce  0.02297147432505131
+			 the number of node to move is : 9471
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.572906360871186,  4.679922508087413,  4.4658902136549585
+						 current side  0
+			 redundancy will reduce  0.015995361529222762
+			 the number of node to move is : 3471
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.5798824736670145,  4.353057571337196,  4.806707375996834
+						 current side  1
+			 redundancy will reduce  0.03742067892854983
+			 the number of node to move is : 7065
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.558457156267687,  4.987460483266072,  4.129453829269303
+	walk terminate 1 spend time 74.87279629707336
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.12512827120328662
+			 the number of node to move is : 12232
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.470749563992951,  3.694983733140677,  5.246515394845224
+						 current side  1
+			 redundancy will reduce  0.028530276605632565
+			 the number of node to move is : 9259
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.567347558590605,  4.718944563831892,  4.415750553349317
+						 current side  0
+			 redundancy will reduce  0.14202555760584978
+			 the number of node to move is : 10012
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.4538522775903875,  3.6414572529024953,  5.2662473022782805
+						 current side  1
+			 redundancy will reduce  0.047360259165350804
+			 the number of node to move is : 4389
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.5485175760308865,  4.170353361280734,  4.926681790781039
+						 current side  0
+			 redundancy will reduce  0.16372697445619888
+			 the number of node to move is : 5628
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.432150860740038,  3.51143281810108,  5.352868903378997
+	walk terminate 1 spend time 75.31570363044739
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.024830543961934737
+			 the number of node to move is : 11079
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.5710472912343025,  4.7473644006571165,  4.394730181811489
+						 current side  0
+			 redundancy will reduce  0.13425795971708965
+			 the number of node to move is : 9764
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.461619875479148,  3.6561457436968796,  5.267094007261416
+						 current side  1
+			 redundancy will reduce  0.02624785447718203
+			 the number of node to move is : 10080
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.569629980719055,  4.742799556400215,  4.396460405037895
+						 current side  0
+			 redundancy will reduce  0.016658000211675628
+			 the number of node to move is : 3941
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.579219834984562,  4.378016961709608,  4.780422708259515
+						 current side  1
+			 redundancy will reduce  0.05588252888690448
+			 the number of node to move is : 7244
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.539995306309333,  5.017720983098112,  4.062269629520554
+	walk terminate 1 spend time 75.7254991531372
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.11136011191230999
+			 the number of node to move is : 12271
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.484517723283927,  3.7503876896458106,  5.218647756922043
+						 current side  1
+			 redundancy will reduce  0.032450888810148903
+			 the number of node to move is : 9443
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.563426946386088,  4.772839176671437,  4.35401471610074
+						 current side  0
+			 redundancy will reduce  0.1382890117020148
+			 the number of node to move is : 10360
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.4575888234942225,  3.6692144510452667,  5.245963195943179
+						 current side  1
+			 redundancy will reduce  0.04237206241688263
+			 the number of node to move is : 4519
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.553505772779355,  4.212099598275299,  4.894911947283411
+						 current side  0
+			 redundancy will reduce  0.16034015452365935
+			 the number of node to move is : 5832
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.435537680672578,  3.5369444073755365,  5.33413095396962
+	walk terminate 1 spend time 75.69849491119385
+				 improvement:  True
+1
+side is 1
+	 walk step 4  partition 
+		78563, 85294, 96078, 144897, 109428, 109427, 109431, 109429, 
+
+
+	--------------------------------------------------end of batch 2
+-------------------------------------------------------------  compare batch pair  (3,4)
+				 list len:
+				11706, 13403, 16471, 35085, 19238, 19215, 19154, 19159, 
+
+
+	preparing two sides time :  0.0675506591796875
+	Initialize BitList time :  0.005419015884399414
+	getRedundancyCost: time   4.5299530029296875e-06
+
+					length of partitions 144897, 109428
+
+	before terminate 1 the average redundancy rate is:  4.681266192082388
+	--------------------------------------------------------------------------------
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.017817617905969918
+			 the number of node to move is : 13106
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.663448574176418,  4.147602766516499,  5.179294381836337
+						 current side  1
+			 redundancy will reduce  0.015148656546088546
+			 the number of node to move is : 9791
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.6661175355363,  5.072425487660655,  4.259809583411945
+						 current side  0
+			 redundancy will reduce  0.04250090882736046
+			 the number of node to move is : 10138
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.638765283255028,  4.131883504438298,  5.145647062071758
+						 current side  1
+			 redundancy will reduce  0.02970830092999499
+			 the number of node to move is : 600
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.651557891152393,  4.200724300893182,  5.102391481411605
+						 current side  0
+			 redundancy will reduce  0.18377179460041493
+			 the number of node to move is : 6702
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.497494397481973,  3.4316584833857156,  5.56333031157823
+	walk terminate 1 spend time 76.83609819412231
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.11417632631273733
+			 the number of node to move is : 2134
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.567089865769651,  3.715488719036597,  5.418691012502704
+						 current side  0
+			 redundancy will reduce  0.18342206862912036
+			 the number of node to move is : 2358
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.497844123453268,  3.4283452899734486,  5.5673429569330875
+						 current side  1
+			 redundancy will reduce  0.11518869096648654
+			 the number of node to move is : 2038
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.566077501115902,  3.694689227059587,  5.437465775172217
+						 current side  0
+			 redundancy will reduce  0.1907110941361072
+			 the number of node to move is : 2144
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.490555097946281,  3.4108221781485693,  5.570288017743992
+						 current side  1
+			 redundancy will reduce  0.0024296751689956153
+			 the number of node to move is : 9465
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.6788365169133925,  4.501746329027716,  4.855926704799068
+	walk terminate 1 spend time 76.94901990890503
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.14428957310423218
+			 the number of node to move is : 11125
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.536976618978156,  5.373300262754644,  3.7006529752016677
+						 current side  0
+			 redundancy will reduce  0.029284948438426994
+			 the number of node to move is : 9756
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.651981243643961,  4.534878263150387,  4.769084224137535
+						 current side  1
+			 redundancy will reduce  0.11007164780754053
+			 the number of node to move is : 8021
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.571194544274848,  5.194314191971948,  3.9480748965777472
+						 current side  0
+			 redundancy will reduce  0.026395107517727112
+			 the number of node to move is : 5851
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.654871084564661,  4.7137907074128105,  4.595951461716511
+						 current side  1
+			 redundancy will reduce  0.07364492690267
+			 the number of node to move is : 4895
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.607621265179718,  5.111042597543635,  4.1041999328158
+	walk terminate 1 spend time 78.87027907371521
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.0829770883472225
+			 the number of node to move is : 10338
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.598289103735166,  4.1360434028337005,  5.06053480463663
+						 current side  1
+			 redundancy will reduce  0.10497301127866265
+			 the number of node to move is : 10581
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.5762931808037255,  5.1457575018521675,  4.0068288597552835
+						 current side  0
+			 redundancy will reduce  0.06944821524713163
+			 the number of node to move is : 8371
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.6118179768352565,  4.395760953095305,  4.827875000575207
+						 current side  1
+			 redundancy will reduce  0.06565644945309312
+			 the number of node to move is : 5387
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.615609742629295,  4.908569666793979,  4.322649818464611
+						 current side  0
+			 redundancy will reduce  0.05501741727370213
+			 the number of node to move is : 5761
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.626248774808686,  4.398485134345391,  4.854012415271981
+	walk terminate 1 spend time 78.21067667007446
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.2244320404209601
+			 the number of node to move is : 11471
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.456834151661428,  5.31830125211101,  3.5953670512118463
+						 current side  0
+			 redundancy will reduce  0.090505400045096
+			 the number of node to move is : 9757
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.590760792037292,  4.4710072568139045,  4.710514327260679
+						 current side  1
+			 redundancy will reduce  0.22286747686516684
+			 the number of node to move is : 8870
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.458398715217221,  5.182570761988468,  3.734226668445974
+						 current side  0
+			 redundancy will reduce  0.10042657365182883
+			 the number of node to move is : 5592
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.580839618430559,  4.754616612903968,  4.40706262395715
+						 current side  1
+			 redundancy will reduce  0.17771601330799403
+			 the number of node to move is : 4481
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.503550178774394,  5.103201373134603,  3.903898984414186
+	walk terminate 1 spend time 76.41844201087952
+				 improvement:  True
+0
+side is 0
+	 walk step 4  partition 
+		78563, 85294, 96078, 106046, 138624, 109427, 109431, 109429, 
+
+
+	--------------------------------------------------end of batch 3
+-------------------------------------------------------------  compare batch pair  (4,5)
+				 list len:
+				11706, 13403, 16471, 20253, 34070, 19215, 19154, 19159, 
+
+
+	preparing two sides time :  0.07163500785827637
+	Initialize BitList time :  0.004739284515380859
+	getRedundancyCost: time   6.4373016357421875e-06
+
+					length of partitions 138624, 109427
+
+	before terminate 1 the average redundancy rate is:  4.565782995034811
+	--------------------------------------------------------------------------------
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.011688210093275586
+			 the number of node to move is : 11305
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.554094784941536,  4.0687487633045425,  5.039440806578529
+						 current side  1
+			 redundancy will reduce  0.04231684252667822
+			 the number of node to move is : 10108
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.523466152508133,  5.023795171020602,  4.023137133995665
+						 current side  0
+			 redundancy will reduce  0.009479414485097593
+			 the number of node to move is : 1742
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.556303580549714,  4.902605918651898,  4.21000124244753
+						 current side  1
+			 redundancy will reduce  0.06556441630275156
+			 the number of node to move is : 3845
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.50021857873206,  5.220304353628177,  3.780132803835942
+						 current side  0
+			 redundancy will reduce  0.028935222467132427
+			 the number of node to move is : 1507
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.536847772567679,  5.120135472797301,  3.953560072338056
+	walk terminate 1 spend time 75.25551462173462
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.0693377754667237
+			 the number of node to move is : 12531
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.496445219568088,  3.884498396322355,  5.108392042813821
+						 current side  1
+			 redundancy will reduce  0.022603341723688608
+			 the number of node to move is : 7745
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.543179653311123,  4.657392792883996,  4.428966513738248
+						 current side  0
+			 redundancy will reduce  0.08835182432712241
+			 the number of node to move is : 8247
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.477431170707689,  3.832039500628126,  5.122822840787252
+						 current side  1
+			 redundancy will reduce  0.015774481968404253
+			 the number of node to move is : 4122
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.550008513066407,  4.291800306470391,  4.808216719662423
+						 current side  0
+			 redundancy will reduce  0.0836581336597444
+			 the number of node to move is : 5250
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.482124861375067,  3.7561673714872095,  5.208082351262925
+	walk terminate 1 spend time 74.50371217727661
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.038580296622843235
+			 the number of node to move is : 12012
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.527202698411968,  4.953592283940676,  4.100813112883261
+						 current side  0
+			 redundancy will reduce  0.036960513176846455
+			 the number of node to move is : 8108
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.528822481857965,  4.184305586872392,  4.873339376843539
+						 current side  1
+			 redundancy will reduce  0.058533083616718606
+			 the number of node to move is : 9333
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.507249911418093,  5.033145739095222,  3.9813540837409636
+						 current side  0
+			 redundancy will reduce  0.0036629193835624463
+			 the number of node to move is : 4289
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.562120075651249,  4.692034070672256,  4.432206080630243
+						 current side  1
+			 redundancy will reduce  0.07373696005301067
+			 the number of node to move is : 6334
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.492046034981801,  5.198326837326805,  3.7857652326367957
+	walk terminate 1 spend time 76.07983231544495
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.053526480238182295
+			 the number of node to move is : 11979
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.512256514796629,  4.059876767611693,  4.964636261981566
+						 current side  1
+			 redundancy will reduce  0.049384988472847446
+			 the number of node to move is : 8713
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.516398006561964,  4.891635567131281,  4.1411604459926465
+						 current side  0
+			 redundancy will reduce  0.07900125625250265
+			 the number of node to move is : 9344
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.486781738782309,  3.9906678385554475,  4.982895639009171
+						 current side  1
+			 redundancy will reduce  0.016547560431267705
+			 the number of node to move is : 4755
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.549235434603544,  4.500531491443218,  4.59793937776387
+						 current side  0
+			 redundancy will reduce  0.07500701752771288
+			 the number of node to move is : 6145
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.490775977507099,  3.8851242217446726,  5.096427733269524
+	walk terminate 1 spend time 76.51731777191162
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.07439959873546442
+			 the number of node to move is : 12399
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.491383396299347,  5.086267273471905,  3.8964995191267895
+						 current side  0
+			 redundancy will reduce  0.04861191000998577
+			 the number of node to move is : 8685
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.517171085024826,  4.2874931550344435,  4.746849015015209
+						 current side  1
+			 redundancy will reduce  0.10156778471605499
+			 the number of node to move is : 9675
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.4642152103187565,  5.14413771840617,  3.7842927022313435
+						 current side  0
+			 redundancy will reduce  0.027057746200180866
+			 the number of node to move is : 4709
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.538725248834631,  4.778397978952018,  4.299052518717242
+						 current side  1
+			 redundancy will reduce  0.10513867094927587
+			 the number of node to move is : 6088
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.460644324085536,  5.264112133190375,  3.657176514980696
+	walk terminate 1 spend time 75.53770899772644
+				 improvement:  True
+0
+side is 0
+	 walk step 4  partition 
+		78563, 85294, 96078, 106046, 99344, 142995, 109431, 109429, 
+
+
+	--------------------------------------------------end of batch 4
+-------------------------------------------------------------  compare batch pair  (5,6)
+				 list len:
+				11706, 13403, 16471, 20253, 17927, 35358, 19154, 19159, 
+
+
+	preparing two sides time :  0.0702049732208252
+	Initialize BitList time :  0.005891561508178711
+	getRedundancyCost: time   5.245208740234375e-06
+
+					length of partitions 142995, 109431
+
+	before terminate 1 the average redundancy rate is:  4.64631200158297
+	--------------------------------------------------------------------------------
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.04191189666517836
+			 the number of node to move is : 12667
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.604400104917792,  4.06359490688546,  5.145205302950123
+						 current side  1
+			 redundancy will reduce  0.05829379742583285
+			 the number of node to move is : 9764
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.588018204157137,  4.991104996019566,  4.184931412294708
+						 current side  0
+			 redundancy will reduce  0.07090233902251519
+			 the number of node to move is : 9113
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.575409662560455,  4.143884627242733,  5.006934697878176
+						 current side  1
+			 redundancy will reduce  0.03134649100605991
+			 the number of node to move is : 2970
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.61496551057691,  4.471228136374722,  4.7587028847790975
+						 current side  0
+			 redundancy will reduce  0.0912968851380267
+			 the number of node to move is : 5716
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.5550151164449435,  3.906107780022364,  5.2039224528675225
+	walk terminate 1 spend time 76.28505778312683
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.0810259855599984
+			 the number of node to move is : 11151
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.565286016022972,  4.968612094076287,  4.161959937969657
+						 current side  0
+			 redundancy will reduce  0.11507825118607684
+			 the number of node to move is : 9089
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.531233750396893,  4.042206402746269,  5.020261098047516
+						 current side  1
+			 redundancy will reduce  0.09985596811971664
+			 the number of node to move is : 9711
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.5464560334632536,  4.961323068569299,  4.131588998357208
+						 current side  0
+			 redundancy will reduce  0.0639630394868238
+			 the number of node to move is : 3431
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.582348962096146,  4.6721917234587895,  4.492506200733504
+						 current side  1
+			 redundancy will reduce  0.13206757073898068
+			 the number of node to move is : 6631
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.5142444308439895,  5.214193352445551,  3.814295509242429
+	walk terminate 1 spend time 76.87811636924744
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.11598017605941635
+			 the number of node to move is : 10790
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.530331825523554,  4.191520985859106,  4.869142665188001
+						 current side  1
+			 redundancy will reduce  0.14859672454017936
+			 the number of node to move is : 9460
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.497715277042791,  5.088439255819947,  3.9069912982656354
+						 current side  0
+			 redundancy will reduce  0.13258295638088846
+			 the number of node to move is : 9307
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.513729045202082,  4.228739191856907,  4.798718898547257
+						 current side  1
+			 redundancy will reduce  0.08901446300957616
+			 the number of node to move is : 4144
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.557297538573394,  4.664571378610575,  4.450023698536213
+						 current side  0
+			 redundancy will reduce  0.12266178277415563
+			 the number of node to move is : 6016
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.523650218808815,  4.082995494977291,  4.964304942640339
+	walk terminate 1 spend time 75.60107803344727
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.15761597327357268
+			 the number of node to move is : 11477
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.4886960283093975,  5.155218509707197,  3.8221735469115976
+						 current side  0
+			 redundancy will reduce  0.14502583830695848
+			 the number of node to move is : 8979
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.501286163276012,  4.285873371588446,  4.716698954963578
+						 current side  1
+			 redundancy will reduce  0.1878212532154082
+			 the number of node to move is : 9954
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.458490748367562,  5.1847059310763735,  3.73227556565875
+						 current side  0
+			 redundancy will reduce  0.12995080828114247
+			 the number of node to move is : 3779
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.516361193301828,  4.87959763106671,  4.153124755536944
+						 current side  1
+			 redundancy will reduce  0.21504465908620318
+			 the number of node to move is : 6033
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.431267342496767,  5.3649068394435675,  3.497627845549967
+	walk terminate 1 spend time 77.01797676086426
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.1354912039316556
+			 the number of node to move is : 10431
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.510820797651315,  4.429776405461247,  4.591865189841381
+						 current side  1
+			 redundancy will reduce  0.22222324481278122
+			 the number of node to move is : 9504
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.424088756770189,  5.289918228545922,  3.558259284994455
+						 current side  0
+			 redundancy will reduce  0.15038216765679024
+			 the number of node to move is : 9286
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.49592983392618,  4.475498474550533,  4.516361193301828
+						 current side  1
+			 redundancy will reduce  0.1298035552405974
+			 the number of node to move is : 3811
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.516508446342373,  4.861743199900604,  4.1712736927841405
+						 current side  0
+			 redundancy will reduce  0.1418783045653047
+			 the number of node to move is : 5973
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.5044336970176655,  4.292242065592026,  4.716625328443305
+	walk terminate 1 spend time 77.41572546958923
+				 improvement:  True
+1
+side is 1
+	 walk step 4  partition 
+		78563, 85294, 96078, 106046, 99344, 116595, 128123, 109429, 
+
+
+	--------------------------------------------------end of batch 5
+-------------------------------------------------------------  compare batch pair  (6,7)
+				 list len:
+				11706, 13403, 16471, 20253, 17927, 25391, 29121, 19159, 
+
+
+	preparing two sides time :  0.05986928939819336
+	Initialize BitList time :  0.005681276321411133
+	getRedundancyCost: time   5.7220458984375e-06
+
+					length of partitions 128123, 109429
+
+	before terminate 1 the average redundancy rate is:  4.372531785949299
+	--------------------------------------------------------------------------------
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.10464169193743622
+			 the number of node to move is : 12011
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.267890094011863,  3.44395411227124,  5.091826075752486
+						 current side  1
+			 redundancy will reduce  0.015240689696428333
+			 the number of node to move is : 8884
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.357291096252871,  4.508335902592114,  4.206246289913627
+						 current side  0
+			 redundancy will reduce  0.09766557914160678
+			 the number of node to move is : 9126
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.274866206807692,  3.54099386599053,  5.008738547624854
+						 current side  1
+			 redundancy will reduce  0.027554725212021403
+			 the number of node to move is : 3048
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.3449770607372775,  3.9482957761385653,  4.74165834533599
+						 current side  0
+			 redundancy will reduce  0.13055822707339182
+			 the number of node to move is : 4800
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.241973558875907,  3.3909798309351027,  5.0929672868167115
+	walk terminate 1 spend time 69.96269202232361
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.007289025506987734
+			 the number of node to move is : 9591
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.365242760442311,  4.490702350986825,  4.239783169897797
+						 current side  0
+			 redundancy will reduce  0.14430797973430032
+			 the number of node to move is : 9608
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.228223806214999,  3.3079291160676076,  5.14851849636239
+						 current side  1
+			 redundancy will reduce  0.0007914850929306994
+			 the number of node to move is : 8765
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.371740300856368,  4.337890508161039,  4.405590093551697
+						 current side  0
+			 redundancy will reduce  0.015903328378882087
+			 the number of node to move is : 3462
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.356628457570417,  3.963904598436357,  4.749352316704477
+						 current side  1
+			 redundancy will reduce  0.016694813471811898
+			 the number of node to move is : 6507
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.355836972477487,  4.586821773202708,  4.1248521717522655
+	walk terminate 1 spend time 70.6160216331482
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.1577816329441859
+			 the number of node to move is : 11641
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.214750153005113,  3.264305402806091,  5.165194903204134
+						 current side  1
+			 redundancy will reduce  0.015498382517382225
+			 the number of node to move is : 8663
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.357033403431917,  4.353941089580467,  4.360125717283365
+						 current side  0
+			 redundancy will reduce  0.1839190476409609
+			 the number of node to move is : 9728
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.188612738308338,  3.2008025290709714,  5.1764229475457055
+						 current side  1
+			 redundancy will reduce  0.07438119210539629
+			 the number of node to move is : 4096
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.298150593843903,  3.7557624256257105,  4.840538762062095
+						 current side  0
+			 redundancy will reduce  0.200779520783386
+			 the number of node to move is : 4487
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.171752265165913,  3.166271691063121,  5.177232839268704
+	walk terminate 1 spend time 69.88676166534424
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.026634393708613757
+			 the number of node to move is : 9322
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.345897392240685,  4.313667382991354,  4.3781274014900164
+						 current side  0
+			 redundancy will reduce  0.21375619498143195
+			 the number of node to move is : 9676
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.158775590967867,  3.067722593678243,  5.249828588257491
+						 current side  1
+			 redundancy will reduce  0.033003087712193846
+			 the number of node to move is : 8484
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.339528698237105,  4.131699438137617,  4.547357958336593
+						 current side  0
+			 redundancy will reduce  0.06331880743443818
+			 the number of node to move is : 3447
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.309212978514861,  3.7405217359292817,  4.87790422110044
+						 current side  1
+			 redundancy will reduce  0.029763520820199396
+			 the number of node to move is : 6626
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.3427682651290995,  4.421603861710988,  4.263932668547211
+	walk terminate 1 spend time 73.69656682014465
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.23867877209370825
+			 the number of node to move is : 11737
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.133853013855591,  2.9900098015305114,  5.27769622618067
+						 current side  1
+			 redundancy will reduce  0.055183076944315346
+			 the number of node to move is : 8366
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.317348709004984,  4.1057829030016615,  4.528914515008306
+						 current side  0
+			 redundancy will reduce  0.2698411967990868
+			 the number of node to move is : 9284
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.102690589150212,  2.9277217653798897,  5.277659412920534
+						 current side  1
+			 redundancy will reduce  0.13946703602637633
+			 the number of node to move is : 4120
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.233064749922923,  3.5194581088107935,  4.946671391035051
+						 current side  0
+			 redundancy will reduce  0.2523917114944805
+			 the number of node to move is : 3744
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.1201400744548184,  3.007054340973619,  5.2332258079360185
+	walk terminate 1 spend time 72.49998998641968
+				 improvement:  True
+1
+side is 1
+	 walk step 4  partition 
+		78563, 85294, 96078, 106046, 99344, 116595, 81684, 142156, 
+
+
+	--------------------------------------------------end of batch 6
+after graph partition
+graph partition algorithm spend time 14407.171024084091
+partition_len_list
+[78563, 85294, 96078, 106046, 99344, 116595, 81684, 142156]
+
+----main run function: block dataloader generation total  spend:  14410.016984
+
+current Epoch training on CPU with block data loading Time(s): 1.9699
+----------------------------------------------------------pseudo_mini_loss sum 5.462632179260254
+Epoch 00000 | Step 00007 | Loss 1.2691 | Train Acc 0.0284 | Speed (samples/sec) 236790.7925 | GPU 0.5047 GB
+		 current epoch data from CPU -> GPU time	:1.05502933 s
+		 current epoch GPU training time	:0.85929338 s
+		 current epoch total CPU time without optimizer step	:1.96236658 s
+		 avg batch tranfer data from CPU -> GPU time	:0.13187867 s
+		 avg batch GPU training time	:0.10741167 s
+		 avg batch  CPU time without optimizer step	:0.24529582 s
+Epoch 1
+global_2_local 0.0726771354675293
+---------------------------- variant graph partition start---------------------
+p_id  3
+p_id  4
+p_id  7
+p_id  3
+p_id  5
+p_id  7
+p_id  6
+p_id  7
+p_id  1
+p_id  7
+p_id  4
+p_id  2
+p_id  4
+p_id  4
+p_id  0
+p_id  5
+p_id  3
+p_id  2
+p_id  3
+p_id  0
+p_id  6
+p_id  3
+p_id  0
+p_id  6
+p_id  5
+p_id  2
+p_id  6
+p_id  0
+p_id  5
+p_id  0
+p_id  1
+p_id  3
+p_id  6
+p_id  2
+p_id  0
+p_id  7
+p_id  7
+p_id  2
+p_id  7
+p_id  3
+p_id  1
+p_id  7
+p_id  7
+p_id  0
+p_id  6
+p_id  3
+p_id  3
+p_id  4
+p_id  7
+p_id  2
+p_id  1
+p_id  3
+p_id  2
+p_id  5
+p_id  6
+p_id  1
+p_id  6
+p_id  7
+p_id  3
+p_id  2
+p_id  0
+p_id  3
+p_id  0
+p_id  3
+p_id  3
+p_id  7
+p_id  3
+p_id  5
+p_id  5
+p_id  4
+p_id  5
+p_id  4
+p_id  5
+p_id  3
+p_id  2
+p_id  1
+p_id  6
+p_id  2
+p_id  3
+p_id  6
+p_id  7
+p_id  2
+p_id  4
+p_id  0
+p_id  6
+p_id  4
+p_id  0
+p_id  4
+p_id  7
+p_id  5
+p_id  2
+p_id  4
+p_id  1
+p_id  1
+p_id  3
+p_id  5
+p_id  5
+p_id  3
+p_id  1
+p_id  1
+p_id  1
+p_id  1
+p_id  4
+p_id  6
+p_id  0
+p_id  0
+p_id  5
+p_id  0
+p_id  0
+p_id  5
+p_id  2
+p_id  7
+p_id  5
+p_id  4
+p_id  0
+p_id  2
+p_id  4
+p_id  4
+p_id  1
+p_id  4
+p_id  1
+p_id  5
+p_id  4
+p_id  4
+p_id  5
+p_id  4
+p_id  0
+p_id  1
+p_id  4
+p_id  4
+p_id  7
+p_id  2
+p_id  0
+p_id  5
+p_id  3
+p_id  6
+p_id  4
+p_id  2
+p_id  3
+p_id  0
+p_id  1
+p_id  3
+p_id  4
+p_id  3
+p_id  6
+p_id  1
+p_id  7
+p_id  0
+p_id  0
+p_id  4
+p_id  1
+p_id  1
+p_id  2
+p_id  6
+p_id  1
+p_id  0
+p_id  3
+p_id  5
+p_id  0
+p_id  1
+p_id  3
+p_id  6
+p_id  4
+p_id  0
+p_id  2
+p_id  3
+p_id  2
+p_id  0
+p_id  4
+p_id  0
+p_id  5
+p_id  3
+p_id  1
+p_id  6
+p_id  6
+p_id  3
+p_id  7
+p_id  7
+p_id  2
+p_id  6
+p_id  7
+p_id  2
+p_id  0
+p_id  2
+p_id  3
+p_id  5
+p_id  0
+p_id  5
+p_id  4
+p_id  1
+p_id  2
+p_id  0
+p_id  7
+p_id  0
+p_id  1
+p_id  6
+p_id  3
+p_id  1
+p_id  3
+p_id  4
+p_id  3
+p_id  1
+p_id  5
+p_id  4
+p_id  0
+p_id  1
+p_id  6
+p_id  4
+p_id  3
+p_id  3
+p_id  3
+p_id  7
+p_id  7
+p_id  6
+p_id  4
+p_id  3
+p_id  2
+p_id  7
+p_id  2
+p_id  0
+p_id  6
+p_id  2
+p_id  4
+p_id  3
+p_id  6
+p_id  2
+p_id  0
+p_id  0
+p_id  5
+p_id  3
+p_id  3
+p_id  0
+p_id  5
+p_id  4
+p_id  3
+p_id  5
+p_id  7
+p_id  3
+p_id  3
+p_id  7
+p_id  1
+p_id  4
+p_id  3
+p_id  6
+p_id  6
+p_id  0
+p_id  4
+p_id  7
+p_id  2
+p_id  1
+p_id  5
+p_id  6
+p_id  4
+p_id  2
+p_id  1
+p_id  6
+p_id  7
+p_id  3
+p_id  0
+p_id  4
+p_id  2
+p_id  7
+p_id  3
+p_id  7
+p_id  5
+p_id  4
+p_id  3
+p_id  3
+p_id  7
+p_id  5
+p_id  1
+p_id  1
+p_id  6
+p_id  7
+p_id  1
+p_id  6
+p_id  3
+p_id  4
+p_id  7
+p_id  3
+p_id  1
+p_id  5
+p_id  0
+p_id  4
+p_id  1
+p_id  0
+p_id  2
+p_id  4
+p_id  3
+p_id  6
+p_id  2
+p_id  4
+p_id  5
+p_id  6
+p_id  1
+p_id  0
+p_id  0
+p_id  6
+p_id  0
+p_id  6
+p_id  5
+p_id  3
+p_id  2
+p_id  5
+p_id  7
+p_id  0
+p_id  3
+p_id  6
+p_id  5
+p_id  0
+p_id  0
+p_id  2
+p_id  5
+p_id  5
+p_id  6
+p_id  6
+p_id  4
+p_id  2
+p_id  1
+p_id  0
+p_id  2
+p_id  7
+p_id  0
+p_id  2
+p_id  0
+p_id  3
+p_id  6
+p_id  6
+p_id  2
+p_id  3
+p_id  2
+p_id  1
+p_id  7
+p_id  3
+p_id  2
+p_id  0
+p_id  5
+p_id  3
+p_id  1
+p_id  2
+p_id  1
+p_id  1
+p_id  4
+p_id  5
+p_id  5
+p_id  2
+p_id  1
+p_id  0
+p_id  6
+p_id  4
+p_id  7
+p_id  7
+p_id  2
+p_id  5
+p_id  6
+p_id  7
+p_id  2
+p_id  4
+p_id  4
+p_id  4
+p_id  0
+p_id  7
+p_id  3
+p_id  6
+p_id  5
+p_id  2
+p_id  5
+p_id  2
+p_id  5
+p_id  4
+p_id  5
+p_id  6
+p_id  3
+p_id  1
+p_id  7
+p_id  2
+p_id  4
+p_id  1
+p_id  4
+p_id  2
+p_id  1
+p_id  5
+p_id  6
+p_id  0
+p_id  3
+p_id  2
+p_id  0
+p_id  4
+p_id  4
+p_id  6
+p_id  3
+p_id  1
+p_id  5
+p_id  2
+p_id  6
+p_id  0
+p_id  0
+p_id  4
+p_id  7
+p_id  4
+p_id  6
+p_id  6
+p_id  0
+p_id  0
+p_id  5
+p_id  3
+p_id  5
+p_id  3
+p_id  4
+p_id  0
+p_id  5
+p_id  6
+p_id  5
+p_id  5
+p_id  5
+p_id  6
+p_id  3
+p_id  2
+p_id  6
+p_id  7
+p_id  6
+p_id  1
+p_id  4
+p_id  2
+p_id  1
+p_id  4
+p_id  3
+p_id  5
+p_id  4
+p_id  4
+p_id  5
+p_id  7
+p_id  5
+p_id  5
+p_id  2
+p_id  7
+p_id  2
+p_id  7
+p_id  2
+p_id  7
+p_id  3
+p_id  0
+p_id  1
+p_id  6
+p_id  2
+p_id  7
+p_id  0
+p_id  5
+p_id  3
+p_id  6
+p_id  6
+p_id  6
+p_id  3
+p_id  7
+p_id  4
+p_id  6
+p_id  2
+p_id  3
+p_id  5
+p_id  0
+p_id  2
+p_id  0
+p_id  1
+p_id  6
+p_id  3
+p_id  7
+p_id  2
+p_id  0
+p_id  1
+p_id  2
+p_id  4
+p_id  4
+p_id  6
+p_id  2
+p_id  2
+p_id  0
+p_id  0
+p_id  4
+p_id  3
+p_id  0
+p_id  7
+p_id  6
+p_id  1
+p_id  0
+p_id  3
+p_id  2
+p_id  0
+p_id  4
+p_id  4
+p_id  6
+p_id  1
+p_id  0
+p_id  2
+p_id  3
+p_id  7
+p_id  6
+p_id  1
+p_id  1
+p_id  2
+p_id  7
+p_id  5
+p_id  3
+p_id  6
+p_id  7
+p_id  5
+p_id  2
+p_id  3
+p_id  3
+p_id  1
+p_id  3
+p_id  7
+p_id  2
+p_id  1
+p_id  6
+p_id  3
+p_id  2
+p_id  0
+p_id  2
+p_id  2
+p_id  7
+p_id  1
+p_id  4
+p_id  5
+p_id  6
+p_id  2
+p_id  3
+p_id  7
+p_id  5
+p_id  6
+p_id  0
+p_id  4
+p_id  2
+p_id  1
+p_id  7
+p_id  0
+p_id  4
+p_id  5
+p_id  3
+p_id  5
+p_id  7
+p_id  4
+p_id  0
+p_id  2
+p_id  2
+p_id  3
+p_id  6
+p_id  7
+p_id  7
+p_id  4
+p_id  4
+p_id  7
+p_id  4
+p_id  3
+p_id  2
+p_id  1
+p_id  1
+p_id  2
+p_id  4
+p_id  6
+p_id  2
+p_id  5
+p_id  4
+p_id  7
+p_id  2
+p_id  5
+p_id  4
+p_id  6
+p_id  7
+p_id  2
+p_id  5
+p_id  5
+p_id  0
+p_id  7
+p_id  7
+p_id  1
+p_id  7
+p_id  7
+p_id  2
+p_id  7
+p_id  4
+p_id  6
+p_id  7
+p_id  4
+p_id  5
+p_id  3
+p_id  5
+p_id  2
+p_id  2
+p_id  3
+p_id  0
+p_id  4
+p_id  3
+p_id  2
+p_id  7
+p_id  5
+p_id  6
+p_id  3
+p_id  2
+p_id  7
+p_id  7
+p_id  5
+p_id  0
+p_id  2
+p_id  2
+p_id  6
+p_id  2
+p_id  0
+p_id  2
+p_id  0
+p_id  2
+p_id  5
+p_id  4
+p_id  2
+p_id  2
+p_id  3
+p_id  2
+p_id  2
+p_id  3
+p_id  0
+p_id  6
+p_id  4
+p_id  0
+p_id  7
+p_id  3
+p_id  7
+p_id  7
+p_id  1
+p_id  7
+p_id  7
+p_id  2
+p_id  0
+p_id  4
+p_id  0
+p_id  3
+p_id  1
+p_id  3
+p_id  2
+p_id  5
+p_id  4
+p_id  1
+p_id  0
+p_id  4
+p_id  7
+p_id  5
+p_id  1
+p_id  3
+p_id  2
+p_id  3
+p_id  2
+p_id  3
+p_id  1
+p_id  4
+p_id  2
+p_id  2
+p_id  2
+p_id  4
+p_id  0
+p_id  6
+p_id  3
+p_id  6
+p_id  2
+p_id  5
+p_id  5
+p_id  0
+p_id  0
+p_id  2
+p_id  7
+p_id  6
+p_id  2
+p_id  5
+p_id  5
+p_id  4
+p_id  5
+p_id  7
+p_id  0
+p_id  6
+p_id  0
+p_id  3
+p_id  7
+p_id  3
+p_id  5
+p_id  0
+p_id  0
+p_id  3
+p_id  4
+p_id  1
+p_id  1
+p_id  6
+p_id  2
+p_id  6
+p_id  1
+p_id  2
+p_id  0
+p_id  7
+p_id  3
+p_id  5
+p_id  4
+p_id  4
+p_id  3
+p_id  2
+p_id  4
+p_id  5
+p_id  6
+p_id  1
+p_id  2
+p_id  2
+p_id  1
+p_id  5
+p_id  0
+p_id  6
+p_id  2
+p_id  5
+p_id  5
+p_id  6
+p_id  7
+p_id  4
+p_id  0
+p_id  0
+p_id  2
+p_id  5
+p_id  2
+p_id  1
+p_id  7
+p_id  5
+p_id  3
+p_id  2
+p_id  5
+p_id  7
+p_id  6
+p_id  7
+p_id  3
+p_id  1
+p_id  6
+p_id  3
+p_id  3
+p_id  7
+p_id  5
+p_id  4
+p_id  7
+p_id  0
+p_id  1
+p_id  6
+p_id  4
+p_id  1
+p_id  6
+p_id  7
+p_id  0
+p_id  3
+p_id  6
+p_id  5
+p_id  6
+p_id  6
+p_id  0
+p_id  6
+p_id  1
+p_id  4
+p_id  2
+p_id  6
+p_id  6
+p_id  7
+p_id  2
+p_id  2
+p_id  7
+p_id  3
+p_id  4
+p_id  2
+p_id  5
+p_id  2
+p_id  1
+p_id  2
+p_id  4
+p_id  4
+p_id  5
+p_id  3
+p_id  7
+p_id  3
+p_id  2
+p_id  4
+p_id  3
+p_id  2
+p_id  6
+p_id  4
+p_id  6
+p_id  6
+p_id  3
+p_id  1
+p_id  7
+p_id  2
+p_id  0
+p_id  0
+p_id  1
+p_id  4
+p_id  3
+p_id  7
+p_id  5
+p_id  0
+p_id  2
+p_id  7
+p_id  6
+p_id  2
+p_id  4
+p_id  2
+p_id  1
+p_id  6
+p_id  0
+p_id  6
+p_id  2
+p_id  0
+p_id  1
+p_id  1
+p_id  3
+p_id  7
+p_id  3
+p_id  6
+p_id  4
+p_id  6
+p_id  7
+p_id  0
+p_id  6
+p_id  6
+p_id  1
+p_id  0
+p_id  3
+p_id  3
+p_id  6
+p_id  4
+p_id  7
+p_id  5
+p_id  0
+p_id  4
+p_id  7
+p_id  4
+p_id  7
+p_id  0
+p_id  4
+p_id  0
+p_id  0
+p_id  4
+p_id  0
+p_id  5
+p_id  6
+p_id  4
+p_id  3
+p_id  5
+p_id  0
+p_id  4
+p_id  6
+p_id  1
+p_id  4
+p_id  3
+p_id  7
+p_id  1
+p_id  6
+p_id  6
+p_id  5
+p_id  0
+p_id  2
+p_id  2
+p_id  3
+p_id  4
+p_id  5
+p_id  0
+p_id  3
+p_id  5
+p_id  5
+p_id  5
+p_id  0
+p_id  2
+p_id  5
+p_id  2
+p_id  4
+p_id  3
+p_id  3
+p_id  3
+p_id  5
+p_id  6
+p_id  4
+p_id  6
+p_id  4
+p_id  2
+p_id  1
+p_id  7
+p_id  0
+p_id  6
+p_id  0
+p_id  7
+p_id  4
+p_id  7
+p_id  1
+p_id  1
+p_id  6
+p_id  2
+p_id  4
+p_id  2
+p_id  5
+p_id  1
+p_id  2
+p_id  4
+p_id  5
+p_id  5
+p_id  1
+p_id  1
+p_id  5
+p_id  2
+p_id  1
+p_id  7
+p_id  4
+p_id  7
+p_id  7
+p_id  6
+p_id  2
+p_id  1
+p_id  2
+p_id  4
+p_id  4
+p_id  3
+p_id  4
+p_id  5
+p_id  4
+p_id  4
+p_id  0
+p_id  2
+p_id  1
+p_id  5
+p_id  6
+p_id  4
+p_id  1
+p_id  0
+p_id  2
+p_id  6
+p_id  2
+p_id  3
+p_id  5
+p_id  5
+p_id  4
+p_id  3
+p_id  0
+p_id  5
+p_id  7
+p_id  6
+p_id  3
+p_id  7
+p_id  2
+p_id  4
+p_id  6
+p_id  2
+p_id  1
+p_id  7
+p_id  4
+p_id  5
+p_id  1
+p_id  5
+p_id  5
+p_id  4
+p_id  1
+p_id  6
+p_id  1
+p_id  0
+p_id  7
+p_id  1
+p_id  6
+p_id  6
+p_id  0
+p_id  7
+p_id  6
+p_id  4
+p_id  7
+p_id  4
+p_id  2
+p_id  6
+p_id  1
+p_id  6
+p_id  5
+p_id  1
+p_id  6
+p_id  0
+p_id  2
+p_id  3
+p_id  2
+p_id  1
+p_id  1
+p_id  1
+p_id  0
+p_id  3
+p_id  5
+p_id  1
+p_id  7
+p_id  7
+p_id  3
+p_id  4
+p_id  0
+p_id  7
+p_id  5
+p_id  1
+p_id  2
+p_id  7
+p_id  4
+p_id  3
+p_id  3
+p_id  5
+p_id  2
+p_id  7
+p_id  0
+p_id  0
+p_id  5
+p_id  4
+p_id  4
+p_id  7
+p_id  1
+p_id  7
+p_id  2
+p_id  6
+p_id  0
+p_id  4
+p_id  7
+p_id  5
+p_id  1
+p_id  3
+p_id  1
+p_id  0
+p_id  5
+p_id  4
+p_id  4
+p_id  4
+p_id  0
+p_id  6
+p_id  2
+p_id  4
+p_id  3
+p_id  1
+p_id  5
+p_id  0
+p_id  4
+p_id  3
+p_id  2
+p_id  3
+p_id  6
+p_id  7
+p_id  3
+p_id  7
+p_id  5
+p_id  7
+p_id  7
+p_id  5
+p_id  0
+p_id  0
+p_id  3
+p_id  4
+p_id  3
+p_id  6
+p_id  7
+p_id  7
+p_id  7
+p_id  4
+p_id  7
+p_id  3
+p_id  3
+p_id  3
+p_id  0
+p_id  3
+p_id  5
+p_id  2
+p_id  0
+p_id  0
+p_id  5
+p_id  2
+p_id  0
+p_id  6
+p_id  0
+p_id  7
+p_id  2
+p_id  4
+p_id  2
+p_id  6
+p_id  3
+p_id  4
+p_id  6
+p_id  4
+p_id  4
+p_id  1
+p_id  4
+p_id  0
+p_id  2
+p_id  0
+p_id  5
+p_id  7
+p_id  4
+p_id  5
+p_id  3
+p_id  0
+p_id  3
+p_id  0
+p_id  1
+p_id  1
+p_id  5
+p_id  4
+p_id  4
+p_id  5
+p_id  2
+p_id  5
+p_id  0
+p_id  7
+p_id  5
+p_id  2
+p_id  3
+p_id  7
+p_id  5
+p_id  5
+p_id  7
+p_id  7
+p_id  0
+p_id  3
+p_id  3
+p_id  1
+p_id  1
+p_id  2
+p_id  5
+p_id  5
+p_id  5
+p_id  5
+p_id  5
+p_id  7
+p_id  3
+p_id  0
+p_id  1
+p_id  2
+p_id  0
+p_id  1
+p_id  4
+p_id  2
+p_id  5
+p_id  7
+p_id  2
+p_id  2
+p_id  2
+p_id  2
+p_id  1
+p_id  3
+p_id  6
+p_id  2
+p_id  7
+p_id  6
+p_id  1
+p_id  6
+p_id  7
+p_id  5
+p_id  1
+p_id  1
+p_id  5
+p_id  3
+p_id  0
+p_id  0
+p_id  4
+p_id  3
+p_id  7
+p_id  6
+p_id  4
+p_id  2
+p_id  2
+p_id  6
+p_id  2
+p_id  6
+p_id  5
+p_id  4
+p_id  3
+p_id  1
+p_id  1
+p_id  0
+p_id  3
+p_id  0
+p_id  7
+p_id  4
+p_id  0
+p_id  0
+p_id  7
+p_id  4
+p_id  3
+p_id  2
+p_id  3
+p_id  5
+p_id  6
+p_id  6
+p_id  6
+p_id  6
+p_id  0
+p_id  6
+p_id  2
+p_id  0
+p_id  0
+p_id  1
+p_id  3
+p_id  0
+p_id  6
+p_id  4
+p_id  4
+p_id  1
+p_id  6
+p_id  7
+p_id  6
+p_id  2
+p_id  1
+p_id  3
+p_id  1
+p_id  0
+p_id  1
+p_id  5
+p_id  2
+p_id  2
+p_id  0
+p_id  2
+p_id  5
+p_id  0
+p_id  0
+p_id  4
+p_id  7
+p_id  1
+p_id  5
+p_id  6
+p_id  3
+p_id  1
+p_id  2
+p_id  7
+p_id  6
+p_id  6
+p_id  0
+p_id  7
+p_id  4
+p_id  7
+p_id  3
+p_id  4
+p_id  2
+p_id  0
+p_id  3
+p_id  3
+p_id  6
+p_id  6
+p_id  6
+p_id  5
+p_id  0
+p_id  4
+p_id  2
+p_id  2
+p_id  6
+p_id  4
+p_id  7
+p_id  5
+p_id  2
+p_id  4
+p_id  3
+p_id  4
+p_id  6
+p_id  2
+p_id  0
+p_id  1
+p_id  4
+p_id  1
+p_id  7
+p_id  7
+p_id  1
+p_id  5
+p_id  6
+p_id  2
+p_id  7
+p_id  3
+p_id  6
+p_id  5
+p_id  6
+p_id  5
+p_id  3
+p_id  1
+p_id  5
+p_id  6
+p_id  2
+p_id  3
+p_id  2
+p_id  7
+p_id  6
+p_id  3
+p_id  3
+p_id  0
+p_id  1
+p_id  4
+p_id  6
+p_id  3
+p_id  6
+p_id  7
+p_id  6
+p_id  5
+p_id  4
+p_id  3
+p_id  2
+p_id  1
+p_id  0
+p_id  3
+p_id  7
+p_id  5
+p_id  5
+p_id  7
+p_id  1
+p_id  2
+p_id  4
+p_id  4
+p_id  7
+p_id  7
+p_id  6
+p_id  3
+p_id  1
+p_id  5
+p_id  4
+p_id  0
+p_id  5
+p_id  6
+p_id  0
+p_id  4
+p_id  4
+p_id  3
+p_id  7
+p_id  4
+p_id  7
+p_id  7
+p_id  0
+p_id  0
+p_id  7
+p_id  4
+p_id  1
+p_id  7
+p_id  0
+p_id  7
+p_id  2
+p_id  3
+p_id  2
+p_id  1
+p_id  2
+p_id  4
+p_id  0
+p_id  6
+p_id  5
+p_id  3
+p_id  0
+p_id  3
+p_id  1
+p_id  3
+p_id  2
+p_id  4
+p_id  3
+p_id  5
+p_id  5
+p_id  0
+p_id  7
+p_id  7
+p_id  4
+p_id  7
+p_id  7
+p_id  3
+p_id  7
+p_id  7
+p_id  5
+p_id  2
+p_id  6
+p_id  0
+p_id  1
+p_id  5
+p_id  1
+p_id  1
+p_id  7
+p_id  2
+p_id  6
+p_id  7
+p_id  6
+p_id  6
+p_id  0
+p_id  1
+p_id  7
+p_id  7
+p_id  5
+p_id  2
+p_id  4
+p_id  2
+p_id  1
+p_id  6
+p_id  3
+p_id  3
+p_id  2
+p_id  3
+p_id  4
+p_id  5
+p_id  4
+p_id  6
+p_id  1
+p_id  6
+p_id  6
+p_id  6
+p_id  2
+p_id  2
+p_id  7
+p_id  6
+p_id  1
+p_id  4
+p_id  1
+p_id  1
+p_id  5
+p_id  5
+p_id  5
+p_id  1
+p_id  1
+p_id  5
+p_id  5
+p_id  5
+p_id  6
+p_id  0
+p_id  0
+p_id  4
+p_id  6
+p_id  4
+p_id  0
+p_id  2
+p_id  5
+p_id  3
+p_id  2
+p_id  3
+p_id  0
+p_id  3
+p_id  2
+p_id  1
+p_id  1
+p_id  1
+p_id  5
+p_id  1
+p_id  1
+p_id  3
+p_id  3
+p_id  2
+p_id  3
+p_id  5
+p_id  6
+p_id  4
+p_id  0
+p_id  7
+p_id  5
+p_id  5
+p_id  4
+p_id  3
+p_id  5
+p_id  1
+p_id  7
+p_id  1
+p_id  0
+p_id  3
+p_id  5
+p_id  2
+p_id  1
+p_id  4
+p_id  7
+p_id  7
+p_id  3
+p_id  2
+p_id  4
+p_id  2
+p_id  3
+p_id  0
+p_id  0
+p_id  1
+p_id  7
+p_id  0
+p_id  7
+p_id  4
+p_id  0
+p_id  1
+p_id  1
+p_id  0
+p_id  1
+p_id  3
+p_id  7
+p_id  5
+p_id  3
+p_id  2
+p_id  0
+p_id  4
+p_id  3
+p_id  4
+p_id  7
+p_id  3
+p_id  7
+p_id  0
+p_id  5
+p_id  4
+p_id  7
+p_id  5
+p_id  7
+p_id  7
+p_id  6
+p_id  4
+p_id  7
+p_id  2
+p_id  3
+p_id  5
+p_id  6
+p_id  1
+p_id  0
+p_id  7
+p_id  6
+p_id  7
+p_id  7
+p_id  5
+p_id  3
+p_id  4
+p_id  4
+p_id  5
+p_id  4
+p_id  3
+p_id  6
+p_id  2
+p_id  5
+p_id  0
+p_id  5
+p_id  0
+p_id  4
+p_id  2
+p_id  3
+p_id  1
+p_id  5
+p_id  4
+p_id  4
+p_id  0
+p_id  0
+p_id  3
+p_id  4
+p_id  7
+p_id  0
+p_id  5
+p_id  5
+p_id  4
+p_id  3
+p_id  2
+p_id  5
+p_id  4
+p_id  5
+p_id  2
+p_id  4
+p_id  6
+p_id  0
+p_id  2
+p_id  7
+p_id  3
+p_id  4
+p_id  4
+p_id  1
+p_id  3
+p_id  3
+p_id  6
+p_id  0
+p_id  4
+p_id  3
+p_id  7
+p_id  6
+p_id  4
+p_id  2
+p_id  0
+p_id  2
+p_id  5
+p_id  0
+p_id  4
+p_id  7
+p_id  7
+p_id  4
+p_id  4
+p_id  0
+p_id  3
+p_id  3
+p_id  7
+p_id  6
+p_id  7
+p_id  1
+p_id  6
+p_id  5
+p_id  3
+p_id  4
+p_id  7
+p_id  0
+p_id  2
+p_id  3
+p_id  3
+p_id  1
+p_id  4
+p_id  4
+p_id  7
+p_id  5
+p_id  3
+p_id  3
+p_id  0
+p_id  7
+p_id  0
+p_id  2
+p_id  5
+p_id  0
+p_id  7
+p_id  7
+p_id  5
+p_id  6
+p_id  1
+p_id  6
+p_id  4
+p_id  7
+p_id  3
+p_id  2
+p_id  0
+p_id  4
+p_id  3
+p_id  2
+p_id  6
+p_id  3
+p_id  7
+p_id  1
+p_id  4
+p_id  6
+p_id  3
+p_id  6
+p_id  6
+p_id  4
+p_id  5
+p_id  7
+p_id  5
+p_id  5
+p_id  3
+p_id  5
+p_id  4
+p_id  2
+p_id  4
+p_id  3
+p_id  4
+p_id  0
+p_id  1
+p_id  1
+p_id  7
+p_id  0
+p_id  5
+p_id  0
+p_id  1
+p_id  6
+p_id  5
+p_id  5
+p_id  4
+p_id  0
+p_id  2
+p_id  1
+p_id  5
+p_id  4
+p_id  6
+p_id  3
+p_id  2
+p_id  2
+p_id  6
+p_id  2
+p_id  5
+p_id  0
+p_id  0
+p_id  2
+p_id  5
+p_id  7
+p_id  1
+p_id  5
+p_id  3
+p_id  0
+p_id  1
+p_id  0
+p_id  5
+p_id  0
+p_id  3
+p_id  5
+p_id  1
+p_id  5
+p_id  7
+p_id  6
+p_id  2
+p_id  0
+p_id  1
+p_id  4
+p_id  3
+p_id  7
+p_id  5
+p_id  5
+p_id  6
+p_id  6
+p_id  2
+p_id  7
+p_id  2
+p_id  0
+p_id  1
+p_id  6
+p_id  0
+p_id  6
+p_id  1
+p_id  3
+p_id  5
+p_id  2
+p_id  0
+p_id  7
+p_id  0
+p_id  0
+p_id  7
+p_id  1
+p_id  5
+p_id  1
+p_id  0
+p_id  7
+p_id  7
+p_id  0
+p_id  0
+p_id  3
+p_id  3
+p_id  1
+p_id  3
+p_id  5
+p_id  4
+p_id  7
+p_id  1
+p_id  3
+p_id  3
+p_id  4
+p_id  4
+p_id  0
+p_id  2
+p_id  2
+p_id  6
+p_id  2
+p_id  1
+p_id  6
+p_id  5
+p_id  6
+p_id  4
+p_id  7
+p_id  6
+p_id  2
+p_id  1
+p_id  0
+p_id  1
+p_id  2
+p_id  1
+p_id  3
+p_id  5
+p_id  4
+p_id  3
+p_id  5
+p_id  3
+p_id  6
+p_id  3
+p_id  3
+p_id  7
+p_id  0
+p_id  1
+p_id  5
+p_id  5
+p_id  0
+p_id  2
+p_id  3
+p_id  0
+p_id  2
+p_id  3
+p_id  0
+p_id  5
+p_id  5
+p_id  7
+p_id  7
+p_id  0
+p_id  2
+p_id  7
+p_id  3
+p_id  4
+p_id  6
+p_id  1
+p_id  0
+p_id  2
+p_id  5
+p_id  3
+p_id  6
+p_id  0
+p_id  2
+p_id  3
+p_id  4
+p_id  4
+p_id  3
+p_id  2
+p_id  5
+p_id  2
+p_id  6
+p_id  7
+p_id  3
+p_id  4
+p_id  3
+p_id  4
+p_id  4
+p_id  3
+p_id  0
+p_id  4
+p_id  5
+p_id  0
+p_id  2
+p_id  2
+p_id  2
+p_id  2
+p_id  4
+p_id  6
+p_id  2
+p_id  1
+p_id  2
+p_id  7
+p_id  6
+p_id  5
+p_id  3
+p_id  0
+p_id  4
+p_id  1
+p_id  7
+p_id  3
+p_id  3
+p_id  7
+p_id  1
+p_id  1
+p_id  1
+p_id  1
+p_id  7
+p_id  3
+p_id  4
+p_id  5
+p_id  6
+p_id  1
+p_id  4
+p_id  4
+p_id  4
+p_id  2
+p_id  0
+p_id  0
+p_id  6
+p_id  2
+p_id  6
+p_id  3
+p_id  6
+p_id  0
+p_id  1
+p_id  2
+p_id  3
+p_id  5
+p_id  6
+p_id  3
+p_id  5
+p_id  2
+p_id  1
+p_id  6
+p_id  3
+p_id  1
+p_id  3
+p_id  4
+p_id  7
+p_id  0
+p_id  6
+p_id  5
+p_id  0
+p_id  3
+p_id  4
+p_id  4
+p_id  6
+p_id  5
+p_id  3
+p_id  7
+p_id  
