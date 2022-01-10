@@ -122,7 +122,7 @@ def run(args, device, data):
 	for epoch in range(args.num_epochs):
 		print('Epoch ' + str(epoch))
 		from dgl.data.utils import load_graphs
-		full_batch_subgraph =list(load_graphs('/home/cc/CODE_BAK/graph_partition/DATA/'+args.dataset+'_'+str(epoch)+'_subgraph.bin',[0]))
+		full_batch_subgraph =list(load_graphs('./DATA/fan_out_'+args.fan_out+'/'+args.dataset+'_'+str(epoch)+'_subgraph.bin',[0]))
 		
 		cur_subgraph = full_batch_subgraph[0][0]
 		print('cur_subgraph.ndata')
@@ -326,8 +326,9 @@ def run(args, device, data):
 	print()
 	print('='*100)
 	avg_epoch_nodes = sum(nodes_collection) / args.num_epochs
-	print('\t avg src nodes number per epoch \t:%.1f ' % (avg_epoch_nodes))
-	print('\t ave src batch nodes \t\t:%.1f ' % (mean(batch_nodes)))
+	print('\t avg src nodes number per epoch \t:%.2f ' % (avg_epoch_nodes))
+	print('\t avg src batch nodes \t\t:%.2f ' % (mean(batch_nodes)))
+	# print('\t ideal src part nodes \t\t:%.2f ' % (mean(batch_nodes)))
 	
 	
 	print()
@@ -399,9 +400,11 @@ if __name__=='__main__':
 	# argparser.add_argument('--dataset', type=str, default='karate')
 	# argparser.add_argument('--dataset', type=str, default='reddit')
 	argparser.add_argument('--aggre', type=str, default='mean')
-	# argparser.add_argument('--selection-method', type=str, default='range_init_graph_partition')
+	# argparser.add_argument('--selection-method', type=str, default='range')
 	# argparser.add_argument('--selection-method', type=str, default='random')
 	argparser.add_argument('--selection-method', type=str, default='random_init_graph_partition')
+	# argparser.add_argument('--selection-method', type=str, default='balanced_init_graph_partition')
+	argparser.add_argument('--balanced_init_ratio', type=float, default=0.9)
 	argparser.add_argument('--num-runs', type=int, default=2)
 	argparser.add_argument('--num-epochs', type=int, default=6)
 	argparser.add_argument('--num-hidden', type=int, default=16)
@@ -409,12 +412,14 @@ if __name__=='__main__':
 	# argparser.add_argument('--fan-out', type=str, default='20')
 	argparser.add_argument('--fan-out', type=str, default='10')
 #---------------------------------------------------------------------------------------
-	argparser.add_argument('--num-batch', type=int, default=8)
+	argparser.add_argument('--num_batch', type=int, default=8)
 	argparser.add_argument('--batch-size', type=int, default=0)
 #--------------------------------------------------------------------------------------
 	argparser.add_argument('--target-redun', type=float, default=1.9)
-	argparser.add_argument('--alpha', type=float, default=0.2)
-	argparser.add_argument('--walkterm', type=int, default=0)
+	argparser.add_argument('--alpha', type=float, default=1.0)
+	# argparser.add_argument('--walkterm', type=int, default=0)
+	argparser.add_argument('--walkterm', type=int, default=1)
+	argparser.add_argument('--redundancy_tolarent_steps', type=int, default=2)
 	
 	# argparser.add_argument('--batch-size', type=int, default=3)
 

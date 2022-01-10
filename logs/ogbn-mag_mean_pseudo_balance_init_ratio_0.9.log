@@ -1,0 +1,2413 @@
+main start at this time 1641707037.7570777
+target_type_id  3
+counts tensor([1134649,   59965,    8740,  736389])
+# total Nodes: 1939743
+# total Edges: 42222014
+# paper graph Labels: 736389
+# paper graph Train: 629571
+# paper graph Val: 64879
+# paper graph Test: 41939
+# paper graph Classes: 349
+Compute neighbor-averaged feats
+Epoch 0
+cur_subgraph.ndata
+729612
+
+Epoch 1
+cur_subgraph.ndata
+729577
+
+Epoch 2
+cur_subgraph.ndata
+729577
+
+Epoch 3
+cur_subgraph.ndata
+729651
+
+Epoch 4
+cur_subgraph.ndata
+729520
+
+Epoch 5
+cur_subgraph.ndata
+729607
+
+========after full batch subgraphs of data loading===================================================
+6
+Epoch 0
+global_2_local 0.21642017364501953
+---------------------------- variant graph partition start---------------------
+p_id  4
+p_id  0
+p_id  4
+p_id  4
+p_id  5
+p_id  4
+p_id  7
+p_id  4
+p_id  4
+p_id  4
+p_id  1
+p_id  5
+p_id  1
+p_id  1
+p_id  4
+p_id  7
+p_id  4
+p_id  1
+p_id  5
+p_id  4
+p_id  7
+p_id  3
+p_id  3
+p_id  1
+p_id  1
+p_id  3
+p_id  1
+p_id  3
+p_id  3
+p_id  5
+p_id  6
+p_id  7
+p_id  0
+p_id  1
+p_id  7
+p_id  3
+p_id  2
+p_id  1
+p_id  1
+p_id  6
+p_id  3
+p_id  4
+p_id  7
+p_id  5
+p_id  6
+p_id  4
+p_id  6
+p_id  7
+p_id  2
+p_id  6
+p_id  2
+p_id  1
+p_id  7
+p_id  3
+p_id  6
+p_id  5
+p_id  2
+p_id  2
+p_id  5
+p_id  6
+p_id  3
+p_id  7
+p_id  6
+p_id  6
+p_id  6
+p_id  4
+p_id  2
+p_id  4
+p_id  6
+p_id  0
+p_id  5
+p_id  7
+p_id  7
+p_id  3
+p_id  6
+p_id  6
+p_id  2
+p_id  7
+p_id  6
+p_id  6
+p_id  6
+p_id  5
+p_id  1
+p_id  4
+p_id  0
+p_id  5
+p_id  2
+p_id  6
+p_id  3
+p_id  3
+p_id  5
+p_id  2
+p_id  2
+p_id  7
+p_id  2
+p_id  6
+p_id  0
+p_id  6
+p_id  7
+p_id  6
+p_id  7
+p_id  7
+p_id  4
+p_id  7
+p_id  5
+p_id  6
+p_id  7
+p_id  0
+p_id  7
+p_id  4
+p_id  6
+p_id  6
+p_id  5
+p_id  7
+p_id  0
+p_id  4
+p_id  3
+p_id  0
+p_id  5
+p_id  4
+p_id  6
+p_id  7
+p_id  7
+p_id  2
+p_id  1
+p_id  1
+p_id  7
+p_id  4
+p_id  6
+p_id  6
+p_id  1
+p_id  7
+p_id  1
+p_id  4
+p_id  5
+p_id  4
+p_id  2
+p_id  2
+p_id  5
+p_id  6
+p_id  2
+p_id  7
+p_id  6
+p_id  1
+p_id  2
+p_id  1
+p_id  5
+p_id  4
+p_id  7
+p_id  0
+p_id  6
+p_id  3
+p_id  2
+p_id  3
+p_id  5
+p_id  1
+p_id  5
+p_id  2
+p_id  1
+p_id  1
+p_id  5
+p_id  7
+p_id  6
+p_id  3
+p_id  0
+p_id  1
+p_id  2
+p_id  4
+p_id  2
+p_id  3
+p_id  2
+p_id  1
+p_id  0
+p_id  5
+p_id  1
+p_id  3
+p_id  3
+p_id  0
+p_id  2
+p_id  0
+p_id  7
+p_id  0
+p_id  3
+p_id  5
+p_id  3
+p_id  7
+p_id  1
+p_id  5
+p_id  6
+p_id  5
+p_id  7
+p_id  7
+p_id  1
+p_id  0
+p_id  2
+p_id  5
+p_id  2
+p_id  2
+p_id  2
+p_id  0
+p_id  2
+p_id  5
+p_id  5
+p_id  3
+p_id  5
+p_id  2
+p_id  3
+p_id  4
+p_id  2
+p_id  2
+p_id  3
+p_id  1
+p_id  6
+p_id  2
+p_id  5
+p_id  1
+p_id  0
+p_id  6
+p_id  5
+p_id  5
+p_id  5
+p_id  7
+p_id  0
+p_id  4
+p_id  4
+p_id  4
+p_id  1
+p_id  6
+p_id  0
+p_id  1
+p_id  5
+p_id  4
+p_id  1
+p_id  2
+p_id  3
+p_id  7
+p_id  7
+p_id  2
+p_id  4
+p_id  7
+p_id  7
+p_id  7
+p_id  3
+p_id  6
+p_id  0
+p_id  6
+p_id  6
+p_id  5
+p_id  5
+p_id  4
+p_id  7
+p_id  5
+p_id  6
+p_id  3
+p_id  0
+p_id  3
+p_id  0
+p_id  0
+p_id  2
+p_id  5
+p_id  4
+p_id  4
+p_id  0
+p_id  2
+p_id  3
+p_id  1
+p_id  4
+p_id  0
+p_id  6
+p_id  3
+p_id  3
+p_id  1
+p_id  0
+p_id  3
+p_id  2
+p_id  4
+p_id  3
+p_id  5
+p_id  5
+p_id  1
+p_id  6
+p_id  4
+p_id  5
+p_id  1
+p_id  2
+p_id  5
+p_id  6
+p_id  0
+p_id  0
+p_id  3
+p_id  6
+p_id  4
+p_id  3
+p_id  5
+p_id  3
+p_id  7
+p_id  2
+p_id  7
+p_id  4
+p_id  2
+p_id  5
+p_id  2
+p_id  5
+p_id  0
+p_id  7
+p_id  5
+p_id  4
+p_id  3
+p_id  7
+p_id  1
+p_id  0
+p_id  2
+p_id  4
+p_id  2
+p_id  2
+p_id  7
+p_id  7
+p_id  4
+p_id  3
+p_id  1
+p_id  2
+p_id  3
+p_id  4
+p_id  2
+p_id  3
+p_id  5
+p_id  3
+p_id  7
+p_id  3
+p_id  3
+p_id  2
+p_id  6
+p_id  2
+p_id  4
+p_id  1
+p_id  2
+p_id  0
+p_id  0
+p_id  5
+p_id  4
+p_id  2
+p_id  7
+p_id  7
+p_id  5
+p_id  0
+p_id  0
+p_id  2
+p_id  5
+p_id  3
+p_id  0
+p_id  0
+p_id  5
+p_id  5
+p_id  0
+p_id  5
+p_id  1
+p_id  4
+p_id  4
+p_id  6
+p_id  5
+p_id  1
+p_id  4
+p_id  4
+p_id  5
+p_id  1
+p_id  0
+p_id  2
+p_id  7
+p_id  0
+p_id  4
+p_id  6
+p_id  4
+p_id  6
+p_id  2
+p_id  4
+p_id  6
+p_id  4
+p_id  7
+p_id  0
+p_id  6
+p_id  2
+p_id  3
+p_id  1
+p_id  6
+p_id  0
+p_id  6
+p_id  6
+p_id  0
+p_id  5
+p_id  5
+p_id  0
+p_id  7
+p_id  3
+p_id  0
+p_id  6
+p_id  5
+p_id  7
+p_id  3
+p_id  4
+p_id  5
+p_id  1
+p_id  0
+p_id  3
+p_id  7
+p_id  1
+p_id  2
+p_id  5
+p_id  2
+p_id  4
+p_id  2
+p_id  2
+p_id  5
+p_id  3
+p_id  7
+p_id  2
+p_id  3
+p_id  2
+p_id  5
+p_id  6
+p_id  4
+p_id  4
+p_id  4
+p_id  7
+p_id  6
+p_id  6
+p_id  7
+p_id  3
+p_id  7
+p_id  5
+p_id  1
+p_id  5
+p_id  2
+p_id  2
+p_id  1
+p_id  7
+p_id  7
+p_id  6
+p_id  7
+p_id  7
+p_id  4
+p_id  1
+p_id  7
+p_id  5
+p_id  6
+p_id  0
+p_id  5
+p_id  2
+p_id  4
+p_id  3
+p_id  5
+p_id  1
+p_id  4
+p_id  7
+p_id  2
+p_id  0
+p_id  0
+p_id  0
+p_id  0
+p_id  2
+p_id  7
+p_id  6
+p_id  2
+p_id  1
+p_id  2
+p_id  6
+p_id  1
+p_id  4
+p_id  4
+p_id  1
+p_id  3
+p_id  0
+p_id  7
+p_id  1
+p_id  1
+p_id  1
+p_id  0
+p_id  3
+p_id  5
+p_id  6
+p_id  2
+p_id  2
+p_id  6
+p_id  5
+p_id  0
+p_id  6
+p_id  6
+p_id  3
+p_id  3
+p_id  6
+p_id  0
+p_id  3
+p_id  6
+p_id  3
+p_id  1
+p_id  6
+p_id  3
+p_id  0
+p_id  3
+p_id  3
+p_id  3
+p_id  0
+p_id  3
+p_id  3
+p_id  0
+p_id  3
+p_id  3
+p_id  5
+p_id  0
+p_id  7
+p_id  3
+p_id  2
+p_id  5
+p_id  7
+p_id  0
+p_id  5
+p_id  5
+p_id  4
+p_id  0
+p_id  3
+p_id  4
+p_id  4
+p_id  6
+p_id  7
+p_id  1
+p_id  0
+p_id  3
+p_id  5
+p_id  6
+p_id  1
+p_id  5
+p_id  6
+p_id  0
+p_id  4
+p_id  3
+p_id  3
+p_id  6
+p_id  2
+p_id  7
+p_id  1
+p_id  5
+p_id  0
+p_id  4
+p_id  4
+p_id  3
+p_id  5
+p_id  6
+p_id  2
+p_id  5
+p_id  5
+p_id  6
+p_id  7
+p_id  5
+p_id  3
+p_id  5
+p_id  0
+p_id  2
+p_id  1
+p_id  7
+p_id  5
+p_id  2
+p_id  0
+p_id  5
+p_id  7
+p_id  1
+p_id  7
+p_id  0
+p_id  3
+p_id  7
+p_id  7
+p_id  3
+p_id  3
+p_id  2
+p_id  4
+p_id  0
+p_id  3
+p_id  2
+p_id  7
+p_id  4
+p_id  0
+p_id  4
+p_id  2
+p_id  4
+p_id  2
+p_id  1
+p_id  0
+p_id  1
+p_id  6
+p_id  7
+p_id  7
+p_id  4
+p_id  5
+p_id  0
+p_id  4
+p_id  5
+p_id  4
+p_id  1
+p_id  2
+p_id  7
+p_id  0
+p_id  4
+p_id  5
+p_id  0
+p_id  4
+p_id  4
+p_id  5
+p_id  7
+p_id  3
+p_id  2
+p_id  3
+p_id  6
+p_id  5
+p_id  5
+p_id  5
+p_id  6
+p_id  1
+p_id  7
+p_id  3
+p_id  6
+p_id  0
+p_id  6
+p_id  7
+p_id  7
+p_id  5
+p_id  2
+p_id  6
+p_id  7
+p_id  2
+p_id  5
+p_id  6
+p_id  7
+p_id  1
+p_id  3
+p_id  7
+p_id  6
+p_id  2
+p_id  5
+p_id  3
+p_id  5
+p_id  2
+p_id  6
+p_id  7
+p_id  3
+p_id  5
+p_id  2
+p_id  0
+p_id  0
+p_id  0
+p_id  1
+p_id  6
+p_id  2
+p_id  2
+p_id  6
+p_id  5
+p_id  0
+p_id  1
+p_id  7
+p_id  4
+p_id  3
+p_id  3
+p_id  4
+p_id  6
+p_id  7
+p_id  7
+p_id  2
+p_id  0
+p_id  3
+p_id  5
+p_id  1
+p_id  6
+p_id  2
+p_id  2
+p_id  6
+p_id  2
+p_id  1
+p_id  3
+p_id  6
+p_id  2
+p_id  6
+p_id  7
+p_id  6
+p_id  5
+p_id  5
+p_id  1
+p_id  0
+p_id  4
+p_id  1
+p_id  0
+p_id  5
+p_id  2
+p_id  7
+p_id  2
+p_id  6
+p_id  3
+p_id  6
+p_id  1
+p_id  0
+p_id  1
+p_id  5
+p_id  3
+p_id  1
+p_id  4
+p_id  4
+p_id  3
+p_id  4
+p_id  1
+p_id  4
+p_id  2
+p_id  1
+p_id  2
+p_id  4
+p_id  1
+p_id  3
+p_id  7
+p_id  2
+p_id  2
+p_id  6
+p_id  1
+p_id  4
+p_id  4
+p_id  1
+p_id  3
+p_id  0
+p_id  6
+p_id  5
+p_id  1
+p_id  2
+p_id  6
+p_id  4
+p_id  1
+p_id  1
+p_id  2
+p_id  0
+p_id  3
+p_id  2
+p_id  6
+p_id  0
+p_id  3
+p_id  5
+p_id  4
+p_id  4
+p_id  6
+p_id  3
+p_id  0
+p_id  1
+p_id  1
+p_id  6
+p_id  3
+p_id  2
+p_id  4
+p_id  3
+p_id  7
+p_id  3
+p_id  6
+p_id  1
+p_id  4
+p_id  6
+p_id  1
+p_id  7
+p_id  1
+p_id  4
+p_id  2
+p_id  3
+p_id  5
+p_id  7
+p_id  7
+p_id  3
+p_id  2
+p_id  1
+p_id  7
+p_id  6
+p_id  5
+p_id  5
+p_id  4
+p_id  7
+p_id  6
+p_id  4
+p_id  2
+p_id  7
+p_id  1
+p_id  2
+p_id  5
+p_id  5
+p_id  3
+p_id  7
+p_id  5
+p_id  7
+p_id  4
+p_id  3
+p_id  5
+p_id  5
+p_id  3
+p_id  3
+p_id  6
+p_id  7
+p_id  2
+p_id  1
+p_id  3
+p_id  6
+p_id  1
+p_id  5
+p_id  2
+p_id  4
+p_id  0
+p_id  3
+p_id  3
+p_id  3
+p_id  5
+p_id  4
+p_id  1
+p_id  2
+p_id  1
+p_id  6
+p_id  3
+p_id  3
+p_id  6
+p_id  6
+p_id  2
+p_id  0
+p_id  4
+p_id  3
+p_id  7
+p_id  5
+p_id  3
+p_id  4
+p_id  7
+p_id  6
+p_id  3
+p_id  0
+p_id  6
+p_id  4
+p_id  1
+p_id  7
+p_id  0
+p_id  1
+p_id  3
+p_id  1
+p_id  7
+p_id  0
+p_id  4
+p_id  0
+p_id  6
+p_id  3
+p_id  6
+p_id  7
+p_id  7
+p_id  7
+p_id  2
+p_id  3
+p_id  1
+p_id  1
+p_id  0
+p_id  6
+p_id  6
+p_id  3
+p_id  5
+p_id  5
+p_id  0
+p_id  0
+p_id  5
+p_id  2
+p_id  7
+p_id  5
+p_id  2
+p_id  0
+p_id  6
+p_id  1
+p_id  4
+p_id  4
+p_id  3
+p_id  5
+p_id  7
+p_id  4
+p_id  1
+p_id  3
+p_id  1
+p_id  0
+p_id  4
+p_id  2
+p_id  3
+p_id  6
+p_id  1
+p_id  6
+p_id  4
+p_id  4
+p_id  0
+p_id  6
+p_id  0
+p_id  3
+p_id  5
+p_id  2
+p_id  5
+p_id  1
+p_id  1
+p_id  3
+p_id  0
+p_id  1
+p_id  7
+p_id  0
+p_id  3
+p_id  3
+p_id  5
+p_id  4
+p_id  7
+p_id  7
+p_id  0
+p_id  0
+p_id  6
+p_id  4
+p_id  0
+p_id  4
+p_id  7
+p_id  6
+p_id  6
+p_id  3
+p_id  6
+p_id  0
+p_id  2
+p_id  2
+p_id  6
+p_id  1
+p_id  2
+p_id  0
+p_id  6
+p_id  7
+p_id  5
+p_id  3
+p_id  7
+p_id  2
+p_id  4
+p_id  0
+p_id  1
+p_id  3
+p_id  3
+p_id  7
+p_id  2
+p_id  3
+p_id  4
+p_id  1
+p_id  0
+p_id  0
+p_id  2
+p_id  6
+p_id  3
+p_id  6
+p_id  2
+p_id  7
+p_id  0
+p_id  2
+p_id  4
+p_id  4
+p_id  5
+p_id  2
+p_id  7
+p_id  4
+p_id  7
+p_id  6
+p_id  7
+p_id  0
+p_id  1
+p_id  4
+p_id  2
+p_id  1
+p_id  2
+p_id  1
+p_id  6
+p_id  3
+p_id  6
+p_id  6
+p_id  7
+p_id  3
+p_id  7
+p_id  0
+p_id  6
+p_id  5
+p_id  3
+p_id  7
+p_id  3
+p_id  2
+p_id  0
+p_id  2
+p_id  1
+p_id  0
+p_id  3
+p_id  2
+p_id  2
+p_id  3
+p_id  5
+p_id  7
+p_id  7
+p_id  5
+p_id  2
+p_id  1
+p_id  6
+p_id  7
+p_id  0
+p_id  5
+p_id  4
+p_id  3
+p_id  4
+p_id  4
+p_id  7
+p_id  1
+p_id  2
+p_id  6
+p_id  6
+p_id  0
+p_id  1
+p_id  2
+p_id  7
+p_id  0
+p_id  5
+p_id  3
+p_id  3
+p_id  7
+p_id  2
+p_id  6
+p_id  7
+p_id  6
+p_id  4
+p_id  6
+p_id  0
+p_id  3
+p_id  2
+p_id  5
+p_id  2
+p_id  5
+p_id  1
+p_id  5
+p_id  6
+p_id  0
+p_id  6
+p_id  3
+p_id  0
+p_id  4
+p_id  5
+p_id  7
+p_id  1
+p_id  2
+p_id  4
+p_id  2
+p_id  6
+p_id  0
+p_id  0
+p_id  6
+p_id  5
+p_id  5
+p_id  5
+p_id  7
+p_id  0
+p_id  1
+p_id  2
+p_id  2
+p_id  6
+p_id  7
+p_id  2
+p_id  1
+p_id  6
+p_id  7
+p_id  3
+p_id  0
+p_id  7
+p_id  4
+p_id  0
+p_id  6
+p_id  0
+p_id  5
+p_id  7
+p_id  5
+p_id  4
+p_id  1
+p_id  5
+p_id  0
+p_id  7
+p_id  4
+p_id  4
+p_id  3
+p_id  2
+p_id  4
+p_id  6
+p_id  7
+p_id  1
+p_id  1
+p_id  0
+p_id  4
+p_id  1
+p_id  4
+p_id  2
+p_id  5
+p_id  6
+p_id  4
+p_id  1
+p_id  1
+p_id  5
+p_id  6
+p_id  2
+p_id  7
+p_id  3
+p_id  1
+p_id  2
+p_id  2
+p_id  3
+p_id  7
+p_id  2
+p_id  7
+p_id  1
+p_id  2
+p_id  0
+p_id  4
+p_id  2
+p_id  0
+p_id  7
+p_id  3
+p_id  2
+p_id  6
+p_id  6
+p_id  7
+p_id  0
+p_id  6
+p_id  0
+p_id  1
+p_id  7
+p_id  4
+p_id  1
+p_id  2
+p_id  0
+p_id  2
+p_id  5
+p_id  1
+p_id  4
+p_id  1
+p_id  5
+p_id  1
+p_id  5
+p_id  1
+p_id  3
+p_id  2
+p_id  4
+p_id  4
+p_id  0
+p_id  0
+p_id  0
+p_id  4
+p_id  2
+p_id  0
+p_id  3
+p_id  2
+p_id  6
+p_id  0
+p_id  7
+p_id  1
+p_id  4
+p_id  4
+p_id  1
+p_id  6
+p_id  5
+p_id  6
+p_id  1
+p_id  5
+p_id  1
+p_id  3
+p_id  6
+p_id  6
+p_id  1
+p_id  0
+p_id  5
+p_id  6
+p_id  6
+p_id  1
+p_id  2
+p_id  4
+p_id  7
+p_id  4
+p_id  1
+p_id  2
+p_id  1
+p_id  4
+p_id  6
+p_id  6
+p_id  4
+p_id  3
+p_id  4
+p_id  7
+p_id  5
+p_id  5
+p_id  4
+p_id  1
+p_id  7
+p_id  0
+p_id  2
+p_id  4
+p_id  2
+p_id  6
+p_id  4
+p_id  3
+p_id  3
+p_id  6
+p_id  1
+p_id  5
+p_id  5
+p_id  4
+p_id  7
+p_id  4
+p_id  2
+p_id  5
+p_id  5
+p_id  2
+p_id  4
+p_id  7
+p_id  6
+p_id  7
+p_id  6
+p_id  1
+p_id  7
+p_id  7
+p_id  4
+p_id  2
+p_id  3
+p_id  7
+p_id  5
+p_id  3
+p_id  3
+p_id  2
+p_id  2
+p_id  7
+p_id  7
+p_id  3
+p_id  7
+p_id  0
+p_id  2
+p_id  0
+p_id  6
+p_id  5
+p_id  4
+p_id  2
+p_id  1
+p_id  6
+p_id  1
+p_id  4
+p_id  1
+p_id  4
+p_id  2
+p_id  0
+p_id  2
+p_id  6
+p_id  4
+p_id  2
+p_id  2
+p_id  7
+p_id  2
+p_id  2
+p_id  5
+p_id  7
+p_id  6
+p_id  7
+p_id  6
+p_id  0
+p_id  6
+p_id  0
+p_id  0
+balanced_init for graph_partition spend:  46360.51996135712
+before graph partition 
+		373486, 373486, 373487, 373486, 373488, 373485, 373485, 373487, 
+
+{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-
+
+-------------------------------------------------------------  compare batch pair  (0,1)
+				 list len:
+				78896, 78791, 78547, 78593, 78772, 78735, 78513, 78724, 
+
+
+	preparing two sides time :  0.198028564453125
+	Initialize BitList time :  0.009871959686279297
+	getRedundancyCost: time   1.3589859008789062e-05
+
+					length of partitions 373486, 373486
+
+	before terminate 1 the average redundancy rate is:  4.095173873236734
+	--------------------------------------------------------------------------------
+	 walk terminate 1 start-------
+						 current side  0
+Using backend: pytorch
+			 redundancy will reduce  0.052899349243159755
+			 the number of node to move is : 11031
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.042274523993575,  3.6827683755201397,  4.40178067246701
+						 current side  1
+			 redundancy will reduce  0.37644665932029664
+			 the number of node to move is : 49442
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.718727213916438,  5.023722197551575,  2.4137322302813002
+						 current side  0
+			 redundancy will reduce  0.2642116631853644
+			 the number of node to move is : 25749
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.83096221005137,  4.263723732614047,  3.3982006874886928
+						 current side  1
+			 redundancy will reduce  0.3466335531762095
+			 the number of node to move is : 9674
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.748540320060525,  4.533225878960324,  2.9638547611607264
+						 current side  0
+			 redundancy will reduce  0.324671195100958
+			 the number of node to move is : 3731
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.7705026781357764,  4.416221224431616,  3.1247841318399368
+	walk terminate 1 spend time 415.76908230781555
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.33649117613197177
+			 the number of node to move is : 32281
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.7586826971047627,  3.3037724160238593,  4.213592978185666
+						 current side  1
+			 redundancy will reduce  0.3417378003651259
+			 the number of node to move is : 27641
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.7534360728716085,  4.230511559568647,  3.2763605861745697
+						 current side  0
+			 redundancy will reduce  0.34299326217222337
+			 the number of node to move is : 8342
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.752180611064511,  3.9231043349067725,  3.5812568872222497
+						 current side  1
+			 redundancy will reduce  0.3471269661134966
+			 the number of node to move is : 4148
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.748046907123238,  4.07333212721282,  3.422761687033656
+						 current side  0
+			 redundancy will reduce  0.35258740261947485
+			 the number of node to move is : 4766
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.7425864706172596,  3.897567474219174,  3.587605467015345
+	walk terminate 1 spend time 426.8649854660034
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.45560654155907576
+			 the number of node to move is : 28929
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6395673316776587,  2.8017960230917254,  4.477338640263592
+						 current side  1
+			 redundancy will reduce  0.38360662927693134
+			 the number of node to move is : 25965
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.711567243959803,  3.759982017839619,  3.6631524700799876
+						 current side  0
+			 redundancy will reduce  0.40974655022121365
+			 the number of node to move is : 4599
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.685427323015521,  3.5584392800557008,  3.8124153659753404
+						 current side  1
+			 redundancy will reduce  0.39289375722987074
+			 the number of node to move is : 5196
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.7022801160068637,  3.7760892090590614,  3.6284710229546664
+						 current side  0
+			 redundancy will reduce  0.4008815644479533
+			 the number of node to move is : 2057
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.694292308788781,  3.6930752235434725,  3.6955093940340893
+	walk terminate 1 spend time 414.9198212623596
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.46487722241410534
+			 the number of node to move is : 28410
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.630296650822629,  4.606744406616119,  2.653848895029139
+						 current side  0
+			 redundancy will reduce  0.3986886180600102
+			 the number of node to move is : 24856
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.696485255176724,  3.8283471214837475,  3.5646233888697005
+						 current side  1
+			 redundancy will reduce  0.4029648635164995
+			 the number of node to move is : 6823
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.692209009720235,  4.086533664468238,  3.297884354972232
+						 current side  0
+			 redundancy will reduce  0.3955910812870407
+			 the number of node to move is : 3513
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6995827919496937,  3.9570730744560123,  3.442092509443375
+						 current side  1
+			 redundancy will reduce  0.4057224935993382
+			 the number of node to move is : 4385
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6894513796373962,  4.109274518511208,  3.2696282407635837
+	walk terminate 1 spend time 418.4316215515137
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.4395432092673919
+			 the number of node to move is : 28257
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6556306639693426,  3.1049160375651716,  4.2063452903735135
+						 current side  1
+			 redundancy will reduce  0.4084636765842671
+			 the number of node to move is : 25013
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6867101966524674,  3.986261190879536,  3.3871592024253987
+						 current side  0
+			 redundancy will reduce  0.42730108605669903
+			 the number of node to move is : 6204
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6678727871800354,  3.725892666239042,  3.6098529081210287
+						 current side  1
+			 redundancy will reduce  0.41179695509394065
+			 the number of node to move is : 3827
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6833769181427938,  3.891438189064873,  3.4753156472207145
+						 current side  0
+			 redundancy will reduce  0.42168166093759485
+			 the number of node to move is : 2946
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6734922122991396,  3.771549810036019,  3.5754346145622606
+	walk terminate 1 spend time 427.96281695365906
+				 improvement:  True
+1
+side is 0
+	 walk step 4  partition 
+		326085, 343971, 373487, 373486, 373488, 373485, 373485, 373487, 
+
+
+	--------------------------------------------------end of batch 0
+-------------------------------------------------------------  compare batch pair  (1,2)
+				 list len:
+				75528, 82159, 78547, 78593, 78772, 78735, 78513, 78724, 
+
+
+	preparing two sides time :  0.19468450546264648
+	Initialize BitList time :  0.011084556579589844
+	getRedundancyCost: time   1.1920928955078125e-05
+
+					length of partitions 343971, 373487
+
+	before terminate 1 the average redundancy rate is:  3.9333673240023463
+	--------------------------------------------------------------------------------
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.03593142656644854
+			 the number of node to move is : 10822
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.897435897435898,  4.1021145485545745,  3.6927572463172207
+						 current side  0
+			 redundancy will reduce  0.2062466077860563
+			 the number of node to move is : 35897
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.72712071621629,  2.855885045750344,  4.598356386682236
+						 current side  1
+			 redundancy will reduce  0.17888411923049485
+			 the number of node to move is : 29532
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.7544832047718515,  3.917600039473035,  3.5913663700706677
+						 current side  0
+			 redundancy will reduce  0.21398222616952545
+			 the number of node to move is : 9046
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.719385097832821,  3.5855112032148595,  3.853258992450782
+						 current side  1
+			 redundancy will reduce  0.21258970521318155
+			 the number of node to move is : 5115
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.720777618789165,  3.784608805776221,  3.6569464318021083
+	walk terminate 1 spend time 437.22907543182373
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.3754982100075104
+			 the number of node to move is : 33272
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.557869113994836,  2.43573844728431,  4.679999780705361
+						 current side  1
+			 redundancy will reduce  0.30559256152585235
+			 the number of node to move is : 19223
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.627774762476494,  3.1062318053979374,  4.149317719555051
+						 current side  0
+			 redundancy will reduce  0.36980751413079815
+			 the number of node to move is : 6642
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.563559809871548,  2.7852831367905133,  4.341836482952583
+						 current side  1
+			 redundancy will reduce  0.34404587643843554
+			 the number of node to move is : 4578
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.589321447563911,  2.989424516044144,  4.189218379083678
+						 current side  0
+			 redundancy will reduce  0.3685081933959422
+			 the number of node to move is : 3095
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.564859130606404,  2.854843396216071,  4.274874864996738
+	walk terminate 1 spend time 439.78201365470886
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.3306853505698921
+			 the number of node to move is : 29110
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.602681973432454,  3.938213735519701,  3.267150211345208
+						 current side  0
+			 redundancy will reduce  0.33623350493138826
+			 the number of node to move is : 17209
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.597133819070958,  3.3946919732679834,  3.799575664873933
+						 current side  1
+			 redundancy will reduce  0.3275713666990123
+			 the number of node to move is : 7189
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.605795957303334,  3.6816170786664695,  3.5299748359401986
+						 current side  0
+			 redundancy will reduce  0.3311020103836011
+			 the number of node to move is : 2602
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6022653136187452,  3.5755113676858383,  3.629019259551652
+						 current side  1
+			 redundancy will reduce  0.3364582819361521
+			 the number of node to move is : 4230
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.596909042066194,  3.730377241602386,  3.463440842530002
+	walk terminate 1 spend time 429.4995355606079
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.4277067811384683
+			 the number of node to move is : 28566
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.505660542863878,  2.597029654117531,  4.414291431610225
+						 current side  1
+			 redundancy will reduce  0.37377674709297537
+			 the number of node to move is : 16310
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.559590576909371,  3.1650575922545134,  3.9541235615642285
+						 current side  0
+			 redundancy will reduce  0.42435705553088443
+			 the number of node to move is : 5900
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.509010268471462,  2.8736917704204425,  4.144328766522481
+						 current side  1
+			 redundancy will reduce  0.4003991162426055
+			 the number of node to move is : 2501
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.532968207759741,  3.0048080349555653,  4.0611283805639165
+						 current side  0
+			 redundancy will reduce  0.4215171899584984
+			 the number of node to move is : 2652
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.511850134043848,  2.882134614014024,  4.141565654073672
+	walk terminate 1 spend time 435.20067286491394
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.3769236251596739
+			 the number of node to move is : 26823
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5564436988426724,  3.8991244661546136,  3.2137629315307312
+						 current side  0
+			 redundancy will reduce  0.3799498911750354
+			 the number of node to move is : 16347
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.553417432827311,  3.3812272824460123,  3.7256075832086095
+						 current side  1
+			 redundancy will reduce  0.3641935713776636
+			 the number of node to move is : 5643
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5691737526246827,  3.62523642703245,  3.5131110782169155
+						 current side  0
+			 redundancy will reduce  0.36618915259069196
+			 the number of node to move is : 2045
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5671781714116544,  3.540840885292457,  3.593515457530852
+						 current side  1
+			 redundancy will reduce  0.3634589343377028
+			 the number of node to move is : 3530
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5699083896646435,  3.680476746544739,  3.4593400327845485
+	walk terminate 1 spend time 441.0635755062103
+				 improvement:  True
+0
+side is 0
+	 walk step 4  partition 
+		326085, 315497, 335665, 373486, 373488, 373485, 373485, 373487, 
+
+
+	--------------------------------------------------end of batch 1
+-------------------------------------------------------------  compare batch pair  (2,3)
+				 list len:
+				75528, 77214, 83492, 78593, 78772, 78735, 78513, 78724, 
+
+
+	preparing two sides time :  0.23578929901123047
+	Initialize BitList time :  0.014730215072631836
+	getRedundancyCost: time   6.985664367675781e-05
+
+					length of partitions 335665, 373486
+
+	before terminate 1 the average redundancy rate is:  3.8878253098907365
+	--------------------------------------------------------------------------------
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.0323404768561919
+			 the number of node to move is : 10800
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.8554848330345446,  4.014758529190858,  3.6962111368782313
+						 current side  0
+			 redundancy will reduce  0.19909760256136133
+			 the number of node to move is : 33645
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.688727707329375,  2.8336485693766003,  4.54380684528215
+						 current side  1
+			 redundancy will reduce  0.19200890336233511
+			 the number of node to move is : 30910
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6958164065284014,  3.9302643048634067,  3.461368508193396
+						 current side  0
+			 redundancy will reduce  0.21223883379111097
+			 the number of node to move is : 7480
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6755864760996255,  3.670202792717225,  3.680970159482026
+						 current side  1
+			 redundancy will reduce  0.21539119422377961
+			 the number of node to move is : 5640
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.672434115666957,  3.885100574003717,  3.459767657330197
+	walk terminate 1 spend time 443.7302362918854
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.3520117541926395
+			 the number of node to move is : 32573
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.535813555698097,  2.571646299677089,  4.499980811719105
+						 current side  1
+			 redundancy will reduce  0.3010312330389304
+			 the number of node to move is : 20036
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.586794076851806,  3.256624068683081,  3.9169640850205316
+						 current side  0
+			 redundancy will reduce  0.353733217107175
+			 the number of node to move is : 5876
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5340920927835615,  2.9713107788797335,  4.09687340668739
+						 current side  1
+			 redundancy will reduce  0.3362115754675088
+			 the number of node to move is : 5099
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5516137344232277,  3.1787635071791582,  3.924463961667297
+						 current side  0
+			 redundancy will reduce  0.35163347094071895
+			 the number of node to move is : 2405
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5361918389500175,  3.076616064428765,  3.9957676134712696
+	walk terminate 1 spend time 439.8339259624481
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.3561838346957016
+			 the number of node to move is : 30119
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.531641475195035,  4.172244974040997,  2.891037976349073
+						 current side  0
+			 redundancy will reduce  0.3466719297379979
+			 the number of node to move is : 16441
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5411533801527386,  3.6589420130151367,  3.4233647472903406
+						 current side  1
+			 redundancy will reduce  0.3554930565834993
+			 the number of node to move is : 7787
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.532332253307237,  3.9527748995356435,  3.111889607078831
+						 current side  0
+			 redundancy will reduce  0.35353036956629014
+			 the number of node to move is : 2225
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5342949403244464,  3.8666359654172355,  3.201953915231657
+						 current side  1
+			 redundancy will reduce  0.3678338623816493
+			 the number of node to move is : 4761
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.519991447509087,  4.03088764987418,  3.0090952451439943
+	walk terminate 1 spend time 449.50033259391785
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.41194497897512683
+			 the number of node to move is : 28189
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.4758803309156097,  2.942374851290823,  4.0093858105403966
+						 current side  1
+			 redundancy will reduce  0.380514574869931
+			 the number of node to move is : 16423
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5073107350208055,  3.502168275741079,  3.5124531943005324
+						 current side  0
+			 redundancy will reduce  0.419565467673229
+			 the number of node to move is : 5741
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.4682598422175075,  3.2246838045426887,  3.7118358798923263
+						 current side  1
+			 redundancy will reduce  0.4012927418956922
+			 the number of node to move is : 2598
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.4865325679950443,  3.3513264584464073,  3.621738677543681
+						 current side  0
+			 redundancy will reduce  0.41696682620351666
+			 the number of node to move is : 2480
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.47085848368722,  3.2388063792810424,  3.7029105880933977
+	walk terminate 1 spend time 435.21599221229553
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.42300839350229946
+			 the number of node to move is : 27427
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.464816916388437,  4.24818670745547,  2.681447125321404
+						 current side  0
+			 redundancy will reduce  0.40447799652418004
+			 the number of node to move is : 15878
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.4833473133665565,  3.75607857326908,  3.210616053464033
+						 current side  1
+			 redundancy will reduce  0.40340345279408796
+			 the number of node to move is : 6033
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.4844218570966485,  4.002719253521049,  2.9661244606722477
+						 current side  0
+			 redundancy will reduce  0.4008267407882542
+			 the number of node to move is : 1852
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.4869985691024823,  3.9293542321124106,  3.0446429060925535
+						 current side  1
+			 redundancy will reduce  0.40681348442733967
+			 the number of node to move is : 3594
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.481011825463397,  4.063836669353026,  2.898186981573768
+	walk terminate 1 spend time 444.65002393722534
+				 improvement:  True
+0
+side is 0
+	 walk step 4  partition 
+		326085, 315497, 264319, 370628, 373488, 373485, 373485, 373487, 
+
+
+	--------------------------------------------------end of batch 2
+-------------------------------------------------------------  compare batch pair  (3,4)
+				 list len:
+				75528, 77214, 62151, 99934, 78772, 78735, 78513, 78724, 
+
+
+	preparing two sides time :  0.23987269401550293
+	Initialize BitList time :  0.01611495018005371
+	getRedundancyCost: time   1.239776611328125e-05
+
+					length of partitions 370628, 373488
+
+	before terminate 1 the average redundancy rate is:  4.079516236026819
+	--------------------------------------------------------------------------------
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.051303980745930566
+			 the number of node to move is : 11273
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.028212255280889,  4.375542068935269,  3.6808824416265082
+						 current side  0
+			 redundancy will reduce  0.19243104554201373
+			 the number of node to move is : 34462
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.8870851904848056,  3.2306705481817732,  4.5434998327878375
+						 current side  1
+			 redundancy will reduce  0.25186537502124384
+			 the number of node to move is : 32642
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.8276508610055755,  4.257868565758239,  3.3974331562529123
+						 current side  0
+			 redundancy will reduce  0.26426100447909295
+			 the number of node to move is : 7232
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.8152552315477264,  4.018607150101698,  3.6119033129937557
+						 current side  1
+			 redundancy will reduce  0.2801708305236206
+			 the number of node to move is : 5803
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.7993454055031988,  4.210786006809099,  3.3879048041972992
+	walk terminate 1 spend time 494.7141869068146
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.38109570566273554
+			 the number of node to move is : 30253
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.698420530364084,  3.057394889338443,  4.339446171389725
+						 current side  1
+			 redundancy will reduce  0.37613964682598366
+			 the number of node to move is : 21936
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.7033765892008357,  3.7378113298575135,  3.668941848544158
+						 current side  0
+			 redundancy will reduce  0.4152069867271915
+			 the number of node to move is : 5193
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.664309249299628,  3.500150765064171,  3.8284677335350845
+						 current side  1
+			 redundancy will reduce  0.4152727751188299
+			 the number of node to move is : 5962
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6642434609079895,  3.709840298679298,  3.618646623136681
+						 current side  0
+			 redundancy will reduce  0.4245982796335581
+			 the number of node to move is : 1926
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6549179563932612,  3.6321442081544713,  3.677691704632051
+	walk terminate 1 spend time 500.09461998939514
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  1
+			 redundancy will reduce  0.4931168895248432
+			 the number of node to move is : 29614
+			 --group redundancy rate update  step :0  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.586399346501976,  4.61287369177042,  2.559925001233532
+						 current side  0
+			 redundancy will reduce  0.463369571772394
+			 the number of node to move is : 15963
+			 --group redundancy rate update  step :1  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6161466642544253,  4.134624978755832,  3.0976683497530195
+						 current side  1
+			 redundancy will reduce  0.4942846334764228
+			 the number of node to move is : 7830
+			 --group redundancy rate update  step :2  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5852316025503965,  4.3994013256360915,  2.771061879464702
+						 current side  0
+			 redundancy will reduce  0.4910555199201765
+			 the number of node to move is : 1904
+			 --group redundancy rate update  step :3  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.588460716106643,  4.3280647796363,  2.8488566525769863
+						 current side  1
+			 redundancy will reduce  0.5143336458281933
+			 the number of node to move is : 4711
+			 --group redundancy rate update  step :4  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.565182590198626,  4.477338640263592,  2.65302654013366
+	walk terminate 1 spend time 494.75756573677063
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.5257643788753468
+			 the number of node to move is : 25530
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5537518571514726,  3.5458736972527864,  3.5616300170501582
+						 current side  1
+			 redundancy will reduce  0.5216745338618329
+			 the number of node to move is : 16466
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5578417021649864,  4.077608372669309,  3.0380750316606635
+						 current side  0
+			 redundancy will reduce  0.5498429302149632
+			 the number of node to move is : 4651
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.529673305811856,  3.8569760365783456,  3.2023705750453666
+						 current side  1
+			 redundancy will reduce  0.5359670619452528
+			 the number of node to move is : 2616
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5435491740815666,  3.9780486066566887,  3.1090497415064444
+						 current side  0
+			 redundancy will reduce  0.5450074834295484
+			 the number of node to move is : 1884
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.534508752597271,  3.895648646129724,  3.173368859064818
+	walk terminate 1 spend time 499.19570446014404
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.5997763194684298
+			 the number of node to move is : 16672
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.4797399165583895,  3.2895840528938667,  3.669895780222913
+						 current side  1
+			 redundancy will reduce  0.5697439186855475
+			 the number of node to move is : 23338
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.509772317341272,  4.161839443430207,  2.857705191252337
+						 current side  0
+			 redundancy will reduce  0.5790639408343061
+			 the number of node to move is : 1842
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.500452295192513,  4.0756566503840395,  2.925247940000987
+						 current side  1
+			 redundancy will reduce  0.568066314698771
+			 the number of node to move is : 3940
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5114499213280483,  4.249359933773019,  2.7735399088830777
+						 current side  0
+			 redundancy will reduce  0.568367844827113
+			 the number of node to move is : 349
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5111483911997063,  4.236136467053722,  2.7861603153456906
+	walk terminate 1 spend time 493.3267285823822
+				 improvement:  True
+1
+side is 0
+	 walk step 4  partition 
+		326085, 315497, 264319, 254102, 386342, 373485, 373485, 373487, 
+
+
+	--------------------------------------------------end of batch 3
+-------------------------------------------------------------  compare batch pair  (4,5)
+				 list len:
+				75528, 77214, 62151, 60502, 118204, 78735, 78513, 78724, 
+
+
+	preparing two sides time :  0.28755640983581543
+	Initialize BitList time :  0.019362688064575195
+	getRedundancyCost: time   1.9788742065429688e-05
+
+					length of partitions 386342, 373485
+
+	before terminate 1 the average redundancy rate is:  4.165649687779258
+	--------------------------------------------------------------------------------
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.2254897123402575
+			 the number of node to move is : 37479
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.940159975439,  2.9699182579233896,  4.910401692954611
+						 current side  1
+			 redundancy will reduce  0.25375130891487485
+			 the number of node to move is : 38538
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.911898378864383,  4.1613569952248595,  3.6624397625039062
+						 current side  0
+			 redundancy will reduce  0.2685372499355818
+			 the number of node to move is : 7593
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.897112437843676,  3.9312072718102224,  3.8630176038771293
+						 current side  1
+			 redundancy will reduce  0.2728957308816189
+			 the number of node to move is : 6611
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.892753956897639,  4.160063156855973,  3.625444756939305
+						 current side  0
+			 redundancy will reduce  0.27328497886547876
+			 the number of node to move is : 2713
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.892364708913779,  4.088430563093809,  3.6962988547337488
+	walk terminate 1 spend time 544.3613884449005
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.3965669424296747
+			 the number of node to move is : 27130
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.769082745349583,  3.0309260264359685,  4.507239464263197
+						 current side  1
+			 redundancy will reduce  0.410832058683245
+			 the number of node to move is : 23882
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.7548176290960127,  3.7094565330614078,  3.800178725130617
+						 current side  0
+			 redundancy will reduce  0.43733929814750816
+			 the number of node to move is : 3214
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.7283103896317495,  3.5575621015005234,  3.899058677762975
+						 current side  1
+			 redundancy will reduce  0.4550418578641793
+			 the number of node to move is : 7789
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.7106078299150784,  3.7976239425886638,  3.6235917172414926
+						 current side  0
+			 redundancy will reduce  0.45605609556860305
+			 the number of node to move is : 893
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.7095935922106547,  3.770672631480842,  3.648514552940467
+	walk terminate 1 spend time 554.917765378952
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.5123051704193458
+			 the number of node to move is : 18237
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.653344517359912,  3.154345049149411,  4.152343985570413
+						 current side  1
+			 redundancy will reduce  0.46080382449850044
+			 the number of node to move is : 25685
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.7048458632807573,  4.100941322237024,  3.30875040432449
+						 current side  0
+			 redundancy will reduce  0.46654386166894124
+			 the number of node to move is : 2802
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6991058261103165,  4.000175435711036,  3.3980362165095968
+						 current side  1
+			 redundancy will reduce  0.46575988333525187
+			 the number of node to move is : 6368
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.699889804444006,  4.238450025493002,  3.16132958339501
+						 current side  0
+			 redundancy will reduce  0.46414806774011375
+			 the number of node to move is : 578
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.701501620039144,  4.222540199448474,  3.180463040629814
+	walk terminate 1 spend time 552.1267876625061
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.5389056101050969
+			 the number of node to move is : 23936
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.626744077674161,  3.2967001639227425,  3.9567879914255797
+						 current side  1
+			 redundancy will reduce  0.5237084916366506
+			 the number of node to move is : 18292
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.641941196142607,  3.8723485907578277,  3.411533801527387
+						 current side  0
+			 redundancy will reduce  0.5489438221959064
+			 the number of node to move is : 2867
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6167058655833513,  3.7257281952599466,  3.507683535906756
+						 current side  1
+			 redundancy will reduce  0.5420963470995543
+			 the number of node to move is : 4710
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6235533406797034,  3.9027099334989006,  3.3443967478605066
+						 current side  0
+			 redundancy will reduce  0.5419976645120963
+			 the number of node to move is : 372
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6236520232671614,  3.8908460935401283,  3.356457952994194
+	walk terminate 1 spend time 559.8311419487
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.5873094192529722
+			 the number of node to move is : 17130
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5783402685262855,  3.3078184021096146,  3.848862134942956
+						 current side  1
+			 redundancy will reduce  0.5307259200780683
+			 the number of node to move is : 23279
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6349237677011894,  4.1910275598537305,  3.078819975548648
+						 current side  0
+			 redundancy will reduce  0.5352104954414121
+			 the number of node to move is : 2532
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6304391923378456,  4.095765968761479,  3.165112415914212
+						 current side  1
+			 redundancy will reduce  0.5218444872068986
+			 the number of node to move is : 4719
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.643805200572359,  4.2988876279447155,  2.9887227732000023
+						 current side  0
+			 redundancy will reduce  0.5195857524273171
+			 the number of node to move is : 359
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6460639353519406,  4.289359275889103,  3.0027685948147784
+	walk terminate 1 spend time 556.6667628288269
+				 improvement:  True
+1
+side is 0
+	 walk step 4  partition 
+		326085, 315497, 264319, 254102, 273857, 391196, 373485, 373487, 
+
+
+	--------------------------------------------------end of batch 4
+-------------------------------------------------------------  compare batch pair  (5,6)
+				 list len:
+				75528, 77214, 62151, 60502, 66697, 130242, 78513, 78724, 
+
+
+	preparing two sides time :  0.26330065727233887
+	Initialize BitList time :  0.018138885498046875
+	getRedundancyCost: time   1.6927719116210938e-05
+
+					length of partitions 391196, 373485
+
+	before terminate 1 the average redundancy rate is:  4.192261092196949
+	--------------------------------------------------------------------------------
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.2143659917874161
+			 the number of node to move is : 35189
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.977895100409533,  3.1057822513884092,  4.8500079494306565
+						 current side  1
+			 redundancy will reduce  0.3089642165973152
+			 the number of node to move is : 40557
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.8832968755996338,  4.284776017938301,  3.481817733260966
+						 current side  0
+			 redundancy will reduce  0.32267013152196
+			 the number of node to move is : 5899
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.869590960674989,  4.098627763797745,  3.6405541575522333
+						 current side  1
+			 redundancy will reduce  0.33536180874218147
+			 the number of node to move is : 7039
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.8568992834547675,  4.331496740733431,  3.3823018261761044
+						 current side  0
+			 redundancy will reduce  0.33463813643415996
+			 the number of node to move is : 1635
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.857622955762789,  4.290675043721869,  3.4245708678037095
+	walk terminate 1 spend time 588.6878015995026
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.4350586339040481
+			 the number of node to move is : 24980
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.757202458292901,  3.3091780288701393,  4.205226887715662
+						 current side  1
+			 redundancy will reduce  0.49685586311628693
+			 the number of node to move is : 24138
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.695405229080662,  3.9513165901876612,  3.439493867973663
+						 current side  0
+			 redundancy will reduce  0.5194980345718001
+			 the number of node to move is : 2450
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.672763057625149,  3.8259239157250704,  3.519602199525227
+						 current side  1
+			 redundancy will reduce  0.5496565297719886
+			 the number of node to move is : 7802
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6426045624249603,  4.062290642149526,  3.2229184827003943
+						 current side  0
+			 redundancy will reduce  0.5494207880352846
+			 the number of node to move is : 433
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6428403041616644,  4.049242611141264,  3.236437997182064
+	walk terminate 1 spend time 589.2957525253296
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.5943761889881198
+			 the number of node to move is : 16182
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.597884903208829,  3.4951289178357814,  3.7006408885818765
+						 current side  1
+			 redundancy will reduce  0.5758622391079102
+			 the number of node to move is : 24798
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6163988530890387,  4.402219261744598,  2.83057844443348
+						 current side  0
+			 redundancy will reduce  0.5818489827469948
+			 the number of node to move is : 2182
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.610412109449954,  4.315861032987396,  2.9049631859125125
+						 current side  1
+			 redundancy will reduce  0.5908729571333811
+			 the number of node to move is : 6110
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.601388135063568,  4.543675268498873,  2.6591010016282626
+						 current side  0
+			 redundancy will reduce  0.5901109082635707
+			 the number of node to move is : 249
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6021501839333783,  4.535978026677193,  2.6683223411895636
+	walk terminate 1 spend time 586.4085829257965
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.6389039653953064
+			 the number of node to move is : 22163
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5533571268016426,  3.6745557912972924,  3.432158462305993
+						 current side  1
+			 redundancy will reduce  0.6357406402306989
+			 the number of node to move is : 16753
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.55652045196625,  4.2019703623295666,  2.911070541602934
+						 current side  0
+			 redundancy will reduce  0.6576755864760999
+			 the number of node to move is : 2519
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.534585505720849,  4.0669506532239055,  3.0022203582177927
+						 current side  1
+			 redundancy will reduce  0.6513653832447934
+			 the number of node to move is : 4048
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5408957089521556,  4.232134339895725,  2.8496570780085855
+						 current side  0
+			 redundancy will reduce  0.6509651705289938
+			 the number of node to move is : 212
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.541295921667955,  4.224437098074045,  2.8581547452618654
+	walk terminate 1 spend time 594.4400026798248
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.6890182727257779
+			 the number of node to move is : 15448
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.503242819471171,  3.6855424527008878,  3.3209431862414545
+						 current side  1
+			 redundancy will reduce  0.6541668722553906
+			 the number of node to move is : 21675
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5380942199415584,  4.514618728858626,  2.56156971102449
+						 current side  0
+			 redundancy will reduce  0.6607237819553413
+			 the number of node to move is : 2126
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5315373102416077,  4.426034659517661,  2.6370399609655544
+						 current side  1
+			 redundancy will reduce  0.6495890966705598
+			 the number of node to move is : 4315
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5426719955263892,  4.619397707274551,  2.4659462837782273
+						 current side  0
+			 redundancy will reduce  0.6488489772646284
+			 the number of node to move is : 164
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5434121149323206,  4.613750870325598,  2.473073359539043
+	walk terminate 1 spend time 587.0927016735077
+				 improvement:  True
+1
+side is 0
+	 walk step 4  partition 
+		326085, 315497, 264319, 254102, 273857, 225548, 420781, 373487, 
+
+
+	--------------------------------------------------end of batch 5
+-------------------------------------------------------------  compare batch pair  (6,7)
+				 list len:
+				75528, 77214, 62151, 60502, 66697, 53109, 155646, 78724, 
+
+
+	preparing two sides time :  0.29787325859069824
+	Initialize BitList time :  0.019427776336669922
+	getRedundancyCost: time   2.0742416381835938e-05
+
+					length of partitions 420781, 373487
+
+	before terminate 1 the average redundancy rate is:  4.354467854147136
+	--------------------------------------------------------------------------------
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.1958904184689949
+			 the number of node to move is : 34271
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 4.158577435678141,  3.4926728178812847,  4.8244820534749975
+						 current side  1
+			 redundancy will reduce  0.406457130639299
+			 the number of node to move is : 43835
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.9480107235078368,  4.594244612204843,  3.301776834810831
+						 current side  0
+			 redundancy will reduce  0.4166159547814452
+			 the number of node to move is : 5057
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.9378518993656906,  4.435091528099867,  3.440612270631514
+						 current side  1
+			 redundancy will reduce  0.4381781001408971
+			 the number of node to move is : 7084
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.9162897540062387,  4.654758967780135,  3.1778205402323425
+						 current side  0
+			 redundancy will reduce  0.4375037691266046
+			 the number of node to move is : 999
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.916964085020531,  4.629594907978487,  3.2043332620625757
+	walk terminate 1 spend time 669.8558158874512
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.5209837557496315
+			 the number of node to move is : 22497
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.8334840983975043,  3.763139860638257,  3.9038283361567516
+						 current side  1
+			 redundancy will reduce  0.6358283580862159
+			 the number of node to move is : 24902
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.71863949606092,  4.380344621524865,  3.056934370596975
+						 current side  0
+			 redundancy will reduce  0.6545177436774612
+			 the number of node to move is : 1948
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6999501104696746,  4.2773748238789935,  3.1225253970603553
+						 current side  1
+			 redundancy will reduce  0.6958767125540701
+			 the number of node to move is : 7718
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6585911415930656,  4.4938076676370455,  2.823374615549086
+						 current side  0
+			 redundancy will reduce  0.6961892074143519
+			 the number of node to move is : 249
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.658278646732784,  4.48515649413661,  2.8314007993289585
+	walk terminate 1 spend time 664.0559225082397
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.7293081802382635
+			 the number of node to move is : 15201
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6251596739088723,  3.9722811576563983,  3.2780381901613462
+						 current side  1
+			 redundancy will reduce  0.7354100535627155
+			 the number of node to move is : 22868
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6190578005844203,  4.775985044105634,  2.4621305570632064
+						 current side  0
+			 redundancy will reduce  0.7396588871893557
+			 the number of node to move is : 2014
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.61480896695778,  4.698837190177793,  2.5307807437377674
+						 current side  1
+			 redundancy will reduce  0.7476083178456499
+			 the number of node to move is : 5343
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.606859536301486,  4.8999303739521824,  2.31378869865079
+						 current side  0
+			 redundancy will reduce  0.7469833281250855
+			 the number of node to move is : 156
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.6074845260220503,  4.89502913877513,  2.3199399132689704
+	walk terminate 1 spend time 707.6560163497925
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.7849487124663521
+			 the number of node to move is : 19949
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5695191416807837,  4.13352850556186,  3.0055097777997073
+						 current side  1
+			 redundancy will reduce  0.7913630806510858
+			 the number of node to move is : 15761
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.56310477349605,  4.624638849141736,  2.5015706978503642
+						 current side  0
+			 redundancy will reduce  0.811883576476264
+			 the number of node to move is : 2113
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.542584277670872,  4.5079302423754,  2.577238312966344
+						 current side  1
+			 redundancy will reduce  0.8082158736424292
+			 the number of node to move is : 3735
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5462519805047066,  4.657182173538812,  2.435321787470601
+						 current side  0
+			 redundancy will reduce  0.8080130261015448
+			 the number of node to move is : 136
+			 --group redundancy rate update  step :4  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.546454828045591,  4.651502442394039,  2.441407213697143
+	walk terminate 1 spend time 723.0673027038574
+				 improvement:  True
+	 walk terminate 1 start-------
+						 current side  0
+			 redundancy will reduce  0.8341036057520985
+			 the number of node to move is : 14384
+			 --group redundancy rate update  step :0  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5203642483950373,  4.156960137717033,  2.8837683590730414
+						 current side  1
+			 redundancy will reduce  0.8126785195418935
+			 the number of node to move is : 19583
+			 --group redundancy rate update  step :1  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5417893346052423,  4.888263899168325,  2.1953147700421596
+						 current side  0
+			 redundancy will reduce  0.8162420574223015
+			 the number of node to move is : 1979
+			 --group redundancy rate update  step :2  side 0
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5382257967248343,  4.809515194377285,  2.266936399072384
+						 current side  1
+			 redundancy will reduce  0.8031556498522505
+			 the number of node to move is : 3624
+			 --group redundancy rate update  step :3  side 1
+			 redundancy rate (ration_mean, ratio_A, ratio_B): 3.5513122042948853,  4.978657149279343,  2.123967259310428
+						 current side  0

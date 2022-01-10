@@ -246,13 +246,15 @@ class Graph_Partitioner:
         
         indices=[]
         if self.selection_method == 'range_init_graph_partition' :
+            t=time.time()
             indices = [i for i in range(full_len)]
             batches_nid_list, weights_list=gen_batch_output_list(self.local_output_nids,indices,self.batch_size)
-        
+            print('range_init for graph_partition spend: ', time.time()-t)
         elif self.selection_method == 'random_init_graph_partition' :
+            t=time.time()
             indices = random_shuffle(full_len)
             batches_nid_list, weights_list=gen_batch_output_list(self.local_output_nids,indices,self.batch_size)
-        
+            print('random_init for graph_partition spend: ', time.time()-t)
         elif self.selection_method == 'balanced_init_graph_partition' :
             t=time.time()
             batches_nid_list, weights_list=self.balanced_init()

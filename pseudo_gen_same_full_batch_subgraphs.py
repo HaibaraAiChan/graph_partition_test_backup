@@ -90,6 +90,8 @@ def run(args, device, data):
 			return
 		if args.dataset=='reddit' and args.fan_out =='100' and abs((numpy.mean(avg_src) - 226365)) < int(args.fan_out):   ### reddit dataset
 			return
+		if args.dataset=='ogbn-mag' or 'ogbn-products':
+			return
 		
 			
 
@@ -144,12 +146,12 @@ if __name__=='__main__':
 		help="GPU device ID. Use -1 for CPU training")
 	argparser.add_argument('--seed', type=int, default=1236)
 
-	# argparser.add_argument('--dataset', type=str, default='ogbn-mag')
+	argparser.add_argument('--dataset', type=str, default='ogbn-mag')
 	# argparser.add_argument('--dataset', type=str, default='ogbn-products')
 	# argparser.add_argument('--aggre', type=str, default='lstm')
 	# argparser.add_argument('--dataset', type=str, default='cora')
 	# argparser.add_argument('--dataset', type=str, default='karate')
-	argparser.add_argument('--dataset', type=str, default='reddit')
+	# argparser.add_argument('--dataset', type=str, default='reddit')
 	argparser.add_argument('--aggre', type=str, default='mean')
 	argparser.add_argument('--selection-method', type=str, default='range')
 	argparser.add_argument('--num-runs', type=int, default=2)
